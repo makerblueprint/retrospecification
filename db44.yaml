@@ -1,0 +1,18 @@
+name: DB44
+description: The high-density version of DB25.
+summary: This connector is not common but has a common form factor. This connector would ideally feature the things found in the DB25 spec and all the things we couldn't fit into that spec.
+requirements: tbd
+ideas:
+  - uart
+  - i2c
+  - spi
+  - usb
+  - rs-485
+  - gigabit
+  - i2s
+  - aes
+  - displayport
+drawbacks:
+  - Smaller pins are more difficult to solder.
+  - Greater risk of bent pins.
+contacts: tbd
