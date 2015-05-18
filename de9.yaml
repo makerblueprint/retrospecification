@@ -1,12 +1,6 @@
 name: DE9
-description: The proposed Retro Specification for DE9 connectors.
-summary:
-  Commonly referred to as DB9, DE9 connectors were commonly used by consumers
-  to connect modems, mice and other small peripherals to traditional computers.
-  They are often used by professionals who wish to utilize the older
-  RS-232 or RS-422 protocols.
-  Since these are rarely found in modern computing, the connectors are prime
-  candidates for respecification.
+description:
+  "The proposed Retro Specification for DE9 connectors. Commonly referred to as DB9, DE9 connectors were commonly used by consumers to connect modems, mice and other small peripherals to traditional computers. They are often used by professionals who wish to utilize the older RS-232 or RS-422 protocols. Since these are rarely found in modern computing, the connectors are prime candidates for respecification."
 requirements:
   - Must be pin-compatible with off-the-shelf DE9 to DB25 adapters.
   - Production modules' communication connections must be 5VDC tolerant.
@@ -19,6 +13,6 @@ contacts:
   4: ground
   5: regulated-five-volt-supply
   6: pixel-data
-  7: adc-0
-  8: adc-1
+  7: adc0
+  8: adc1
   9: ground

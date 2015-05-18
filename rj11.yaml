@@ -23,7 +23,7 @@ requirements:
   - Telephone cables must be adapted to be 1:1 cables. Contact 1 should always be contact 1, etc.
   - Production modules' communication connections must be 5VDC tolerant.
 contacts:
-  1: adc-1
+  1: adc1
   2: pixel-data
   3: regulated-five-volt-supply
   4: ground
