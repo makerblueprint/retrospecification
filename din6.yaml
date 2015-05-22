@@ -1,0 +1,13 @@
+name: DIN6
+reference:
+  - http://connector.pinouts.ru/6_pin_DIN_female
+  - http://connector.pinouts.ru/6_pin_DIN_male
+buy:
+  - http://www.digikey.com/product-search/en?pv215=101&pv215=179&FV=fff40016%2Cfff80519%2C1600007&k=din
+contacts:
+  1: speaker-a-positive
+  2: speaker-b-positive
+  3: speaker-c-positive
+  4: speaker-c-negative
+  5: speaker-b-negative
+  6: speaker-a-negative

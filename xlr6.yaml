@@ -1,0 +1,8 @@
+name: XLR6 IEC
+contacts:
+  1: rs485-data-negative
+  2: rs485-data-positive
+  3: aes-data-negative
+  4: aes-data-positive
+  5: ground
+  6: regulated-48-volt-supply
