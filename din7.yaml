@@ -1,6 +1,6 @@
 name: DIN7
 description: The proposed Retro Specification for DIN8 connectors.
-summary:
+summary: >
   This connector is ideally suited for office & home theater environments.
 requirements:
   - Must be pin-compatible with 180 degree connectors.

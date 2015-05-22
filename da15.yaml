@@ -1,6 +1,16 @@
 name: DA15
-description:
-  "The proposed Retro Specification for DA15 connectors. DA15 connectors were commonly used by consumers to connect joysticks and other peripherals to traditional computers. Since these are rarely found in modern computing, the connectors are prime candidates for respecification."
+description: >
+  DA15 connectors were commonly used by consumers to connect
+  joysticks and other peripherals to traditional computers.
+  Since these are rarely found in modern computing, the connectors
+  are prime candidates for respecification.
 aliases:
   - DB15
+  - D-sub 15
+ideas:
+  - RS-232
+  - RS-422
+  - RS-485
+reference:
+  -> http://pinouts.ru/Inputs/GameportPCMidi_pinout.shtml
 contacts: tbd

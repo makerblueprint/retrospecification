@@ -1,14 +1,21 @@
 name: DB25
-description: The proposed Retro Specification for DB25 connectors. A straightforward collection of real-world-friendly connections.
-summary: DB25 connectors were commonly used by consumers to connect printers, modems and other larger peripherals to traditional computers. They are often used by legacy point-of-sale systems.
-  Since these are rarely found in modern computing, the connectors are prime candidates for respecification.
+description: >
+  DB25 connectors were commonly used by consumers to connect
+  printers, modems and other larger peripherals to traditional
+  computers. They are often used by legacy point-of-sale systems.
+  Since these are rarely found in modern computing, the connectors
+  are prime candidates for respecification.
 requirements:
-  - Must be pin-compatible with off-the-shelf DE9 to DB25 adapters.
-  - Pins 18 through 25 must be dead-short tolerant. Many printer cables tie these pins to ground.
-  - Production modules' communication connections must be 5VDC tolerant.
+  -> Must be pin-compatible with off-the-shelf DE9 to DB25 adapters.
+  -> Pins 18 through 25 must be dead-short tolerant.
+     Many printer cables tie these pins to ground.
+  -> Production modules must be able to tolerate 5VDC logic.
 ideas:
-  - Make room for RS-485
-  - More logical grouping of pin features while still maintaining DE9 adapter compatibility.
+  -> Make room for RS-485.
+  -> More logical grouping of pin features while still
+     maintaining DE9 adapter compatibility.
+aliases:
+  - D-sub 25
 contacts:
   1: twenty-volts-max
   2: i2c-clock

@@ -1,6 +1,6 @@
 name: DIN5
 description: The proposed Retro Specification for DIN5 connectors.
-summary:
+summary: >
   This connector is ideally suited for office & automotive environments.
 keywords:
   - 180 degree

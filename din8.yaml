@@ -1,7 +1,8 @@
 name: DIN8
 description: The proposed Retro Specification for DIN8 connectors.
-summary:
-  This connector is ideally suited for home theater, automotive & FPV environments.
+summary: >
+  This connector is ideally suited for home theater,
+  automotive & FPV environments.
 requirements:
   - Must be pin-compatible with 180 degree connectors.
   - Must be pin-compatible with other 270 degree connectors.
