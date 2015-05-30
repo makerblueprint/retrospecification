@@ -1,16 +1,27 @@
-name: DA15
+name: DA-15 Connector
 description: >
-  DA15 connectors were commonly used by consumers to connect
+  DA-15 connectors were commonly used by consumers to connect
   joysticks and other peripherals to traditional computers.
   Since these are rarely found in modern computing, the connectors
   are prime candidates for respecification.
 aliases:
-  - DB15
+  - DB-15
   - D-sub 15
-ideas:
-  - RS-232
-  - RS-422
-  - RS-485
 reference:
   -> http://pinouts.ru/Inputs/GameportPCMidi_pinout.shtml
-contacts: tbd
+contacts:
+  1: single-wire-data
+  2: adc-2
+  3: adc-3
+  4: reserved
+  5: pwm
+  6: pixel-data
+  7: two-wire-clock
+  8: two-wire-data
+  9: digital-reference
+  10: ground
+  11: twenty-volts-max
+  12: ground
+  13: spdif
+  14: controller-area-network-transmit
+  15: controller-area-network-receive

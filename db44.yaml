@@ -1,8 +1,8 @@
-name: DB44
+name: DB-44 Connector
 description: >
   This connector is not common but has a common form factor.
   This connector would ideally feature the things found in the
-  DB25 spec and all the things we couldn't fit into that spec.
+  DB-25 spec and all the things we couldn't fit into that spec.
 summary: The high-density version of DB25.
 aliases:
   - D-sub 44

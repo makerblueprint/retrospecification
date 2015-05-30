@@ -1,6 +1,6 @@
-name: DE9
+name: DE-9 Connector
 description: >
-  Commonly referred to as DB9, DE9 connectors were commonly used
+  Commonly referred to as DB-9, DE-9 connectors were commonly used
   by consumers to connect modems, mice and other small peripherals
   to traditional computers. They are often used by professionals
   who wish to utilize the older RS-232 or RS-422 protocols.
@@ -11,7 +11,7 @@ requirements:
   -> Production modules must be able to tolerate 5VDC logic.
 aliases:
   - D-sub 9
-  - DB9
+  - DB-9
 contacts:
   1: digital-reference
   2: i2c-data
