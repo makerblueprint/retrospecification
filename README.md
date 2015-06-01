@@ -3,15 +3,15 @@ Production-Ready Modular Prototypes
 
 Breadboards are meant for the workbench. Bummer.
 ------------------------------------------------
-You should be able to throw your prototypes in a backpack. You should be able to update their programming while at the coffee shop. You should be able to put your prototypes into production immediately. That's the goal of the Retro Specification. The spec aims to set up a middle-ground between breadboard and production board.
+You should be able to throw your prototypes in a backpack. You should be able to tweak their code while at the coffee shop. You should be able to put your prototypes into production around the house or shop. That's the goal of the Retro Specification. The spec aims to set up a middle-ground between breadboard and production board.
 
-There are many hardware interfaces in the wild. Some deserve reinforcement, while some deserve deprecation. The Retro Specification will document this drive toward convenient interoperability among all the things.
+There are many hardware interfaces in the wild. Some deserve reinforcement, while others deserve deprecation. The Retro Specification will document this drive toward convenient interoperability among all the things.
 
-This specification describes the utilization & possible re-purposing of existing hardware connections. There is no need to buy a 3D printer... unless you want to. Building a wearable? Consider using 'Registered Jacks'. Think the spec needs some revision? Please submit a pull request. Your feedback is truly appreciated.
+There is no need to make/buy a 3D printer... unless you want to. Think the spec needs some revision? Please submit a pull request. Your feedback is truly appreciated.
 
 Getting Started
 ===============
-Consider [DA-15 connectors](connector-collection/d-subminiature/da-15.yaml). These connectors were once called 'Game Ports' and seem the best candidates to start with. They are not as common but are still pretty easy to find & work with. Most electronics part stores will have a few DA-15 connectors for sale. A module can be as simple as a resistor & LED connected to two of the pins.
+Consider [DA-15 connectors](connector-collection/d-subminiature/da-15.yaml), which were once called 'Game Ports'. Before USB, joysticks would generally be connected to computers via these connectors. Since they're so rare in modern computing, they are a perfect choice for the Maker Movement. That said, the connectors are still pretty easy to find & work with. Most electronics part stores will have a few DA-15 connectors for sale. A module can be as simple as a resistor & LED connected to two of the pins.
 
 Adapt Your Microcontroller
 --------------------------
@@ -33,7 +33,7 @@ To make a module with a fading LED, follow the wiring directives below. Use a ma
 
 Your Second
 -----------
-Now consider making a separate servo module. You will need a 5V, 180 degree servo & another male Use a male [DA-15 Connector](connector-collection/d-subminiature/da-15.yaml). Follow the wiring directives below. Load the Arduino 'Sweep' example sketch. Replace 9 with 5 in the sketch (e.g. `myservo.attach(5);`) & upload.
+Now consider making a separate servo module. You will need a 5 volt 180 degree servo & another male [DA-15 Connector](connector-collection/d-subminiature/da-15.yaml). Follow the wiring directives below. Load the Arduino 'Sweep' example sketch. Replace 9 with 5 in the sketch (e.g. `myservo.attach(5);`) & upload.
 
 ##### [DA-15](connector-collection/d-subminiature/da-15.yaml) <= Servo
 * `pwm`               <= Servo yellow/orange/white 'signal' wire
@@ -50,4 +50,4 @@ Consider chainability as well. 'Host' modules (which generally house an Arduino)
 
 Take a look at I2C, SPI and CAN bus. There are many cheap I2C devices out there (accelerometers, LED displays, etc). Consider I2C & SPI for short to medium-range digital communication. CAN bus is better for longer distances & reliability. 1-Wire is also interesting & may prove most useful in the wearable realm.
 
-Finally, take a look at [some common host devices](host-device-collection/README.md) and [client devices](client-device-collection/README.md).
+Finally, take a look at [some common host devices](host-device-collection) and [client devices](client-device-collection).
