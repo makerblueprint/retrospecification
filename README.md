@@ -7,7 +7,9 @@ You should be able to throw your prototypes in a backpack. You should be able to
 
 There are many hardware interfaces in the wild. Some deserve reinforcement, while others deserve deprecation. The Retro Specification will document this drive toward convenient interoperability among all the things.
 
-There is no need to make/buy a 3D printer... unless you want to. Think the spec needs some revision? Please submit a pull request. Your feedback is truly appreciated.
+There is no need to make/buy a 3D printer or CNC machine... unless you want to. No need to do a large circuitboard production run. No need to crowdfund your idea or deal with the challenges of said campaign. There's nothing wrong with making/selling things in small quantities.
+
+Think the spec needs some revision? Please submit a pull request. Your feedback is truly appreciated.
 
 Getting Started
 ===============
