@@ -10,14 +10,14 @@ aliases:
 reference:
   -> http://pinouts.ru/Inputs/GameportPCMidi_pinout.shtml
 contacts:
-  1: single-wire-data
+  1: one-wire-data
   2: adc-2
   3: adc-3
   4: reserved
   5: pwm
   6: pixel-data
-  7: two-wire-clock
-  8: two-wire-data
+  7: i2c-clock
+  8: i2c-data
   9: digital-reference
   10: ground
   11: twenty-volts-max

@@ -11,6 +11,8 @@ requirements:
      Many printer cables tie these pins to ground.
   -> Production modules must be able to tolerate 5VDC logic.
 ideas:
+  -> Make room for CAN-BUS.
+  -> Make room for componenent video (two more av-bus pins).
   -> Make room for RS-485.
   -> More logical grouping of pin features while still
      maintaining DE9 adapter compatibility.

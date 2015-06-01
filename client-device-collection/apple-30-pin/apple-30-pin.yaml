@@ -1,0 +1,56 @@
+name: Apple 30 Pin Dock
+description: >
+  Apple's proprietary 30-pin connector was common to most Apple mobile devices from its introduction with the 3rd generation iPod in 2003 until the Lightning connector was released in late 2012. Originally, the Apple dock connector carried USB, FireWire, some controls and line-level audio outputs. As the iPod changed, so did the signals in the dock connector.
+reference:
+  -> http://en.wikipedia.org/wiki/Dock_connector
+  -> http://pinouts.ru/PortableDevices/ipod_pinout.shtml
+  -> http://www.adriangame.co.uk/ipod-acc-pro.html
+charging_notes:
+  -> http://pinouts.ru/PortableDevices/ipod_pinout.shtml
+pin_21_notes: Different resistances indicate accessory type.
+  1kOhm: >
+    iPod docking station, beeps when connected.
+  10kOhm: >
+    Takes some iPods into photo import mode.
+  6_8kOhm: >
+    Serial port mode. Pin 11-13 are TTL level. Requires MAX232 chip to convert to RS232 levels.
+  68kOhm: >
+    Makes iPhone 3g send audio through line-out without any messages.
+  500kOhm: >
+    Related to serial communication / used to enable serial communications Used in Dension Ice Link Plus car interface.
+  1MOhm: >
+    Belkin auto adaptor, iPod shuts down automatically when power disconnected Connecting pin 21 to ground with a 1MOhm resistor does stop the ipod when power (i.e. Firewire-12V) is cut. Looks to be that when this pin is grounded it closes a switch so that on loss of power the Ipod shuts off. Dock has the same Resistor.
+contacts:
+  1: ground
+  2: av-bus-common
+  3: av-bus-audio-right
+  4: av-bus-audio-left
+  5: av-bus-audio-right-input
+  6: av-bus-audio-left-input
+  7: tbd
+  8: - av-bus-video-composite
+     - av-bus-video-component-pb
+  9: - av-bus-video-separate-chrominance
+     - av-bus-video-component-y
+  10: - av-bus-video-separate-luminance
+      - av-bus-video-component-pr
+  11: apple-gpi-audio-internal-external
+  12: serial-rs-232-8n1-tx
+  13: serial-rs-232-8n1-rx
+  14: reserved
+  15: ground
+  16: ground
+  17: reserved
+  18: regulated-3v3-volt-output
+  19: apple-firewire-regulated-12-volts
+  20: apple-firewire-regulated-12-volts
+  21: apple-gpi-accessory-type
+  22: apple-firewire-tpa-negative
+  23: regulated-five-volts
+  24: apple-firewire-tpa-positive
+  25: usb-data-negative
+  26: apple-firewire-tpb-negative
+  27: usb-data-positive
+  28: apple-firewire-tpb-positive
+  29: apple-firewire-ground
+  30: apple-firewire-ground

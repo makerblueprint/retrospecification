@@ -3,6 +3,51 @@ Production-Ready Modular Prototypes
 
 Breadboards are meant for the workbench. Bummer.
 ------------------------------------------------
-You should be able to throw your prototypes in a backpack. You should be able to update their programming while at the coffee shop. You should be able to put your prototypes into production immediately. That's the goal of Retro Specification. The spec aims to set up a middle-ground between breadboard and production board.
+You should be able to throw your prototypes in a backpack. You should be able to update their programming while at the coffee shop. You should be able to put your prototypes into production immediately. That's the goal of the Retro Specification. The spec aims to set up a middle-ground between breadboard and production board.
 
-Since the enclosures are fairly easy to find, you can quickly kick-start the modular prototyping process. No need to buy a 3D printer... unless you want to. The spec also works well with wearables. Think the spec needs some revision? Please submit a pull request. Your feedback is truly appreciated.
+There are many hardware interfaces in the wild. Some deserve reinforcement, while some deserve deprecation. The Retro Specification will document this drive toward convenient interoperability among all the things.
+
+This specification describes the utilization & possible re-purposing of existing hardware connections. There is no need to buy a 3D printer... unless you want to. Building a wearable? Consider using 'Registered Jacks'. Think the spec needs some revision? Please submit a pull request. Your feedback is truly appreciated.
+
+Getting Started
+===============
+Consider [DA-15 connectors](connectors/d-subminiature/da-15.yaml). These connectors were once called 'Game Ports' and seem the best candidates to start with. They are not as common but are still pretty easy to find & work with. Most electronics part stores will have a few DA-15 connectors for sale. A module can be as simple as a resistor & LED connected to two of the pins.
+
+Adapt Your Microcontroller
+--------------------------
+The first step is to adapt your microcontroller board. Thankfully, you don't need to adapt the entire thing at once. Lets start with support for `pwm` modules by following the directives below. Start with a 5V Arduino & a female [DA-15 Connector](connectors/d-subminiature/da-15.yaml).
+
+##### Arduino => PWM-Capable [DA-15 Connector](connectors/d-subminiature/da-15.yaml)
+* `D5`     => [DA-15](connectors/d-subminiature/da-15.yaml) pin 5
+* `5V`     => [DA-15](connectors/d-subminiature/da-15.yaml) pin 9
+* `ground` => [DA-15](connectors/d-subminiature/da-15.yaml) pin 10
+* `ground` => [DA-15](connectors/d-subminiature/da-15.yaml) pin 12
+
+Your First Retro Module
+-----------------------
+To make a module with a fading LED, follow the wiring directives below. Use a male [DA-15 Connector](connectors/d-subminiature/da-15.yaml). Connect your module to the connector you made, above. Load the Arduino 'Fade' example sketch. Set the led variable to 5 & upload.
+
+##### [DA-15](connectors/d-subminiature/da-15.yaml) <= LED
+* `pwm`    <= 330 ohm resistor <= LED anode
+* `ground` <= LED cathode
+
+Your Second
+-----------
+Now consider making a separate servo module. You will need a 5V, 180 degree servo & another male Use a male [DA-15 Connector](connectors/d-subminiature/da-15.yaml). Follow the wiring directives below. Load the Arduino 'Sweep' example sketch. Replace 9 with 5 in the sketch (e.g. `myservo.attach(5);`) & upload.
+
+##### [DA-15](connectors/d-subminiature/da-15.yaml) <= Servo
+* `pwm`               <= Servo yellow/orange/white 'signal' wire
+* `ground`            <= Servo brown/black 'ground' wire
+* `digital-reference` <= Servo red 'power' wire
+
+Note that we're connecting the power wire to the `digital-reference` pin. Since we're using a 5V microcontroller board, the `digital-reference` is roughly 5V. The board voltage regulator isn't designed to handle much, but it can probably drive a single small servo. If your microcontroller board were 3.3V, `digital-refernce` would be roughly 3.3V. This pin, in more advanced modules, allows boards with differing logic levels to adapt.
+
+Next steps
+----------
+Ponder adding potentiometers to each of the above modules, via the `adc-2` pin (A2 in Arduino parlance). These are basic, but fully usable interactive modules.
+
+Consider chainability as well. 'Host' modules (which generally house an Arduino), should have one or more female connectors. 'Client' modules should have both a male & female connector. If a client module uses `adc-2` or `pwm` on the male connector, that pin should be absent from the female connector. The serial connections, as summarized below, should pass through each module no matter what. If you're putting your client modules in an enclosure, put a sticker on the module describing which (if any) non-serial pins are in use.
+
+Take a look at I2C, SPI and CAN bus. There are many cheap I2C devices out there (accelerometers, LED displays, etc). Consider I2C & SPI for short to medium-range digital communication. CAN bus is better for longer distances & reliability. 1-Wire is also interesting & may prove most useful in the wearable realm.
+
+Finally, take a look at [some common host devices](host-device-collection/README.md) and [client devices](client-device-collection/README.md).

@@ -1,0 +1,50 @@
+name: GoPro Bus
+description: >
+  GoPro cameras feature a 30 pin connector on the back of the camera.
+
+aliases:
+  - Mini USB
+buy:
+  -> http://www.chargeconverter.com/store/sandisk?product_id=151
+  -> http://www.chargeconverter.com/store/sandisk?product_id=153
+reference:
+  -> http://chargeconverter.com/blog/?p=71
+notes:
+  -> tie pin 12 to ground to activate
+  -> tie pin 13 to ground to activate
+  -> the following may only work with older firmware
+  -> the following may require eeprom to be activated
+  -> composite video out activated by grounding ID3 and ID4
+  -> component video out activate by grounding ID2
+contacts:
+  1: ground
+  2: -> av-bus-composite
+     -> av-bus-component-pb-cb
+  3: av-bus-component-y
+  4: av-bus-component-pr-cr
+  5: regulated-five-volts
+  6: regulated-five-volts
+  7: usb-data-positive
+  8: usb-data-negative
+  9: ground
+  10: av-bus-audio-right
+  11: av-bus-audio-left
+  12: gopro-mode-power-button
+  13: gopro-playback-mode-button
+  14: av-bus-audio-mic-left
+  15: av-bus-audio-mic-right
+  16: gopro-ir-input
+  17: gopro-~ Trig digital output
+  18: gopro-~ ground
+  19: gopro-gpi-1
+  20: gopro-gpi-2
+  21: gopro-gpi-3
+  22: gopro-gpi-4
+  23: gopro-battery-out
+  24: gopro-battery-out-switched
+  25: gopro-~ VBat+ external power input ?
+  26: gopro-~ VBat+ external power input ?
+  27: ground
+  28: i2c-data
+  29: i2c-clock
+  30: ground
