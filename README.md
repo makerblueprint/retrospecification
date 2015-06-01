@@ -11,31 +11,31 @@ This specification describes the utilization & possible re-purposing of existing
 
 Getting Started
 ===============
-Consider [DA-15 connectors](connectors/d-subminiature/da-15.yaml). These connectors were once called 'Game Ports' and seem the best candidates to start with. They are not as common but are still pretty easy to find & work with. Most electronics part stores will have a few DA-15 connectors for sale. A module can be as simple as a resistor & LED connected to two of the pins.
+Consider [DA-15 connectors](connector-collection/d-subminiature/da-15.yaml). These connectors were once called 'Game Ports' and seem the best candidates to start with. They are not as common but are still pretty easy to find & work with. Most electronics part stores will have a few DA-15 connectors for sale. A module can be as simple as a resistor & LED connected to two of the pins.
 
 Adapt Your Microcontroller
 --------------------------
-The first step is to adapt your microcontroller board. Thankfully, you don't need to adapt the entire thing at once. Lets start with support for `pwm` modules by following the directives below. Start with a 5V Arduino & a female [DA-15 Connector](connectors/d-subminiature/da-15.yaml).
+The first step is to adapt your microcontroller board. Thankfully, you don't need to adapt the entire thing at once. Lets start with support for `pwm` modules by following the directives below. Start with a 5V Arduino & a female [DA-15 Connector](connector-collection/d-subminiature/da-15.yaml).
 
-##### Arduino => PWM-Capable [DA-15 Connector](connectors/d-subminiature/da-15.yaml)
-* `D5`     => [DA-15](connectors/d-subminiature/da-15.yaml) pin 5
-* `5V`     => [DA-15](connectors/d-subminiature/da-15.yaml) pin 9
-* `ground` => [DA-15](connectors/d-subminiature/da-15.yaml) pin 10
-* `ground` => [DA-15](connectors/d-subminiature/da-15.yaml) pin 12
+##### Arduino => PWM-Capable [DA-15 Connector](connector-collection/d-subminiature/da-15.yaml)
+* `D5`     => [DA-15](connector-collection/d-subminiature/da-15.yaml) pin 5
+* `5V`     => [DA-15](connector-collection/d-subminiature/da-15.yaml) pin 9
+* `ground` => [DA-15](connector-collection/d-subminiature/da-15.yaml) pin 10
+* `ground` => [DA-15](connector-collection/d-subminiature/da-15.yaml) pin 12
 
 Your First Retro Module
 -----------------------
-To make a module with a fading LED, follow the wiring directives below. Use a male [DA-15 Connector](connectors/d-subminiature/da-15.yaml). Connect your module to the connector you made, above. Load the Arduino 'Fade' example sketch. Set the led variable to 5 & upload.
+To make a module with a fading LED, follow the wiring directives below. Use a male [DA-15 Connector](connector-collection/d-subminiature/da-15.yaml). Connect your module to the connector you made, above. Load the Arduino 'Fade' example sketch. Set the led variable to 5 & upload.
 
-##### [DA-15](connectors/d-subminiature/da-15.yaml) <= LED
+##### [DA-15](connector-collection/d-subminiature/da-15.yaml) <= LED
 * `pwm`    <= 330 ohm resistor <= LED anode
 * `ground` <= LED cathode
 
 Your Second
 -----------
-Now consider making a separate servo module. You will need a 5V, 180 degree servo & another male Use a male [DA-15 Connector](connectors/d-subminiature/da-15.yaml). Follow the wiring directives below. Load the Arduino 'Sweep' example sketch. Replace 9 with 5 in the sketch (e.g. `myservo.attach(5);`) & upload.
+Now consider making a separate servo module. You will need a 5V, 180 degree servo & another male Use a male [DA-15 Connector](connector-collection/d-subminiature/da-15.yaml). Follow the wiring directives below. Load the Arduino 'Sweep' example sketch. Replace 9 with 5 in the sketch (e.g. `myservo.attach(5);`) & upload.
 
-##### [DA-15](connectors/d-subminiature/da-15.yaml) <= Servo
+##### [DA-15](connector-collection/d-subminiature/da-15.yaml) <= Servo
 * `pwm`               <= Servo yellow/orange/white 'signal' wire
 * `ground`            <= Servo brown/black 'ground' wire
 * `digital-reference` <= Servo red 'power' wire
