@@ -1,11 +1,11 @@
-name: DB-44 Connector
+name: DA-26 Connector
 description: >
-  This connector is not common but has a common form factor.
+  This connector is not common but has a fairly common form factor.
   This connector would ideally feature the things found in the
-  DB-25 spec and all the things we couldn't fit into that spec.
-summary: The high-density version of DB-25.
+  DA-15 spec and all the things we couldn't fit into that spec.
+summary: The high-density version of DA-15.
 aliases:
-  - D-sub 44
+  - D-sub 26
 requirements: tbd
 ideas:
   - uart
