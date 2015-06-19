@@ -1,0 +1,11 @@
+---
+name: DIN3
+keywords:
+  - din
+  - 90 degree
+requirements:
+  -> Must be pin-compatible with 180 & 270 degree connectors.
+contacts:
+  1: av-bus-audio-left
+  2: av-bus-common
+  3: av-bus-audio-right

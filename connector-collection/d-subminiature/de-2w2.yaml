@@ -1,0 +1,19 @@
+---
+name: DE-2W2 Connector
+description: >
+  This connector is not common. It has a fairly common form factor.
+  It features two pins well suited for high-current applications.
+summary: The high-current version of DE-9.
+requirements: tbd
+limitations: tbd
+aliases:
+  - mixed d-sub
+ideas:
+  - drone misc
+  - motor control
+  - high-current modules
+drawbacks:
+  - Harder to find.
+contacts:
+  a1: ground
+  a2: reserved
