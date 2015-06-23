@@ -28,7 +28,7 @@ aliases:
   - Parallel Port
   - Printer Port
 contacts:
-  1: polymer-optical-fiber
+  1: spdif
   2: controller-area-network-transmit
   3: controller-area-network-receive
   4: i2c-clock
