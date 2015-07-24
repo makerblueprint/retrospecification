@@ -29,8 +29,8 @@ aliases:
   - Printer Port
 contacts:
   1: spdif
-  2: controller-area-network-transmit
-  3: controller-area-network-receive
+  2: controller-area-network-high
+  3: controller-area-network-low
   4: i2c-clock
   5: i2c-data
   6: digital-reference

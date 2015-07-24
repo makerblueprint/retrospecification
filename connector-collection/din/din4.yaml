@@ -1,8 +1,14 @@
 ---
 name: DIN4
-url: http://connector.pinouts.ru/4_pin_DIN_270_female
+reference:
+  -> https://en.wikipedia.org/wiki/DIN_connector  
+  -> https://en.wikipedia.org/wiki/File:DIN-4_Diagram.svg
+  -> http://connector.pinouts.ru/4_pin_DIN_270_female
 keywords:
   - din
+  - 72 degree
+compatible:
+  - speaker-pair-module
 contacts:
   1: speaker-x-positive
   2: speaker-y-positive
