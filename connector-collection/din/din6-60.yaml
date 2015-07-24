@@ -1,0 +1,22 @@
+---
+name: DIN6 60 Degree
+summary: >
+  Best used with simple microphone + earpiece modules
+  which require basic digital communication.
+requirements:
+  - Must be pin-compatible with other 60 degree DIN variants.
+aliases:
+  - din
+  - din6
+  - din 45522
+keywords:
+  - din
+  - 60 degree
+  - 240 degree
+contacts:
+  1: ground
+  2: av-bus-common
+  3: av-bus-audio-special-effects
+  4: av-bus-audio-mic
+  5: regulated-five-volts
+  6: single-wire-data

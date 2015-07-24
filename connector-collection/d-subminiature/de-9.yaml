@@ -1,3 +1,4 @@
+---
 name: DE-9 Connector
 description: >
   Commonly referred to as DB-9, DE-9 connectors were commonly used
@@ -13,12 +14,12 @@ aliases:
   - D-sub 9
   - DB-9
 contacts:
-  1: digital-reference
-  2: i2c-data
-  3: i2c-clock
+  1: twenty-volts-max
+  2: controller-area-network-receive
+  3: controller-area-network-transmit
   4: ground
-  5: regulated-five-volt-supply
-  6: pixel-data
-  7: adc0
-  8: adc1
+  5: pixel-data
+  6: digital-reference
+  7: i2c-clock
+  8: i2c-data
   9: ground

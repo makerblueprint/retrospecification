@@ -1,6 +1,6 @@
+---
 name: RJ11
-description: The proposed Retro Specification for RJ11 connectors.
-summary: >
+description: >
   These connectors are being used less and less frequently by consumers.
   It may be a bit too soon to respecify these connectors, but their
   inexpensive and generally hardy characteristics make them ideal
@@ -26,9 +26,9 @@ requirements:
      Contact 1 should always be contact 1, etc.
   -> Production modules must be able to tolerate 5VDC logic.
 contacts:
-  1: adc1
+  1: controller-area-network-receive
   2: pixel-data
-  3: regulated-five-volt-supply
+  3: twenty-volts-max
   4: ground
   5: pixel-data-return
-  6: pwm
+  6: controller-area-network-transmit

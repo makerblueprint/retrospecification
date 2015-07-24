@@ -1,11 +1,13 @@
 name: DIN7
 description: The proposed Retro Specification for DIN8 connectors.
 summary: >
-  This connector is ideally suited for office & home theater environments.
+  This connector is ideally suited for office environments.
 requirements:
   - Must be pin-compatible with 180 degree connectors.
   - Must be pin-compatible with other 270 degree connectors.
 keywords:
+  - din
+  - 90 degree
   - 180 degree
   - 270 degree
 contacts:
@@ -14,5 +16,5 @@ contacts:
   3: av-bus-audio-right
   4: regulated-five-volt-supply
   5: ground
-  6: av-bus-video-composite
-  7: av-bus-audio-mic
+  6: controller-area-network-receive
+  7: controller-area-network-transmit

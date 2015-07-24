@@ -1,3 +1,4 @@
+---
 name: DB-25 Connector
 description: >
   DB25 connectors were commonly used by consumers to connect
@@ -10,33 +11,44 @@ requirements:
   -> Pins 18 through 25 must be dead-short tolerant.
      Many printer cables tie these pins to ground.
   -> Production modules must be able to tolerate 5VDC logic.
-ideas:
-  -> Make room for CAN-BUS.
-  -> Make room for componenent video (two more av-bus pins).
-  -> Make room for RS-485.
-  -> More logical grouping of pin features while still
-     maintaining DE9 adapter compatibility.
+capabilities:
+  -> dc-power
+  -> Analog HD Video
+  -> Analog SD Video
+  -> Analog Line Level Audio
+  -> Analog Microphone
+  -> Basic Digital Audio
+  -> NeoPixel support (WS2812, etc)
+  -> CAN bus
+  -> SPI bus
+  -> I2C bus
+  -> ICSP
 aliases:
   - D-sub 25
+  - Parallel Port
+  - Printer Port
 contacts:
-  1: twenty-volts-max
-  2: i2c-clock
-  3: i2c-data
-  4: adc0
-  5: adc1
-  6: pixel-data
-  7: regulated-five-volt-supply
-  8: digital-reference
-  9: pwm
+  1: spdif
+  2: controller-area-network-transmit
+  3: controller-area-network-receive
+  4: i2c-clock
+  5: i2c-data
+  6: digital-reference
+  7: pixel-data
+  8: twenty-volts-max
+  9: twenty-volts-max
   10: spi-slave-select
   11: spi-master-out-slave-in
   12: spi-master-in-slave-out
   13: spi-clock
-  14: usb-data-negative
-  15: usb-data-positive
-  16: host-reset
-  17: spdif
-  18: av-bus-video-composite
+  14: host-reset
+  15: regulated-five-volts
+  16: - av-bus-video-separate-luminance
+      - av-bus-video-component-pr
+  17: - av-bus-video-separate-chrominance
+      - av-bus-video-component-y
+  18: - av-bus-video-composite
+      - av-bus-video-component-pb
   19: av-bus-audio-mic
   20: ground
   21: av-bus-common

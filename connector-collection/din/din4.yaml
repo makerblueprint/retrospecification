@@ -1,5 +1,8 @@
+---
 name: DIN4
 url: http://connector.pinouts.ru/4_pin_DIN_270_female
+keywords:
+  - din
 contacts:
   1: speaker-x-positive
   2: speaker-y-positive

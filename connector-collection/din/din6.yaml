@@ -1,4 +1,7 @@
+---
 name: DIN6
+keywords:
+  - din
 reference:
   -> http://connector.pinouts.ru/6_pin_DIN_female
   -> http://connector.pinouts.ru/6_pin_DIN_male

@@ -1,0 +1,42 @@
+---
+name: DB-24W7 Connector
+description: >
+  This connector is not common & has an uncommon form factor.
+  It features seven pins well suited for high-current applications,
+  and seventeen pins for general purpose applications.
+summary: The high-current version of DD-50.
+requirements: tbd
+limitations: tbd
+aliases:
+  - mixed d-sub
+ideas:
+  - drone misc
+  - motor control
+  - high-current modules
+drawbacks:
+  - Harder to find.
+contacts:
+  1: reserved
+  2: reserved
+  3: reserved
+  4: reserved
+  5: reserved
+  6: reserved
+  7: reserved
+  8: reserved
+  9: reserved
+  10: reserved
+  11: reserved
+  12: reserved
+  13: reserved
+  14: reserved
+  15: reserved
+  16: reserved
+  17: reserved
+  a1: ground
+  a2: ground
+  a3: reserved
+  a4: reserved
+  a5: reserved
+  a6: reserved
+  a7: reserved
