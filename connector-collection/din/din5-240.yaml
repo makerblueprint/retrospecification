@@ -13,7 +13,7 @@ compatible:
   - din6-240
   - microphone-module
   - cb-handset-module
-  - control-room-module
+  - talkback-module
   - public-address-module
 contacts:
   1: ground

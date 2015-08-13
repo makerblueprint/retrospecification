@@ -6,8 +6,8 @@ description: >
   inexpensive and generally hardy characteristics make them ideal
   candidates for respecification. They are commonly used for telephone
   land-lines and DSL modems.
-  Ideally, these will be the primarily used in wearable devices.
-  Think of them as... the end of the line.
+  Ideally, these will be the primarily used in wearable devices and
+  to connect one set of modules to another over longer distances.
   Many hardware stores carry four-wire thin telephone cables. These
   four-wire cables can drive a small set of NeoPixels without issue.
   Six-wire cables add a ADC and PWM lines. Either of these can utilize

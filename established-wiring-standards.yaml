@@ -1,0 +1,15 @@
+---
+name: Established Wiring Standards
+notes:
+  -> On a cable with with both ribbed & smooth insulation, the smooth side
+     should always be connected to the voltage source. This voltage source
+     could be the red terminal on a battery/amplifier, or the 'hot' in an
+     AC power circuit.
+  - Motherboard power cable color schemes should be reinforced where possible:
+    - red:    five-volts-regulated
+    - purple: unswitched-five-volts-regulated
+    - yellow: twelve-volts-regulated
+    - black:  ground
+    - blue:   negative-twelve-volts-regulated
+    - orange: three-point-three-volts-regulated
+    - green:  power-request-circuit

@@ -19,7 +19,7 @@ compatible:
   - smart-microphone-module
   - cb-handset-module
   - smart-cb-handset-module
-  - control-room-module
+  - talkback-module
   - public-address-module
 contacts:
   1: ground

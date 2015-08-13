@@ -1,0 +1,22 @@
+---
+name: XLR6 IEC
+summary: AES Audio Send-Return Connector.
+keywords:
+  - aes
+  - aes42
+  - chainable
+compatible:
+  - digital-audio-aes-mic
+  - digital-effects-processor-module
+  - digital-director-module
+  - digital-director-commentary-module
+  - digital-boom-operator-module
+  - digital-audio-timecode-generator-module
+  - digital-audio-timecode-transmitter-module
+contacts:
+  1: digital-audio-aes-send-positive
+  2: digital-audio-aes-return-positive
+  3: digital-audio-aes-return-negative
+  4: digital-audio-aes-send-negative
+  5: ground
+  6: fourtyeight-volts-max
