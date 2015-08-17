@@ -53,4 +53,4 @@ Consider chainability as well. 'Host' modules (which generally house an Arduino)
 Take a look at I2C, SPI and CAN bus. There are many cheap I2C devices out there (accelerometers, LED displays, etc). Consider I2C & SPI for short to medium-range digital communication. CAN bus is better for longer distances & reliability. 1-Wire is also interesting & may prove most useful in the wearable realm.
 If you have more time & resources, consider having 'proxy' microcontrollers in certain modules. Say you have a SPI-based MP3 player board, but you want to avoid using SPI pins. Build your module with a proxy microcontroller connected to the Retro Spec I2C bus, and only connect your MP3 player SPI wires to that internal microcontroller. You can then craft simple programs to serve as interfaces on the I2C bus. If you're comfortable with CAN bus... choose that instead of I2C.
 
-Finally, take a look at [some common host devices](host-device-collection) and [client devices](client-device-collection).
+Finally, take a look at [some common host devices](host-device-collection) and [popular interfaces](popular-interface-collection).

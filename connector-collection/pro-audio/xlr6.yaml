@@ -6,17 +6,17 @@ keywords:
   - aes42
   - chainable
 compatible:
-  - digital-audio-aes-mic
-  - digital-effects-processor-module
-  - digital-director-module
-  - digital-director-commentary-module
-  - digital-boom-operator-module
+  - digital-audio-aes-mic-module
+  - digital-audio-effects-processor-module
+  - digital-audio-director-module
+  - digital-audio-director-commentary-module
+  - digital-audio-boom-operator-module
   - digital-audio-timecode-generator-module
   - digital-audio-timecode-transmitter-module
 contacts:
-  1: digital-audio-aes-send-positive
-  2: digital-audio-aes-return-positive
-  3: digital-audio-aes-return-negative
-  4: digital-audio-aes-send-negative
+  1: digital-audio-aes-host-out-client-in-positive
+  2: digital-audio-aes-host-in-client-out-positive
+  3: digital-audio-aes-host-in-client-out-negative
+  4: digital-audio-aes-host-out-client-in-negative
   5: ground
   6: fourtyeight-volts-max

@@ -1,0 +1,17 @@
+---
+name: 5 Pin Min XLR
+summary: Consumer audio device support.
+compatible:
+  - car-stereo-module
+  - playback-module
+  - smart-device-module
+  - rapid-charge-smart-device-module
+  - ipod-module
+  - active-speaker-module
+  - active-headphone-module
+contacts:
+  1: av-bus-audio-left
+  2: av-bus-audio-right
+  3: av-bus-common
+  4: ground
+  5: twenty-volts-max

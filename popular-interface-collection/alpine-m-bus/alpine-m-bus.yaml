@@ -1,0 +1,15 @@
+name: Alpine M-BUS Interface
+summary: Connect your Retro Modules to an Alpine device featuring M-BUS.
+keywords:
+  - m-bus
+  - USB
+  - CiA 102
+contacts:
+  1: m-bus
+  2: av-bus-common
+  3: m-bus-ground
+  4: av-bus-audio-right
+  5: av-bus-audio-left
+  6: twelve-volts-unregulated
+  7: switched-twelve-volts-unregulated
+  8: ground

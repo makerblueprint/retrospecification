@@ -43,8 +43,10 @@ contacts:
   9: av-bus-audio-left
   10: av-bus-audio-left-return
   11: key
-  12: five-volts-regulated
-  13: spdif
-  14: spdif-input
-  15: ground
-  16: ground
+  12: key
+  13: key
+  14: five-volts-regulated
+  15: spdif
+  16: spdif-input
+  17: ground
+  18: ground
