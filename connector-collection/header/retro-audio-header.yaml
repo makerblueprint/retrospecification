@@ -1,5 +1,5 @@
 ---
-name: Audio Header
+name: Retro Audio Header
 summary: A header compatible with front-panel desktop audio connectors.
 description: >
   Pin-compatible with 'AC97' and 'HD Audio' headers, the audio

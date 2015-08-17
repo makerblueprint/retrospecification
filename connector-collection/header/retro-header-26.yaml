@@ -4,7 +4,7 @@ description: >
   The companion header for the Retro Specification DB-25 connector.
 tips:
   -> Consider using this connector on an Arduino shield to conform the Arduino
-    to the Retro Specification. Source a 10-pin header to DE-9 connector cable
+    to the Retro Specification. Source a 10-pin header to DE-25 connector cable
     from an old PC.
 capabilities:
   -> DC Power

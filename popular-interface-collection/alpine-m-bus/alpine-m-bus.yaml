@@ -2,8 +2,10 @@ name: Alpine M-BUS Interface
 summary: Connect your Retro Modules to an Alpine device featuring M-BUS.
 keywords:
   - m-bus
-  - USB
-  - CiA 102
+  - audio
+  - automotive
+  - car
+  - stereo
 contacts:
   1: m-bus
   2: av-bus-common
