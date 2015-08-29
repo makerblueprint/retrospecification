@@ -1,5 +1,8 @@
+---
 name: Alpine M-BUS Interface
 summary: Connect your Retro Modules to an Alpine device featuring M-BUS.
+reference:
+  -> https://github.com/Olstyle/MBus
 keywords:
   - m-bus
   - audio

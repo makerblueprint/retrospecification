@@ -1,0 +1,13 @@
+---
+name: Qualcomm Quick Charge Adapter
+summary: Faster mobile charging by safely sending 12VDC over a Micro USB cable.
+description: >
+  For devices featuring `micro-usb`, charging speed has been an issue.
+  Newer devices feature additional circuitry which can communicate with
+  Qualcomm Quick Charge certified power supplies. When the power supply
+  confirms the client device can receive 12VDC instead of 5VDC, it sends it.
+  The charging circuit in the client device can handle this higher voltage
+  and put it to immediate use.
+reference:
+  -> https://www.qualcomm.com/products/snapdragon/quick-charge
+  -> http://www.androidcentral.com/quick-charge-car-chargers
