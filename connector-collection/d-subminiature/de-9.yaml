@@ -15,8 +15,8 @@ aliases:
   - DB-9
 contacts:
   1: twenty-volts-max
-  2: controller-area-network-receive
-  3: controller-area-network-transmit
+  2: controller-area-network-low
+  3: controller-area-network-high
   4: ground
   5: pixel-data
   6: digital-reference

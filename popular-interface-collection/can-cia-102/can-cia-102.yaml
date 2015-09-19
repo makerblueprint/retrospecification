@@ -1,0 +1,22 @@
+name: Off-the-Shelf Controller Area Network Module
+summary: Control your Retro Modules via an OTS automotive USB CAN module.
+keywords:
+  - CAN
+  - USB
+  - CiA 102
+contacts:
+  1: - regulated-twelve-volts
+     - regulated-five-volts
+     - no-connection
+  2: controller-area-network-low
+  3: - ground
+     - no-connection
+  4: no-connection
+  5: no-connection
+  6: - ground
+     - no-connection
+  7: controller-area-network-high
+  8: no-connection
+  9: - regulated-twelve-volts
+     - regulated-five-volts
+     - no-connection

@@ -1,0 +1,34 @@
+---
+name: Established Wiring Standards
+reference:
+  -> http://www.hq.nasa.gov/office/codeq/doctree/87394.pdf
+sources:
+  -> http://www.usfirst.org/sites/default/files/uploadedFiles/Robotics_Programs/FTC/Team_Resources/FTC_Robot_Wiring_Guide.pdf
+notes:
+  -> On a cable with with both ribbed & smooth insulation, the smooth side
+     should always be connected to the voltage source. This voltage source
+     could be the red terminal on a battery/amplifier, or the 'hot' in an
+     AC power circuit.
+  - Motherboard power cable colors should be reinforced where possible:
+    - red:    five-volts-regulated
+    - purple: unswitched-five-volts-regulated
+    - yellow: twelve-volts-regulated
+    - black:  ground
+    - blue:   negative-twelve-volts-regulated
+    - orange: three-point-three-volts-regulated
+    - green:  power-request-circuit
+  -> "Crimp on connectors should never be used on solid core wire or on wire
+     that has been tinned."
+  -> "Ferrite chokes electronically isolate signal cables from the power
+     network. Using a high-quality shielded [data] cable with built-in or
+     external Ferrite chokes to help reduce interference on the line from
+     any motors and to help reduce the effects of electro-static discharge."
+  -> "Daisy chaining is one way of powering several different [modules].
+     Multiple [modules] are wired together, with each unit being powered by the
+     one before it in the chain. It is common to daisy chain the power
+     terminals on [...] motor and servo controllers. In a haphazardly-wired
+     setup, daisy chaining can cause many issues. If one connection in the
+     middle of the chain comes loose, the power to the remaining [modules]
+     will drop. [...] A better way to design a power distribution network is to
+     use a power distribution terminal [...]. With this method, if any one
+     controller disconnects, the other controllers will continue working."

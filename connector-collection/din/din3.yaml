@@ -1,10 +1,17 @@
 ---
 name: DIN3
+reference:
+  -> https://en.wikipedia.org/wiki/DIN_connector
+  -> https://en.wikipedia.org/wiki/File:DIN-3_Diagram.svg
 keywords:
-  - din
   - 90 degree
-requirements:
-  -> Must be pin-compatible with 180 & 270 degree connectors.
+aliases:  
+  - din-41524
+compatible:
+  - din5
+  - din7
+  - din8
+  - analog-stereo-module
 contacts:
   1: av-bus-audio-left
   2: av-bus-common

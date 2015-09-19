@@ -1,0 +1,50 @@
+---
+name: Retro Audio Header
+summary: A header compatible with front-panel desktop audio connectors.
+description: >
+  Pin-compatible with 'AC97' and 'HD Audio' headers, the audio
+  header pinout aims to reinforce the most common standard in motherboard
+  audio. Have an old desktop tower lying around? Grab the headphone/mic
+  panel out of it & put it into your next build.
+  Many modern single-board computers feature analog & digital audio, but
+  are often broken out via consumer audio jacks. Consider this
+  (or `retro-header-26`, for that matter) as standardized alternative.
+  The keys on this connector are indeed important. The old AC97 & HD Audio
+  connectors are in a 10 pin form-factor with pin 8 blocked. These
+  connectors do not feature SPDIF. Another less-common pinout has been
+  slightly adapted & appended to the 10 pin header. Keying on these
+  additional pins allow custom single connectors to be constructed
+  while preventing mis-mounts if a standard AC97 or HD Audio connector is used.
+  Since AC97 & HD Audio are pin-compatible, it is easy to support both basic &
+  advanced audio connections. If you have more sophisticated requirements,
+  consider employing the techniques described in the HD Audio specification
+  among the links below.
+notes:
+  -> The av-bus-five-volts-regulated pin should feature filtered 5VDC for
+     use with analog audio circuits. This filtering is not a requirement,
+     but will likely lead to cleaner analog audio signals.
+keywords:
+  -> hd audio
+  -> ac97
+reference:
+  -> http://www.intel.com/support/motherboards/desktop/sb/cs-015851.htm
+  -> https://en.wikipedia.org/wiki/Intel_High_Definition_Audio
+  -> https://www.google.com/search?tbm=isch&q=hd+audio+connector
+contacts:
+  1: av-bus-audio-mic
+  2: av-bus-common
+  3: av-bus-audio-mic-right
+  4: av-bus-common
+  5: av-bus-audio-right
+  6: av-bus-audio-right-return
+  7: - av-bus-five-volts-regulated
+     - five-volts-regulated
+  8: key
+  9: av-bus-audio-left
+  10: av-bus-audio-left-return
+  11: key
+  12: five-volts-regulated
+  13: spdif
+  14: spdif-input
+  15: ground
+  16: ground
