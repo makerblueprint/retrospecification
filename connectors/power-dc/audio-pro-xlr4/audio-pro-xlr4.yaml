@@ -1,0 +1,8 @@
+---
+name: XLR4
+summary: Connector frequently used in pro audio environments to provide 12VDC.
+contacts:
+  1: common
+  2: common
+  3: twelve-volts-nominal
+  4: twelve-volts-nominal

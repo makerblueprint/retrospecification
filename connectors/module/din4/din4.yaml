@@ -1,0 +1,14 @@
+---
+name: DIN4
+reference:
+  -> https://en.wikipedia.org/wiki/DIN_connector  
+  -> https://en.wikipedia.org/wiki/File:DIN-4_Diagram.svg
+  -> http://connector.pinouts.ru/4_pin_DIN_270_female
+keywords:
+  - din
+  - 72 degree
+contacts:
+  1: speaker-x-positive
+  2: speaker-y-positive
+  3: speaker-y-negative
+  4: speaker-x-negative

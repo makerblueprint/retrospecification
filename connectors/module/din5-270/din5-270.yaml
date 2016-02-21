@@ -1,0 +1,18 @@
+---
+name: DIN5 270
+reference:
+  -> https://en.wikipedia.org/wiki/DIN_connector
+  -> https://en.wikipedia.org/wiki/File:DIN-5b_Diagram.svg
+keywords:
+  - din
+  - cube
+  - 90 degree
+  - 270 degree
+compatible:
+  - din8
+contacts:
+  4: regulated-five-volt-supply
+  5: common
+  6: controller-area-network-low
+  7: controller-area-network-high
+  8: twenty-volts-max

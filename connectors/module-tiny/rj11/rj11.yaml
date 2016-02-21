@@ -1,0 +1,33 @@
+---
+name: RJ11
+description: >
+  These connectors are being used less and less frequently by consumers.
+  It may be a bit too soon to respecify these connectors, but their
+  inexpensive and generally hardy characteristics make them ideal
+  candidates for respecification. They are commonly used for telephone
+  land-lines and DSL modems.
+  Ideally, these will be the primarily used in wearable devices and
+  to connect one set of modules to another over longer distances.
+  Many hardware stores carry four-wire thin telephone cables. These
+  four-wire cables can drive a small set of NeoPixels without issue.
+  Six-wire cables add a ADC and PWM lines. Either of these can utilize
+  the 1-wire protocol if basic IO is needed.
+keywords:
+  - pixel
+  - led
+  - servo
+  - 1-wire
+  - wearable
+  - clothes
+  - clothing
+  - performance art
+requirements:
+  -> Telephone cables must be adapted to be 1:1 cables.
+     Contact 1 should always be contact 1, etc.
+contacts:
+  1: controller-area-network-low
+  2: pixel-data
+  3: twenty-volts-max
+  4: common
+  5: pixel-data-return
+  6: controller-area-network-high

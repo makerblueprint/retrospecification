@@ -1,0 +1,19 @@
+---
+name: DIN5 240
+reference:
+  -> https://en.wikipedia.org/wiki/DIN_connector
+  -> https://en.wikipedia.org/wiki/File:DIN-5c_Diagram.svg
+keywords:
+  - din
+  - 60 degree
+  - 240 degree
+aliases:
+  - din-45322
+compatible:
+  - din6-240
+contacts:
+  1: common
+  2: controller-area-network-low
+  3: controller-area-network-high
+  4: av-bus-audio-mic
+  5: av-bus-common

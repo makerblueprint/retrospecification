@@ -1,0 +1,8 @@
+---
+name: SELV 48VDC Connector
+summary: IEC 60906-3:1994 connector for household and similar purposes
+reference:
+  -> https://webstore.iec.ch/publication/3884
+contacts:
+  positive: fortyeight-volts-nominal
+  negative: common

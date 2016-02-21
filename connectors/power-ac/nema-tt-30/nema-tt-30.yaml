@@ -1,0 +1,19 @@
+---
+name: NEMA TT-30 Twist-Lock
+summary: US 120VAC 30AMP Travel-Trailer power connector
+reference:
+  -> https://en.wikipedia.org/wiki/NEMA_connector
+keywords:
+  - shore
+  - rv
+  - travel
+  - trailer
+colors:
+  green: ground
+  white: neutral
+  black: phase-1-hot
+  red: phase-2-hot
+contacts:
+  g: ground
+  w: neutral
+  x: phase-1-hot

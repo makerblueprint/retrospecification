@@ -1,9 +1,0 @@
----
-name: XLR6 by Switchcraft
-contacts:
-  1: ground
-  2: regulated-30-volt-supply
-  3: clearcom-audio-b
-  4: clearcom-audio-a
-  5: rs485-data-negative
-  6: rs485-data-positive

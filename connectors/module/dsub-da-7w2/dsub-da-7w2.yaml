@@ -1,0 +1,25 @@
+---
+name: DA-7W2 Connector
+description: >
+  This connector is not common. It has a fairly common form factor.
+  It features two pins well suited for high-current applications,
+  and five pins for general purpose applications.
+summary: The high-current version of DA-15.
+requirements: tbd
+limitations: tbd
+aliases:
+  - mixed d-sub
+ideas:
+  - drone misc
+  - motor control
+  - high-current modules
+drawbacks:
+  - Harder to find.
+contacts:
+  1: reserved
+  2: reserved
+  3: reserved
+  4: reserved
+  5: reserved
+  a1: common
+  a2: reserved

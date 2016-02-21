@@ -1,0 +1,26 @@
+---
+name: RJ45
+description: >
+  These connectors are in frequent use. As such, established
+  industry standards shall be reinforced.
+keywords:
+  - tcp
+  - ip
+  - internet
+  - artnet
+  - ethercon
+notes:
+  -> Power over ethernet is safest via 802.3af Mode A.
+  -> 802.3af Mode B is a good alternative, but has risks.
+reference:
+  -> http://en.wikipedia.org/wiki/Ethernet_over_twisted_pair
+  -> http://en.wikipedia.org/wiki/Power_over_Ethernet#Non-standard_implementations
+contacts:
+  1: ethernet-a-positive
+  2: ethernet-a-negative
+  3: ethernet-b-positive
+  4: ethernet-c-positive
+  5: ethernet-c-negative
+  6: ethernet-b-negative
+  7: ethernet-d-positive
+  8: ethernet-d-negative

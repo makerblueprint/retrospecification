@@ -1,0 +1,20 @@
+---
+name: NEMA 14-50 Twist-Lock
+summary: US 120/240VAC 50AMP appliance power connector
+reference:
+  -> https://en.wikipedia.org/wiki/NEMA_connector
+keywords:
+  - shore
+  - rv
+  - travel
+  - trailer
+colors:
+  green: ground
+  white: neutral
+  black: phase-1-hot
+  red: phase-2-hot
+contacts:
+  g: ground
+  w: neutral
+  x: phase-1-hot
+  y: phase-2-hot

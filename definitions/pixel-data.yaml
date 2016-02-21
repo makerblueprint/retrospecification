@@ -1,0 +1,6 @@
+---
+name: Pixel Data
+summary: NZR signal compatible with WS2811/12 RGB LED drivers.
+reference:
+  -> http://www.cylinderlight.com/ledspi
+  -> https://www.adafruit.com/products/1378

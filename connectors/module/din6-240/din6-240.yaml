@@ -1,0 +1,22 @@
+---
+name: DIN6 240
+reference:
+  -> https://en.wikipedia.org/wiki/DIN_connector
+  -> https://en.wikipedia.org/wiki/File:DIN-6_Diagram.svg
+  -> http://connector.pinouts.ru/6_pin_DIN_female
+  -> http://connector.pinouts.ru/6_pin_DIN_male
+buy:
+  -> http://www.digikey.com/product-search/en?pv215=101&pv215=179&FV=fff40016%2Cfff80519%2C1600007&k=din
+keywords:
+  - din
+  - 60 degree
+  - 240 degree
+aliases:
+  - din-45522
+contacts:
+  1: common
+  2: controller-area-network-low
+  3: controller-area-network-high
+  4: av-bus-audio-mic
+  5: av-bus-common
+  6: 20-volts-max

@@ -1,0 +1,60 @@
+---
+name: DC-37 Connector
+summary: A wider version of DB-25.
+description: >
+  This connector is not common but has a familiar form factor.
+aliases:
+  - D-sub 37
+ideas:
+  - exclude the entire connector from this spec (for odd use cases)
+  - gpio
+  - tally
+  - uart
+  - i2c
+  - spi
+  - usb
+  - can
+  - rs-232
+  - rs-485
+  - gigabit
+  - i2s
+  - aes
+  - displayport
+contacts:
+  1:
+  2:
+  3:
+  4:
+  5: regulated-five-volt-supply
+  6: pixel-data
+  7:
+  8: common
+  9: common
+  10: pwm-0
+  11: pwm-1
+  12: pwm-2
+  13: pwm-3
+  14: pwm-4
+  15: pwm-5
+  16: pwm-6
+  17: pwm-7
+  18: pwm-8
+  19: pwm-9
+  20: pwm-10
+  21: pwm-11
+  22: pwm-12
+  23: pwm-13
+  24: pwm-14
+  25: pwm-15
+  26:
+  27:
+  28:
+  29:
+  30:
+  31:
+  32:
+  33:
+  34:
+  35:
+  36:
+  37:

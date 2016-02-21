@@ -1,0 +1,18 @@
+---
+name: Neutrik MC-8 180 Degree Coding
+summary: Four channel balanced audio snake connector.
+keywords:
+  - sound
+  - studio
+  - field
+  - snake
+  - neutrik
+contacts:
+  1: audio-balanced-1-positive
+  2: audio-balanced-2-positive
+  3: audio-balanced-3-positive
+  4: audio-balanced-4-positive
+  5: audio-balanced-4-negative
+  6: audio-balanced-3-negative
+  7: audio-balanced-2-negative
+  8: audio-balanced-1-negative

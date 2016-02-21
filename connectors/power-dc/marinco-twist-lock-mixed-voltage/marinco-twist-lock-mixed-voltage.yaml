@@ -1,0 +1,17 @@
+---
+name: Marinco 12/24/36V Four-Pin Twist-Lock
+description: >
+  Generally used for trolling motors, these high-current connectors from
+  Marinco are built to withstand the elements & remain connected.
+keywords:
+  - marine
+  - trolling motor
+  - twist-lock
+  - weather
+  - elements
+buy:
+  -> http://www.marinco.com/en/2018bp-24
+contacts:
+  12: twelve-volts-nominal
+  24: twentyfour-volts-nominal
+  negative: common

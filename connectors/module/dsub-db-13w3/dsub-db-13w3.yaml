@@ -1,0 +1,34 @@
+---
+name: DB-13W3 Connector
+description: >
+  This connector is not common, but has a common form factor.
+  It features three pins well suited for high-current applications,
+  and ten pins for general purpose applications.
+  This connector is a variant of a once-popular video connector with
+  the same layout. Instead of three high-current pins, three
+  coaxial connectors were present.
+summary: The high-current version of DB-25.
+requirements: tbd
+limitations: tbd
+aliases:
+  - mixed d-sub
+ideas:
+  - drone misc
+  - motor control
+  - high-current modules
+drawbacks:
+  - Harder to find.
+contacts:
+  1: reserved
+  2: reserved
+  3: reserved
+  4: reserved
+  5: reserved
+  6: reserved
+  7: reserved
+  8: reserved
+  9: reserved
+  10: reserved
+  a1: common
+  a2: reserved
+  a3: reserved
