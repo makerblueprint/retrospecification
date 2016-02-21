@@ -1,5 +1,5 @@
-Host Device Collection
-======================
+Host Modules
+============
 This is a set of resources for common host devices. Each include file contains a `getPin`
 function which returns an (integer) board-pin-number if the board has that feature.
 
