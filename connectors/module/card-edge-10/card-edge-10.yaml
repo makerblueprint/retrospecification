@@ -1,11 +1,11 @@
 ---
 name: Card Edge 10 Contact
 description: >
-  The companion header for the Retro Specification DE-9 connector.
+  The companion edge connector for the Retro Specification DE-9 connector.
 tips:
-  -> Consider using this connector on an Arduino shield to conform the Arduino
-    to the Retro Specification. Source a 10-pin header to DE-9 connector cable
-    from an old PC.
+  -> Source a 10-pin header to DE-9 connector cable from an old PC. Separately,
+     source a 10 Contact Edge Ribbon connector & crimp it onto
+     the connector cable.
 capabilities:
   -> DC Power
   -> NeoPixel support (WS2812, etc)

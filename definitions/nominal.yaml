@@ -1,0 +1,15 @@
+---
+name: Nominal
+description: >
+    From a philosophical viewpoint, nominal value represents an accepted
+    condition, which is a goal or an approximation, as opposed to the real
+    value, which is always present. Often a "nominal" value is "de facto"
+    rather than an exact, typical, or average measurement.
+    In various subfields of engineering, a nominal value is one for which the
+    "name" for the value is close to, but not the same as, the actual value.
+reference:
+  -> https://en.wikipedia.org/wiki/Real_versus_nominal_value
+keywords:
+  - expected
+  - typical
+  - de facto

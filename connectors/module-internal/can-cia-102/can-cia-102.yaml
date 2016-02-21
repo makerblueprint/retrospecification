@@ -1,5 +1,5 @@
 ---
-name: CAN in Automation Adapter
+name: CAN in Automation Connector
 summary: Control your Retro Modules via an OTS automotive USB CAN module.
 description: >
   CAN in Automation (CiA) is the international users' and manufacturers' organization

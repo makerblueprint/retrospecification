@@ -2,6 +2,10 @@
 name: Card Edge 26 Contact
 description: >
   The companion edge connector for the Retro Specification DB-25 connector.
+tips:
+  -> Source a 26-pin header to DB-25 connector cable from an old PC. Separately,
+     source a 26 Contact Edge Ribbon connector & crimp it onto
+     the connector cable.
 capabilities:
   -> DC Power
   -> Analog HD Video

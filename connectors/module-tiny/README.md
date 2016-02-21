@@ -19,8 +19,8 @@ for many different signal types. Say you have a modular system built around a
 may have an unpredicable signal being transmitted over it, depending on which port
 it is connected to (it could have `pwm`, `analog-signal`, `pixel-data`, etc.).
 The risk of connecting multiple modules together incorrectly is high. We should
-aim to avoid the approach and instead favor of small connectors featuring a
-standard chainable serial protocol & standard pinout.
+aim to avoid the approach and instead favor small connectors featuring a standard
+chainable serial protocol & standard pinout.
 
 Protocols Under Consideration
 -----------------------------
