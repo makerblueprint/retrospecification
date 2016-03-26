@@ -1,0 +1,23 @@
+---
+name: 16mm 6 Pin Aviation Connector
+description: >
+  Often called an Aviation Plug, these connectors are well-known for their
+  reliability. They help ensure robust connections in harsh environments.
+tips:
+  -> Modules should have male connectors, while cables should have
+     female connectors. This configuration prevents situations
+     where a cable was run, but the connectors are mismatched.
+     Most panel-mount versions of this connector are male.
+     The risk of bent pins is also reduced.
+keywords:
+  - robotics
+  - robot
+buy:
+  -> https://www.sparkfun.com/products/11475
+contacts:
+  1: common
+  2: fortyeight-volts-max
+  3: controller-area-network-low
+  4: controller-area-network-high
+  5: digital-audio-aes-host-out-client-in-negative
+  6: digital-audio-aes-host-out-client-in-positive

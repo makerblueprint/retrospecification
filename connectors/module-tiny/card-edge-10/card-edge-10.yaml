@@ -1,0 +1,27 @@
+---
+name: Card Edge 10 Contact
+description: >
+  The companion edge connector for the Retro Specification DE-9 connector.
+tips:
+  -> Source a 10-pin header to DE-9 connector cable from an old PC. Separately,
+     source a 10 Contact Edge Ribbon connector & crimp it onto
+     the connector cable.
+capabilities:
+  -> DC Power
+  -> NeoPixel support (WS2812, etc)
+  -> CAN bus
+  -> I2C bus
+keywords:
+  - d-sub 9
+  - de-9
+contacts:
+  1: twenty-volts-max
+  2: controller-area-network-low
+  3: controller-area-network-high
+  4: common
+  5: pixel-data
+  6: digital-reference
+  7: i2c-clock
+  8: i2c-data
+  9: common
+  10: reserved

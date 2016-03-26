@@ -1,0 +1,18 @@
+---
+name: Marinco 12V Charger Four-Pin Twist-Lock
+description: >  
+  Generally used for charging boat batteries, these high-current connectors
+  from Marinco are built to withstand the elements & remain connected.
+keywords:
+  - marine
+  - battery
+  - charge
+  - charging
+  - twist-lock
+  - weather
+  - elements
+buy:
+  -> http://www.marinco.com/en/2018bp-12
+contacts:
+  positive: twelve-volts-nominal 
+  negative: common

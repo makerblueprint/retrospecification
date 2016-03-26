@@ -1,0 +1,39 @@
+---
+name: 5 Pin Mini XLR
+summary: Consumer audio device support.
+description: >
+  While bluetooth audio capabilities are present in many vehicles, they are
+  often for voice communication or standard-quality music playback. There are
+  better ways to pipe audio into older car stereos. This connector is an
+  excellent choice for automotive audio modules which may need a recharge.
+  You may notice there are no analog contacts on this connector. Instead,
+  S/PDIF can be used for audio transmission. Take special care to keep CAN
+  signals isolated from S/PDIF signals. S/PDIF is best transmitted via coaxial
+  cable & is not the most resilient of signals.
+  Modern smartphones do not feature CAN, S/PDIF, nor can they tolerate 20VDC.
+  With a relatively small enclosure, though, the power on the twenty-volts-max
+  contact can be regulated to five volts (or be piped into a
+  `qualcomm-quick-charge-adapter`). The analog audio can be converted to S/PDIF
+  with a audio ADC chip. What about CAN? Well most smart devices can have basic
+  media control via certain resistances on the mic contact.
+  Add a microcontroller into your enclosure & have it convert serve up this
+  method of control to the CAN bus. Another microcontroller can be in-dash,
+  communicating with the microcontroller in the cable. Behind the car stereo,
+  convert that S/PDIF signal back to analog (most car stereos lack S/PDIF).
+  If you want to have even more fun with stereos that boast old-school iPod
+  control, connect the in-dash microcontroller to the stereo's iPod interface
+  (see `apple-30-pin`, or `alpine-m-bus`).
+  Now you can charge & control any modern smartphone via an elegant cable
+  solution & your old car stereo. Add more excellence, if you wish, via an
+  `ioio-otg` board.
+  Finally, take a look at the connector. Do you think it can support the weight
+  of a 3D printed dock? No? What about if the panel-mount connector faces
+  skyward? Happy hacking...
+reference:
+  -> http://www.androidcentral.com/quick-charge
+contacts:
+  1: spdif
+  2: controller-area-network-low
+  3: controller-area-network-high
+  4: common
+  5: twenty-volts-max

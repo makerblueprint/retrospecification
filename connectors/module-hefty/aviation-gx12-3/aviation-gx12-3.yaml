@@ -1,0 +1,18 @@
+---
+name: 12mm 3 Pin Aviation Connector
+description: >
+  Often called an Aviation Plug, these connectors are well-known for their
+  reliability. They help ensure robust connections in harsh environments.
+tips:
+  -> Modules should have male connectors, while cables should have
+     female connectors. This configuration prevents situations
+     where a cable was run, but the connectors are mismatched.
+     Most panel-mount versions of this connector are male.
+     The risk of bent pins is also reduced.
+keywords:
+  - robotics
+  - robot
+contacts:
+  1: common
+  2: twenty-volts-max
+  3: pixel-data

@@ -1,0 +1,14 @@
+---
+name: NEMA L6-20 Twist-Lock
+summary: US 240VAC 20AMP Twist-Lock appliance power connector
+reference:
+  -> https://en.wikipedia.org/wiki/NEMA_connector
+colors:
+  green: ground
+  white: neutral
+  black: phase-1-hot
+  red: phase-2-hot
+contacts:
+  g: ground
+  w: neutral
+  x: phase-1-hot

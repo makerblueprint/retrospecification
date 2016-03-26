@@ -1,0 +1,20 @@
+---
+name: Marinco 12/24/36V ConnectPro Twist-Lock
+description: >
+  Generally used for trolling motors, these high-current connectors from
+  Marinco are built to withstand the elements & remain connected.
+keywords:
+  - marine
+  - trolling motor
+  - twist-lock
+  - weather
+  - elements
+buy:
+  -> http://www.marinco.com/en/12vcp6
+notes:
+  -> There appears to be no established standard for these connectors.
+     Check voltages & wiring before plugging into an existing socket.
+contacts:
+  1: common
+  2: twelve-volts-nominal
+  3: twentyfour-volts-nominal

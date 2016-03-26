@@ -13,7 +13,7 @@ notes:
     - red:    five-volts-regulated
     - purple: unswitched-five-volts-regulated
     - yellow: twelve-volts-regulated
-    - black:  ground
+    - black:  common
     - blue:   negative-twelve-volts-regulated
     - orange: three-point-three-volts-regulated
     - green:  power-request-circuit
