@@ -1,0 +1,7 @@
+---
+name: IR Remote Receiver Module
+summary: A module capable of detecting & classifying incoming IR commands.
+categories:
+  - input
+  - costume
+  - prop

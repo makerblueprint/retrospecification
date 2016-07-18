@@ -7,15 +7,21 @@ description: >
 summary: The high-density version of DB-25.
 aliases:
   - D-sub 44
-requirements: tbd
+buy:
+  - http://www.mouser.com/ProductDetail/TE-Connectivity/1658683-1
 ideas:
+  - uart
+  - gpio
+  - tally
   - uart
   - i2c
   - spi
   - usb
+  - can
   - rs-232
   - rs-485
   - gigabit
+  - HDbaseT
   - i2s
   - aes
   - displayport

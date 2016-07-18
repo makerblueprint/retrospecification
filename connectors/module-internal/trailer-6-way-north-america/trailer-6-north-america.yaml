@@ -1,0 +1,19 @@
+---
+name: 6-contact Trailer Connector - North America
+aliases:
+  - 6-way
+reference:
+  - https://en.wikipedia.org/wiki/Trailer_connectors_in_North_America
+  - http://www.etrailer.com/faq-wiring.aspx
+colors:
+  green:
+    - twelve-volts-nominal-right-turn
+    - twelve-volts-nominal-brake
+  yellow:
+    - twelve-volts-nominal-left-turn
+    - twelve-volts-nominal-brake
+  brown: twelve-volts-nominal-tail
+  pink: twelve-volts-nominal-reverse
+  red: twelve-volts-nominal-auxiliary
+  blue: twelve-volts-nominal-electric-brake-control
+  white: common

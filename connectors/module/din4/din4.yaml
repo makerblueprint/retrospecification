@@ -1,9 +1,9 @@
 ---
 name: DIN4
 reference:
-  -> https://en.wikipedia.org/wiki/DIN_connector  
-  -> https://en.wikipedia.org/wiki/File:DIN-4_Diagram.svg
-  -> http://connector.pinouts.ru/4_pin_DIN_270_female
+  - https://en.wikipedia.org/wiki/DIN_connector
+  - https://en.wikipedia.org/wiki/File:DIN-4_Diagram.svg
+  - http://connector.pinouts.ru/4_pin_DIN_270_female
 keywords:
   - din
   - 72 degree

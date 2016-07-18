@@ -1,0 +1,28 @@
+---
+name: Tip-Ring-Sleeve Phone Connector
+summary: The connector found on many pro headphones.
+description: >
+  This connector is frequently used to route a pair of analog audio signals
+  to a pair of headphones. It is also used for effects processing in pro-audio
+  environments. The clean audio signal from the mixer is sent to the effects
+  processor on the ring of the connector, and is sent back to the mixer via the
+  tip -- allowing effects processing of a monoaural signal via a single cable.
+  This spec includes a new proposal for chainable digital (AES) effects
+  processors.
+  See `audio-pro-chainable-aes-processor` & `audio-pro-xlr6` for more.
+reference:
+  - https://en.wikipedia.org/wiki/Phone_connector_%28audio%29
+aliases:
+  - quarter-inch
+  - 6.35mm
+contacts:
+  tip:
+    - av-bus-audio-mono
+    - av-bus-audio-left
+    - av-bus-audio-special-effects
+  ring:
+    - av-bus-audio-right
+    - av-bus-audio-special-effects-send
+    - av-bus-common
+  sleeve:
+    - av-bus-common

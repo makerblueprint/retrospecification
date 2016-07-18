@@ -10,11 +10,11 @@ keywords:
   - artnet
   - ethercon
 notes:
-  -> Power over ethernet is safest via 802.3af Mode A.
-  -> 802.3af Mode B is a good alternative, but has risks.
+  - Power over ethernet is safest via 802.3af Mode A.
+  - 802.3af Mode B is a good alternative, but has risks.
 reference:
-  -> http://en.wikipedia.org/wiki/Ethernet_over_twisted_pair
-  -> http://en.wikipedia.org/wiki/Power_over_Ethernet#Non-standard_implementations
+  - http://en.wikipedia.org/wiki/Ethernet_over_twisted_pair
+  - http://en.wikipedia.org/wiki/Power_over_Ethernet#Non-standard_implementations
 contacts:
   1: ethernet-a-positive
   2: ethernet-a-negative

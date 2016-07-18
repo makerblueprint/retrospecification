@@ -1,0 +1,18 @@
+---
+name: Pro Audio - AES - XLR
+summary: Common connector for balanced audio signals.
+notes:
+  - This is the exact same connector, `audio-pro-xlr`, used for balanced analog
+    audio. Mixers may be damaged if an XLR with AES signal is connected to an
+    analog input. To help address this issue, this spec proposes use of the
+    `audio-pro-xlr6` connector for AES audio instead.
+reference:
+  - https://en.wikipedia.org/wiki/XLR_connector
+  - https://en.wikipedia.org/wiki/AES3
+  - http://www.clarkwire.com/pinoutxlrbalanced.htm
+  - audio-pro-xlr
+  - audio-pro-xlr6
+contacts:
+  1: common
+  2: digital-audio-aes-positive
+  3: digital-audio-aes-negative

@@ -2,7 +2,7 @@
 name: NEMA L5-30 Twist-Lock
 summary: US 120VAC 30AMP Twist-Lock appliance power connector
 reference:
-  -> https://en.wikipedia.org/wiki/NEMA_connector
+  - https://en.wikipedia.org/wiki/NEMA_connector
 colors:
   green: ground
   white: neutral

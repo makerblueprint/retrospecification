@@ -1,0 +1,18 @@
+---
+name: Backpack
+summary: That thing you wore in school.
+description: >
+  Often used to carry big things or hide less sightly items, backpacks are
+  ideal for housing host controllers & power systems. They may also be
+  accentuated with neopixels, EL-wire & audio capabilities. Consider automatic
+  illumination of a pocket interior if it is opened.
+  Most wearing backpacks wear them out of necessity. Dedicating a large section
+  of a backpack to wearable tech is less than ideal. Thankfully, wearable
+  devices are often small & require little power. Make sure to properly protect
+  these devices from the elements & rough conditions inside the pack.
+connectors:
+  - dsub-db25
+  - din4
+  - din8
+  - audio-phone-mini-trs
+  - audio-phone-mini-trrs

@@ -1,0 +1,6 @@
+---
+name: Speaker Pair
+summary: Connect a pair of speakers to an amp via a single connector.
+connectors:
+  - din4
+  - aviation-gx16-9

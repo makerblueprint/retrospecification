@@ -1,11 +1,11 @@
 ---
 name: Established Wiring Standards
 reference:
-  -> http://www.hq.nasa.gov/office/codeq/doctree/87394.pdf
+  - http://www.hq.nasa.gov/office/codeq/doctree/87394.pdf
 sources:
-  -> http://www.usfirst.org/sites/default/files/uploadedFiles/Robotics_Programs/FTC/Team_Resources/FTC_Robot_Wiring_Guide.pdf
+  - http://www.usfirst.org/sites/default/files/uploadedFiles/Robotics_Programs/FTC/Team_Resources/FTC_Robot_Wiring_Guide.pdf
 notes:
-  -> On a cable with with both ribbed & smooth insulation, the smooth side
+  - On a cable with with both ribbed & smooth insulation, the smooth side
      should always be connected to the voltage source. This voltage source
      could be the red terminal on a battery/amplifier, or the 'hot' in an
      AC power circuit.
@@ -17,13 +17,13 @@ notes:
     - blue:   negative-twelve-volts-regulated
     - orange: three-point-three-volts-regulated
     - green:  power-request-circuit
-  -> "Crimp on connectors should never be used on solid core wire or on wire
+  - "Crimp on connectors should never be used on solid core wire or on wire
      that has been tinned."
-  -> "Ferrite chokes electronically isolate signal cables from the power
+  - "Ferrite chokes electronically isolate signal cables from the power
      network. Using a high-quality shielded [data] cable with built-in or
      external Ferrite chokes to help reduce interference on the line from
      any motors and to help reduce the effects of electro-static discharge."
-  -> "Daisy chaining is one way of powering several different [modules].
+  - "Daisy chaining is one way of powering several different [modules].
      Multiple [modules] are wired together, with each unit being powered by the
      one before it in the chain. It is common to daisy chain the power
      terminals on [...] motor and servo controllers. In a haphazardly-wired

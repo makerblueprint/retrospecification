@@ -1,0 +1,28 @@
+---
+name: Roomba Create DB-25 Connector
+contacts:
+  1: five-volts-serial-input
+  2: five-volts-serial-output
+  3: power-control-toggle
+  4: analog-input
+  5: digital-input-1
+  6: digital-input-3
+  7: digital-output-1
+  8: five-volts-regulated-switched
+  9: battery
+  10: battery-switched
+  11: battery-switched
+  12: battery-switched
+  13: five-volts-charging-status
+  14: common
+  15: five-volts-device-detect-baud-rate-change
+  16: common
+  17: digital-input
+  18: digital-input-2
+  19: digital-output
+  20: digital-output-2
+  21: common
+  22: low-side-driver
+  23: low-side-driver-1
+  24: low-side-driver-2
+  25: common

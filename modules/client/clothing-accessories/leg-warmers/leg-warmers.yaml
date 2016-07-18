@@ -1,0 +1,16 @@
+---
+name: Leg Warmers
+summary: Add popular luminous effects to a pair of leg warmers.
+description: >
+  Those neon leg warmers you may or may not have? Why not make them glow?
+  Perhaps each lights up immediately after a step is detected?
+connectors:
+  - jst-sm-4
+  - jst-sm-6
+  - card-edge-10
+  - rj11
+host_modules:
+  - flora
+  - trinket
+  - pro-trinket
+  - edison

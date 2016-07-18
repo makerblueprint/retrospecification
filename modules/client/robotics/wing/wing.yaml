@@ -1,0 +1,6 @@
+---
+name: Wing Module
+summary: A module capable of controlling a robotic wing.
+notes:
+  - The module should ideally be severable from the actual wing. This allows
+    the 'brains' of the module to be used on any size wing.

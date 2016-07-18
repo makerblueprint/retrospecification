@@ -2,7 +2,7 @@
 name: NEMA 5-20
 summary: US 120VAC 20AMP appliance connector
 reference:
-  -> https://en.wikipedia.org/wiki/NEMA_connector
+  - https://en.wikipedia.org/wiki/NEMA_connector
 colors:
   green: ground
   white: neutral

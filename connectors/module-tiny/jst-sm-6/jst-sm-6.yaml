@@ -1,0 +1,11 @@
+---
+name: 6-pin JST SM Connector
+reference:
+  - http://www.adafruit.com/datasheets/JSTSM.pdf
+contacts:
+  1: common
+  2: twenty-volts-max
+  3: pixel-data
+  4: pixel-data-return
+  5: controller-area-network-low
+  6: controller-area-network-high

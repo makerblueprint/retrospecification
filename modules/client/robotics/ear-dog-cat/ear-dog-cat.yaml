@@ -1,0 +1,8 @@
+---
+name: Animatronic Ear Module - Dog/Cat
+description: >
+  Building on the ear module, this module mimics typical dog or cat ear
+  movements.
+connectors:
+  - dsub-de-9
+  - card-edge-10

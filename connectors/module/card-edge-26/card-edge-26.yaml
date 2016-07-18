@@ -3,21 +3,21 @@ name: Card Edge 26 Contact
 description: >
   The companion edge connector for the Retro Specification DB-25 connector.
 tips:
-  -> Source a 26-pin header to DB-25 connector cable from an old PC. Separately,
+  - Source a 26-pin header to DB-25 connector cable from an old PC. Separately,
      source a 26 Contact Edge Ribbon connector & crimp it onto
      the connector cable.
 capabilities:
-  -> DC Power
-  -> Analog HD Video
-  -> Analog SD Video
-  -> Analog Line Level Audio
-  -> Analog Microphone
-  -> Basic Digital Audio
-  -> NeoPixel support (WS2812, etc)
-  -> CAN bus
-  -> SPI bus
-  -> I2C bus
-  -> ICSP
+  - DC Power
+  - Analog HD Video
+  - Analog SD Video
+  - Analog Line Level Audio
+  - Analog Microphone
+  - Basic Digital Audio
+  - NeoPixel support (WS2812, etc)
+  - CAN bus
+  - SPI bus
+  - I2C bus
+  - ICSP
 keywords:
   - d-sub 25
   - db-25

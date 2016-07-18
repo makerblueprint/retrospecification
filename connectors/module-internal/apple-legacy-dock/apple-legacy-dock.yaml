@@ -6,11 +6,13 @@ description: >
   connector carried USB, FireWire, some controls and line-level audio outputs.
   As the iPod changed, so did the signals in the dock connector.
 reference:
-  -> http://en.wikipedia.org/wiki/Dock_connector
-  -> http://pinouts.ru/PortableDevices/ipod_pinout.shtml
-  -> http://www.adriangame.co.uk/ipod-acc-pro.html
+  - http://en.wikipedia.org/wiki/Dock_connector
+  - http://pinouts.ru/PortableDevices/ipod_pinout.shtml
+  - http://www.adriangame.co.uk/ipod-acc-pro.html
+  - video-composite
+  - video-component
 charging_notes:
-  -> http://pinouts.ru/PortableDevices/ipod_pinout.shtml
+  - http://pinouts.ru/PortableDevices/ipod_pinout.shtml
 pin_21_notes: Different resistances indicate accessory type.
   1kOhm: >
     iPod docking station, beeps when connected.

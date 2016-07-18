@@ -1,0 +1,34 @@
+---
+name: Pro Micro
+reference:
+  - https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide
+voltage:
+  - 3.3
+  - 5
+contacts:
+  0: uart-receive
+  1: uart-transmit
+  2: i2c-data
+  3: - i2c-clock
+     - pwm
+  4: adc-6
+  5: pwm-1
+  6: adc-7
+     - pwm-2
+  7:
+  8: adc-8
+  9: - adc-9
+     - pwm-3
+  10: - adc-10
+      - pwm-4
+  11:
+  12:
+  13:
+  14: spi-master-in-slave-out
+  15: spi-clock
+  16: spi-master-out-slave-in
+  17:
+  18: adc-0
+  19: adc-1
+  20: adc-2
+  21: adc-3

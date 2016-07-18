@@ -2,25 +2,25 @@ name: GoPro Bus
 description: >
   GoPro cameras feature a 30 pin connector on the back of the camera.
 buy:
-  -> http://www.chargeconverter.com/store/sandisk?product_id=151
-  -> http://www.chargeconverter.com/store/sandisk?product_id=153
+  - http://www.chargeconverter.com/store/sandisk?product_id=151
+  - http://www.chargeconverter.com/store/sandisk?product_id=153
 reference:
-  -> http://chargeconverter.com/blog/?p=71
+  - http://chargeconverter.com/blog/?p=71
 notes:
-  -> tie pin 12 to common to activate
-  -> tie pin 13 to common to activate
-  -> the following may only work with older firmware
-  -> the following may require eeprom to be activated
-  -> composite video out activated by connecting ID3 and ID4 to common
-  -> component video out activate by connecting ID2 to common
+  - tie pin 12 to common to activate
+  - tie pin 13 to common to activate
+  - the following may only work with older firmware
+  - the following may require eeprom to be activated
+  - composite video out activated by connecting ID3 and ID4 to common
+  - component video out activate by connecting ID2 to common
 contacts:
   1: common
-  2: -> av-bus-composite
-     -> av-bus-video-component-pb
-     -> av-bus-video-component-cb
+  2: - av-bus-composite
+     - av-bus-video-component-pb
+     - av-bus-video-component-cb
   3: av-bus-video-component-y
-  4: -> av-bus-video-component-pr
-     -> av-bus-video-component-cr
+  4: - av-bus-video-component-pr
+     - av-bus-video-component-cr
   5: regulated-five-volts
   6: regulated-five-volts
   7: usb-data-positive

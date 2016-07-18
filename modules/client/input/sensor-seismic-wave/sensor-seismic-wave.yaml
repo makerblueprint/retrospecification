@@ -1,0 +1,21 @@
+---
+name: Seismic Wave Sensor Module
+summary: A rudimentary early warning module.
+description: >
+  When an earthquake occurs, P-waves & S-waves rapidly travel from the
+  epicenter. P-waves are not very destructive & travel much faster than
+  S-waves. An accelerometer can be programmed to detect both, but is most
+  useful when detecting a P-wave... since we humans usually do not notice
+  these subtle waves. When detected, an alarm can announce that an earthquake
+  has been detected. The S-wave may arrive immediately after the P-wave, or may
+  arrive several seconds after. Since the epicenter is not known by the single
+  device, estimations about the timing & magnitude of the S-wave is nearly
+  impossible. Multiple sensors, networked across a large region, have greater
+  ability to build such estimations.
+reference:
+  - https://en.wikipedia.org/wiki/P-wave#Seismic_waves_in_the_Earth
+  - https://www.youtube.com/watch?v=4DcL127CnZU
+  - https://www.youtube.com/watch?v=IUhXB9OVoFg
+  - https://www.youtube.com/watch?v=muXhT3FTrJI
+  - https://www.youtube.com/watch?v=i-UH6oEx5JI
+  - http://qcn.stanford.edu

@@ -1,0 +1,25 @@
+---
+name: BlackMagic Micro Cinema Camera
+summary: The world’s most expandable camera!
+buy: https://www.blackmagicdesign.com/products/blackmagicmicrocinemacamera/howtobuy
+reference:
+  - https://www.blackmagicdesign.com/products/blackmagicmicrocinemacamera/expansion
+  - https://en.wikipedia.org/wiki/LANC
+notes:
+  - pin 14 is rated at 400mA
+contacts:
+  1: common
+  2: s-bus
+  3: pwm-input
+  4: common
+  5: digital-reference
+  6: regulated-twelve-volts-input
+  7: common
+  8: pwm-input1
+  9: lanc-data
+  10: lanc-power
+  11: common
+  12: pwm-input2
+  13: pwm-input3
+  14: regulated-five-volts-output
+  15: av-bus-video-composite

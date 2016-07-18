@@ -11,9 +11,9 @@ keywords:
   - snake
   - neutricon
 tips:
-  -> A monaural boom mic can be connected via
+  - A monaural boom mic can be connected via
      the balanced contacts.
-  -> More and more directors are finding it valuable
+  - More and more directors are finding it valuable
      to have their conversation recorded when near their
      camera operator(s). This provides greater context to
      post-production technicians.
@@ -21,10 +21,10 @@ tips:
      av-bus-audio-mic contact pin for an inexpensive one.
      Cheap electret mics (like those found in wired cell phone headsets)
      can be powered via a voltage regulator connected to pins 7 & 8.
-  -> Headphone amplifier(s) may be powered via 48VDC Phantom
+  - Headphone amplifier(s) may be powered via 48VDC Phantom
      power on the balanced audio line, or 48VDC power on pins
      7 & 8.
-  -> Modern field digital audio recorders may feature
+  - Modern field digital audio recorders may feature
      limited monitor mix capabilities. It is possible to
      have a monaural mix on Channel 1 (left) and  a separate
      monaural mix on Channel 2 (right).
@@ -36,7 +36,7 @@ tips:
      Use the av-bus-audio-boom-mix contact for this
      headphone-level audio & connect it to both sides
      of the boom operator's headphones.
-  -> Modern field digital audio recorders may feature
+  - Modern field digital audio recorders may feature
      a setting which chirps whenever recording begins. If
      reference audio is routed from the recorder into the
      camera, this beep can be used to sync the sources in post.

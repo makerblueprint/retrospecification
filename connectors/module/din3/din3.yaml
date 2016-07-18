@@ -1,8 +1,8 @@
 ---
 name: DIN3
 reference:
-  -> https://en.wikipedia.org/wiki/DIN_connector
-  -> https://en.wikipedia.org/wiki/File:DIN-3_Diagram.svg
+  - https://en.wikipedia.org/wiki/DIN_connector
+  - https://en.wikipedia.org/wiki/File:DIN-3_Diagram.svg
 keywords:
   - 90 degree
 aliases:  

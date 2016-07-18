@@ -1,0 +1,12 @@
+---
+name: Vehicle - Small Auxiliary Amplifier
+description: >
+  Many small cars only need a little extra oomph from a woofer. These small
+  cars usually have little room to spare in the trunk, making quick removal
+  of a speaker & amplifier a worthwhile endeavor.
+notes:
+  - Consider using just one of the two connectors below. Which one depends on
+    the capabilities of the amplifer & head unit.
+connectors:
+  - aviation-gx16-8
+  - aviation-gx16-9

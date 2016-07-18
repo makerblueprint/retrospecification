@@ -1,0 +1,6 @@
+---
+name: Particle Photon
+reference:
+  - https://docs.particle.io/datasheets/photon-datasheet
+voltage:
+  - 3.3

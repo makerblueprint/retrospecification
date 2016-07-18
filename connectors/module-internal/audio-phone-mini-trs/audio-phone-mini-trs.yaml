@@ -1,0 +1,23 @@
+---
+name: Tip-Ring-Sleeve Mini Phone Connector
+summary: The connector found on most stereo headphones.
+description: >
+  This connector is frequently used to route a pair of analog audio signals
+  to a pair of headphones or a stereo amplifier. It is also used to route a
+  pair of analog audio signals from a pair of electret microphones.
+reference:
+  - https://en.wikipedia.org/wiki/Phone_connector_%28audio%29
+aliases:
+  - eigth-inch
+  - 3.5mm
+contacts:
+  tip:
+    - av-bus-audio-left
+    - av-bus-audio-mic
+    - av-bus-audio-electret-mic
+  ring:
+    - av-bus-audio-right
+    - av-bus-audio-mic-1
+    - av-bus-audio-electret-mic-1
+  sleeve:
+    - av-bus-common

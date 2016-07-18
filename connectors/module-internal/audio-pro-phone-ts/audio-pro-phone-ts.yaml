@@ -1,0 +1,18 @@
+---
+name: Tip-Sleeve Phone Connector
+summary: The connector found on most electric guitars.
+description: >
+  This connector is frequently used to route an analog audio signal to a mixer
+  or (less common) from an amplifier to a speaker.
+reference:
+  - https://en.wikipedia.org/wiki/Phone_connector_%28audio%29
+aliases:
+  - quarter-inch
+  - 6.35mm
+contacts:
+  tip:
+    - av-bus-mono
+    - speaker-x-positive
+  sleeve:
+    - av-bus-common
+    - speaker-x-negative

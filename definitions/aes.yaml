@@ -1,0 +1,5 @@
+---
+name: AES
+summary: A standard for exchange of digital audio between pro audio devices.
+reference:
+  - https://en.wikipedia.org/wiki/AES3

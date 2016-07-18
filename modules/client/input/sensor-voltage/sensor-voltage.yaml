@@ -1,0 +1,9 @@
+---
+name: Voltage Sensor Module
+summary: Detects voltage within a range & provides analysis.
+notes:
+  - Should be able to detect AC voltage patterns.
+  - Should provide notes on nominal voltage based on type of voltage (AC/DC).
+  - Should fire event if voltage suddenly spikes or dips.
+  - Should fire event if voltage drops & stays below configured threshold(s).
+  - Should fire event if voltage consistently exceeds configured threshold(s).

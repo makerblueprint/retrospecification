@@ -10,9 +10,9 @@ keywords:
   - weather
   - elements
 buy:
-  -> http://www.marinco.com/en/12vcp6
+  - http://www.marinco.com/en/12vcp6
 notes:
-  -> There appears to be no established standard for these connectors.
+  - There appears to be no established standard for these connectors.
      Check voltages & wiring before plugging into an existing socket.
 contacts:
   1: common

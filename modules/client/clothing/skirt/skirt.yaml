@@ -1,0 +1,26 @@
+---
+name: Dress
+summary: Add popular luminous effects to a skirt.
+description: >
+  Recently, skirts with semi-transparent outer layers have been adorned with
+  multi-color LEDs sewn into the lower layers of the skirt. The diffusion
+  provided by the outer layers helps hide the conductive thread & the somewhat
+  unsightly LEDs themselves.
+  More opaque skirts offer fewer avenues for accentuation. Consider
+  integrating sanded fiber-optic cables around the edges... or EL wire if
+  appropriate.
+  Some designers are introducing shape-shifting accessories to skirts, which
+  can certainly steal the show if executed well.
+reference:
+  - https://vimeo.com/114828162
+  - https://learn.adafruit.com/sparkle-skirt
+connectors:
+  - jst-sm-4
+  - jst-sm-6
+  - card-edge-10
+  - rj11
+host_modules:
+  - flora
+  - trinket
+  - pro-trinket
+  - edison

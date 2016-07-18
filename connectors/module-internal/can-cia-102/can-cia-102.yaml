@@ -11,8 +11,8 @@ keywords:
 aliases:
   - can
 reference:
-  -> http://www.can-cia.org
-  -> https://en.wikipedia.org/wiki/CAN_in_Automation
+  - http://www.can-cia.org
+  - https://en.wikipedia.org/wiki/CAN_in_Automation
 type: dsub-de-9
 contacts:
   1: - regulated-twelve-volts

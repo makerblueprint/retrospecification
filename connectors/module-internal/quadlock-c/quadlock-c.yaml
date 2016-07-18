@@ -1,0 +1,31 @@
+---
+name: Quadlock C
+summary: Car Stereo Headunit C accessory connector.
+see: quadlock-a
+reference:
+  - http://www.fordwiki.co.uk/index.php?title=Quadlock_Stereo_Connector_-_Facelift
+  - https://en.wikipedia.org/wiki/Quadlock
+buy:
+  - https://www.google.com/search?q=quadlock+connector+b&tbm=shop
+notes:
+  - The contact spec below is under review.
+keywords:
+  - audio
+  - car
+  - stereo
+  - entertainment
+  - amplifier
+  - accessory
+contacts:
+  1: av-bus-audio-left-2
+  2: av-bus-audio-right-2
+  3: av-bus-audio-mono-1
+  4: av-bus-audio-special-effects
+  5: av-bus-audio-left-1
+  6: av-bus-common
+  7: av-bus-audio-left-2-common
+  8: av-bus-audio-right-2-common
+  9: av-bus-audio-mono-1-common
+  10: av-bus-audio-special-effects-common
+  11: av-bus-audio-left-1-common
+  12: av-bus-audio-mic

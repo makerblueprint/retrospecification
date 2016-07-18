@@ -1,0 +1,14 @@
+---
+name: Hoodie
+summary: Add popular luminous effects to a hoodie.
+reference:
+  - https://blog.adafruit.com/2014/03/12/neopixel-hoodie-wearablewednesday
+connectors:
+  - jst-sm-4
+  - jst-sm-6
+  - card-edge-10
+  - rj11
+host_modules:
+  - flora
+  - trinket
+  - pro-trinket

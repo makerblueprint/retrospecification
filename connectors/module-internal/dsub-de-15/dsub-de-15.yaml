@@ -1,0 +1,33 @@
+---
+name: DE-15 Connector
+description: >
+  Commonly referred to as DB-15, DE-15 connectors were once frequently used
+  by consumers to connect monitors to to traditional computers. These have
+  largely been replaced by connectors which route video digitally (e.g. HDMI).
+  Since DE-15 connectors are still frequently found in modern computing, they
+  are not well suited for respecification.
+notes:
+  - The official spec includes I2C support. See reference for more.
+aliases:
+  - D-sub 15
+  - DB-15
+  - VGA
+reference:
+  - http://en.wikipedia.org/wiki/VGA_connector
+  - http://hackaday.com/2014/06/18/i2c-from-your-vga-port
+contacts:
+  1: analog-video-red
+  2: analog-video-green
+  3: analog-video-blue
+  4: reserved
+  5: common-horizontal-sync-drain
+  6: analog-video-red-drain
+  7: analog-video-green-drain
+  8: analog-video-blue-drain
+  9: regulated-five-volts
+  10: common-vertical-sync-drain
+  11: reserved
+  12: i2c-data
+  13: horizontal-sync
+  14: vertical-sync
+  15: i2c-clock

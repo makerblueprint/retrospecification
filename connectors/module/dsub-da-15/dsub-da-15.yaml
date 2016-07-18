@@ -9,7 +9,7 @@ aliases:
   - DB-15
   - D-sub 15
 reference:
-  -> http://pinouts.ru/Inputs/GameportPCMidi_pinout.shtml
+  - http://pinouts.ru/Inputs/GameportPCMidi_pinout.shtml
 contacts:
   1: one-wire-data
   2: adc-2

@@ -1,0 +1,18 @@
+---
+name: Flush-Mount Hot-Pluggable Raspberry Pi module
+description: >
+  `raspberry-pi` computers are pretty remarkable tiny machines. They are mainly
+  used for experimental & educational purposes. Many are used as household
+  servers or media centers. Some are even used as nodes in experimental
+  super-computer configurations. Few, however, have been standardized to the
+  point where they can be hot-pluggable (e.g. to a backplane).
+  This Retro Module proposal is just that. Hack a RasPi into an old SCSI HDD
+  tray, and make a backplane for it. Add components in the tray to help the
+  Pi stay powered & safely shut down if pulled from the bay.
+connectors:
+  - sca
+usages:
+  - car-server
+  - rv-server
+  - home-server
+  - computing-node

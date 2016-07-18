@@ -1,0 +1,14 @@
+---
+name: Component Video
+summary: A video signal that has been split into two or more component channels.
+notes:
+  - The video signal does not include audio.
+  - Cables often support resolutions up to HD 1080p.
+  - Certain cables may support resolutions greater than 1080p.
+reference:
+  - https://en.wikipedia.org/wiki/Component_video
+  - https://answers.yahoo.com/question/index?qid=20140115113050AAnxZNG
+keywords:
+  - analog
+  - rca
+  - coax

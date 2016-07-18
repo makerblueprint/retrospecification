@@ -1,0 +1,12 @@
+---
+name: Joystick Module
+summary: A module housing a joystic and/or compatible with OTS joysticks.
+categories:
+  - input
+  - costume
+  - prop
+reference:
+  - https://www.google.com/search?tbm=isch&q=joystick
+buy:
+  - https://www.adafruit.com/products/3102
+  - https://www.adafruit.com/products/512

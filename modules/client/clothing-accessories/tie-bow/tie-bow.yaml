@@ -1,0 +1,19 @@
+---
+name: Bowtie
+summary: Glowy. Spinny. Polka-dotty.
+description: >
+  Bowties are in a category of their own. Add some comedy with spinning effects
+  -- or if you're feeling bold -- turn it into a `persistence-of-vision`
+  display.
+  Given its location near the vocal chords, consider adding a speaker for
+  special effects playback and/or a microphone for voice command or additional
+  special effects.
+ideas:
+  - consider integrating wireless capabilities so the bowtie can sync up with
+    other accessories you may have -- or clothes others near you may be wearing
+connectors:
+  - jst-sm-4
+  - jst-sm-6
+  - card-edge-10
+  - card-edge-26
+  - rj11
