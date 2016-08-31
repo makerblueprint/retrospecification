@@ -1,0 +1,8 @@
+---
+name: SMPTE Timecode
+summary: A set of standards to label frames of video or film with a time code.
+aliases:
+  - timecode
+reference:
+  - https://en.wikipedia.org/wiki/SMPTE_timecode
+  - aes

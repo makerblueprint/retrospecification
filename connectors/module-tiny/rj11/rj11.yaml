@@ -22,8 +22,10 @@ keywords:
   - clothing
   - performance art
 requirements:
-  -> Telephone cables must be adapted to be 1:1 cables.
+  - Telephone cables must be adapted to be 1:1 cables.
      Contact 1 should always be contact 1, etc.
+notes:
+  - Make sure to use proper gauge wire for your use case.
 contacts:
   1: controller-area-network-low
   2: pixel-data

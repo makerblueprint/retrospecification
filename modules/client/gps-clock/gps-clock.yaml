@@ -1,0 +1,7 @@
+---
+name: GPS Clock
+summary: Hyper-accurate clock module, based on 10Mhz GPS disciplined oscillator.
+description: Use the module as an accurate timebase for laboratories, etc.
+reference:
+  - http://adafruit.com/product/2324
+  - https://en.wikipedia.org/wiki/Pulse-per-second_signal

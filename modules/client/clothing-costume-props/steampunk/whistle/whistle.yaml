@@ -1,0 +1,14 @@
+---
+name: Whistle
+summary: Aint nothing like a steam-driven whistle.
+description: >
+  If you can manage a water boiler & whistle configuration, do it.
+  If you cannot, there are still ways to imitate the real thing. Dry ice can be
+  used to generate the 'steam' which could be propelled via fan. A speaker near
+  or inside the whistle can generate pre-recorded steam whistle sounds. For
+  larger whistles, full-spectrum reproduction of the sound effect is very
+  important. Consider hiding a sub-woofer & mid-range speaker in your build.
+connectors:
+  - card-edge-26
+  - dsub-db25
+  - din8

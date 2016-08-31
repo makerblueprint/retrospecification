@@ -1,0 +1,6 @@
+---
+name: Animatronic Eyelid Module
+summary: Animatronic eyes are a tough sell without great eyelids.
+connectors:
+  - dsub-de-9
+  - card-edge-10

@@ -1,0 +1,14 @@
+---
+name: Shirt
+summary: Add popular luminous effects to a shirt.
+reference:
+  - https://learn.adafruit.com/cutecircuit-twirkle-shirt-teardown/inside-the-twirkle-shirt
+connectors:
+  - jst-sm-4
+  - jst-sm-6
+  - card-edge-10
+  - rj11
+host_modules:
+  - flora
+  - trinket
+  - pro-trinket

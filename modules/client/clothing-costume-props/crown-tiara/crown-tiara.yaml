@@ -1,0 +1,7 @@
+---
+name: Tiara
+summary: Add popular luminous effects to a tiara.
+aliases:
+  - crown
+reference:
+  - https://learn.adafruit.com/neopixel-tiara/overview

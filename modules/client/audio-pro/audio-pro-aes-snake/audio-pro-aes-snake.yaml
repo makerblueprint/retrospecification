@@ -1,0 +1,12 @@
+---
+name: Pro Audio - AES Digital Snake
+summary: A snake for sending & receiving AES signal.
+description: >
+  Useful for a basic send/return configuration to a remote location.
+  If you have a singer on stage, they would be able to hear a stereo mix from
+  the digital mixer & send a stereo signal back -- via a single 6 pin XLR cable.
+  Make sure to properly isolate the digital signals from eachother
+  with proper cabling.
+connectors:
+  - audio-pro-xlr6
+  - audio-pro-xlr-aes

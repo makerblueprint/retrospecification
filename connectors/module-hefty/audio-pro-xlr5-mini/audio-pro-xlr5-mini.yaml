@@ -30,7 +30,7 @@ description: >
   of a 3D printed dock? No? What about if the panel-mount connector faces
   skyward? Happy hacking...
 reference:
-  -> http://www.androidcentral.com/quick-charge
+  - http://www.androidcentral.com/quick-charge
 contacts:
   1: spdif
   2: controller-area-network-low

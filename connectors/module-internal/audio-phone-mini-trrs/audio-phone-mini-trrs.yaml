@@ -1,0 +1,33 @@
+---
+name: Tip-Ring-Ring-Sleeve Mini Phone Connector
+summary: The connector found on most smartphone headphones.
+description: >
+  This connector is frequently used to route a pair of analog audio signals
+  to a pair of headphones, and signal from a single built-in Electret mic.
+  It is less-commonly used to route a pair of analog audio signals and a
+  composite video signal from an AV device.
+  Many older mobile devices featured `common` on the `sleeve` and
+  `av-bus-audio-electret-mic` on `ring_1`. This spec was rejected in favor of
+  `common` on `ring_1`. This allowed new headsets to be better compatible
+  with both `trs` & `trrs` receptacles.
+reference:
+  - https://en.wikipedia.org/wiki/Phone_connector_%28audio%29
+  - http://www.cablechick.com.au/resources/image/trrs-diagram3.jpg
+aliases:
+  - eigth-inch
+  - 3.5mm
+note: The most common spec for each contact is listed first.
+contacts:
+  tip:
+    - av-bus-audio-left
+  ring:
+    - av-bus-audio-right
+    - av-bus-video-composite
+  ring_1:
+    - av-bus-common
+    - av-bus-audio-electret-mic
+  sleeve:
+    - av-bus-audio-electret-mic
+    - av-bus-video-composite
+    - av-bus-audio-right
+    - av-bus-common

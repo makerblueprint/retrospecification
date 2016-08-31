@@ -1,0 +1,12 @@
+---
+name: Vehicle - Headunit
+summary: A compact flush-mount amplifier with multimedia capabilites.
+notes:
+  - Very few vehicle headunits have standardized connectors. They may be
+    standard for a particular manufacturer, but only recently was there a move
+    toward standard connectors on all headunits. The connectors listed below
+    are part of this new trend.
+connectors:
+  - quadlock-a
+  - quadlock-b
+  - quadlock-c

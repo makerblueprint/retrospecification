@@ -1,0 +1,61 @@
+---
+name: 36 Contact Micro-Ribbon Connector
+summary: The companion Micro-Ribbon connector for a DB-25 connector.
+description: >
+  Common on old parallel printer cables, Micro-Ribbon connectors are an excellent
+  choice for use in rough environments. Since there are no pins, no pins can be
+  bent! Most modern connectors follow this practice: embed contacts along a
+  wall of insulating material.
+  Larger versions of these connectors, such as `micro-ribbon-50` are frequently
+  used by telephone companies.
+capabilities:
+  - DC Power
+  - Analog HD Video
+  - Analog SD Video
+  - Analog Line Level Audio
+  - Analog Microphone
+  - Basic Digital Audio
+  - NeoPixel support (WS2812, etc)
+  - CAN bus
+  - SPI bus
+  - I2C bus
+  - ICSP
+see: micro-ribbon
+contacts:
+  1: spdif
+  2: controller-area-network-high
+  3: controller-area-network-low
+  4: i2c-clock
+  5: i2c-data
+  6: digital-reference
+  7: pixel-data
+  8: twenty-volts-max
+  9: twenty-volts-max
+  10: spi-slave-select
+  11: spi-master-out-slave-in
+  12: spi-master-in-slave-out
+  13: spi-clock
+  14: host-reset
+  16: common
+  17: common
+  18: no-connection
+  19: common
+  20: common
+  21: common
+  22: common
+  23: common
+  24: common
+  25: common
+  26: common
+  27: common
+  28: common
+  29: common
+  30: common
+  31: - av-bus-video-separate-luminance
+      - av-bus-video-component-pr
+  32: regulated-five-volts
+  33: common
+  34: no-connection
+  35: no-connection
+  36: - av-bus-video-separate-chrominance
+      - av-bus-video-component-y

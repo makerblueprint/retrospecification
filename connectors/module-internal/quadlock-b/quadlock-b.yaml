@@ -1,0 +1,31 @@
+---
+name: Quadlock B
+summary: Car Stereo Headunit B accessory connector.
+see: quadlock-a
+reference:
+  - http://www.fordwiki.co.uk/index.php?title=Quadlock_Stereo_Connector_-_Facelift
+  - https://en.wikipedia.org/wiki/Quadlock
+buy:
+  - https://www.google.com/search?q=quadlock+connector+b&tbm=shop
+notes:
+  - The contact spec below is under review.
+keywords:
+  - audio
+  - car
+  - stereo
+  - entertainment
+  - amplifier
+  - accessory
+contacts:
+  1: av-bus-audio-mono
+  2: twelve-volts-nominal-switched
+  3: av-bus-audio-left
+  4: av-bus-audio-right
+  5: phone-sense
+  6: steering-wheel-controls-sense
+  7: av-bus-audio-mono-common
+  8: steering-wheel-controls-common
+  9: av-bus-audio-left-common
+  10: av-bus-audio-right-common
+  11: reverse-sense
+  12: speed-sense

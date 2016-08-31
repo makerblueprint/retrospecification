@@ -10,7 +10,7 @@ keywords:
   - weather
   - elements
 buy:
-  -> http://www.marinco.com/en/2018bp-24
+  - http://www.marinco.com/en/2018bp-24
 contacts:
   12: twelve-volts-nominal
   24: twentyfour-volts-nominal

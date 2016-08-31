@@ -2,7 +2,7 @@
 name: NEMA 5-50
 summary: US 120VAC 50AMP appliance power connector
 reference:
-  -> https://en.wikipedia.org/wiki/NEMA_connector
+  - https://en.wikipedia.org/wiki/NEMA_connector
 colors:
   green: ground
   white: neutral

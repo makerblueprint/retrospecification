@@ -1,0 +1,8 @@
+---
+name: CAN CiA 102 Adapter
+summary: Industrial automation adapter
+reference:
+  - http://www.can-cia.org/standardization/specifications
+connectors:
+  - dsub-de-9
+  - dsub-db-25

@@ -1,0 +1,12 @@
+---
+name: Voice Command Module
+summary: Fire events when voice commands are detected.
+notes:
+  - Consider embedding a RESTful microcontroller and configure an off-the-shelf
+    vocal assistant to send it directives.
+reference:
+  - https://www.hackster.io/krvarma/particle-alexa-5bc196
+buy:
+  - https://www.sparkfun.com/products/13316
+  - https://www.amazon.com/Amazon-Echo-Bluetooth-Speaker-with-WiFi-Alexa
+  - https://www.particle.io

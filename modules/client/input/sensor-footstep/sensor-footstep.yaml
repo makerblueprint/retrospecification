@@ -1,0 +1,9 @@
+---
+name: Footstep Sensor Module
+summary: Use detected footsteps to trigger actions/effects.
+categories:
+  - input
+  - costume
+  - prop
+reference:
+  - shoe-boot-mech

@@ -1,0 +1,16 @@
+---
+name: Trinket
+reference:
+  - https://learn.adafruit.com/introducing-trinket/introduction
+voltage:
+  - 3.3
+  - 5
+contacts:
+  0: - spi-master-in-slave-out
+     - i2c-data
+  1: spi-master-out-slave-in
+  2: - spi-clock
+     - i2c-clock
+     - adc-1
+  3: adc-3
+  4: adc-2

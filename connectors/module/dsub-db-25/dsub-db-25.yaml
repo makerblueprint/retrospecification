@@ -7,26 +7,29 @@ description: >
   Since these are rarely found in modern computing, the connectors
   are prime candidates for respecification.
 requirements:
-  -> Must be pin-compatible with off-the-shelf DE9 to DB25 adapters.
-  -> Pins 18 through 25 must be dead-short tolerant.
+  - Must be pin-compatible with off-the-shelf DE9 to DB25 adapters.
+  - Pins 18 through 25 must be dead-short tolerant.
      Many printer cables tie these pins to `common`.
-  -> Production modules must be able to tolerate 5VDC logic.
+  - Production modules must be able to tolerate 5VDC logic.
 capabilities:
-  -> DC Power
-  -> Analog HD Video
-  -> Analog SD Video
-  -> Analog Line Level Audio
-  -> Analog Microphone
-  -> Basic Digital Audio
-  -> NeoPixel support (WS2812, etc)
-  -> CAN bus
-  -> SPI bus
-  -> I2C bus
-  -> ICSP
+  - DC Power
+  - Analog HD Video
+  - Analog SD Video
+  - Analog Line Level Audio
+  - Analog Microphone
+  - Basic Digital Audio
+  - NeoPixel support (WS2812, etc)
+  - CAN bus
+  - SPI bus
+  - I2C bus
+  - ICSP
 aliases:
   - D-sub 25
   - Parallel Port
   - Printer Port
+reference:
+  - video-composite
+  - video-component
 contacts:
   1: spdif
   2: controller-area-network-high

@@ -1,0 +1,31 @@
+---
+name: Arduino Uno R3
+reference:
+  - https://www.arduino.cc/en/Main/ArduinoBoardUno
+voltage:
+  - 3.3
+  - 5
+contacts:
+  0: uart-receive
+  1: uart-transmit
+  2: interrupt
+  3: - interrupt-1
+     - pwm
+  4:
+  5: pwm-1
+  6: pwm-2
+  7:
+  8:
+  9: pwm-3
+  10: pwm-4
+  11: pwm-5
+  12:
+  13:
+  14: adc
+  15: adc-1
+  16: adc-2
+  17: adc-3
+  18: - adc-4
+      - i2c-data
+  19: - adc-5
+      - i2c-clock

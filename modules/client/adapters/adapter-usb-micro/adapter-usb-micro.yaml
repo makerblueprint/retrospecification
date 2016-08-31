@@ -1,0 +1,20 @@
+---
+name: USB Micro Adapter
+summary: Turn a USB-OTG device into a Retro Module.
+notes:
+  - When in a vehicle, it is preferable to have mobile devices plugged in to
+    charge. Many mobile devices feature USB-OTG capabilities. This allows the
+    mobile device to act as a USB host for peripheral devices. If you have
+    already outfitted your vehicle with a microcontroller, your adapter can be
+    set up to send data back & forth from the microcontroller and the mobile
+    device. Since the spec features CAN bus, it is fairly easy to have your
+    vehicle feed data to both devices as well. Some vehicle stereos also
+    feature CAN bus.
+ideas:
+  - cell phone
+  - tablet
+connectors:
+  - usb-micro
+  - dsub-de-9
+  - dsub-db-25
+  - din-8

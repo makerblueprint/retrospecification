@@ -1,0 +1,17 @@
+---
+name: Micro-Ribbon Connector Type
+description: >
+  A connector having a characteristic D-shaped metal shield similar to that
+  used in D-subminiature connectors, but a different type of contacts, called
+  ribbon contacts, instead of pin contacts.
+reference:
+  - https://en.wikipedia.org/w/index.php?title=Micro_ribbon
+aliases:
+  - Telco
+  - Miniature Delta Ribbon
+  - Mini D Ribbon
+  - Delta ribbon
+  - MDR
+  - Amphenol
+  - CHAMP
+  - Centronics

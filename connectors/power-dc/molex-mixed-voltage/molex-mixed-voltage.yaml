@@ -22,7 +22,7 @@ tips:
   - the common/ground wire(s) are usually black
   - power supplies feature pin receptacles while client devices feature pins
 reference:
-  -> https://en.wikipedia.org/wiki/Molex_connector
+  - https://en.wikipedia.org/wiki/Molex_connector
 contacts:
   1: twelve-volts-regulated
   2: common

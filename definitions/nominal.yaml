@@ -8,7 +8,7 @@ description: >
     In various subfields of engineering, a nominal value is one for which the
     "name" for the value is close to, but not the same as, the actual value.
 reference:
-  -> https://en.wikipedia.org/wiki/Real_versus_nominal_value
+  - https://en.wikipedia.org/wiki/Real_versus_nominal_value
 keywords:
   - expected
   - typical

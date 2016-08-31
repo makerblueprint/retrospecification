@@ -1,0 +1,31 @@
+---
+name: Dress
+summary: Add luminous, amorphous & other sophisticated effects to a dress.
+description: >
+  Recently, dresses with semi-transparent outer layers have been adorned with
+  multi-color LEDs sewn into the lower layers of the dress. The diffusion
+  provided by the outer layers helps to hide the conductive thread & the
+  somewhat unsightly LEDs themselves.
+  More opaque dresses offer fewer avenues for accentuation. Consider
+  integrating sanded fiber-optic cables around the edges... or EL wire if
+  appropriate.
+  Some designers are introducing shape-shifting accessories to dresses, which
+  can certainly steal the show if executed well. Others are pushing far beyond;
+  integrating beverage dispensing capabilities & automated animatronics.
+ideas:
+  - consider integrating wireless capabilities so the dress can sync up with
+    other accessories you may have -- or clothes others near you may be wearing
+reference:
+  - https://vimeo.com/114828162
+  - https://blog.adafruit.com/2014/11/19/meet-glow-white-and-prince-luminous-wearablewednesday/
+  - https://learn.adafruit.com/sparkle-skirt
+connectors:
+  - jst-sm-4
+  - jst-sm-6
+  - card-edge-10
+  - rj11
+host_modules:
+  - flora
+  - trinket
+  - pro-trinket
+  - edison

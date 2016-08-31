@@ -1,0 +1,13 @@
+---
+name: Fog
+summary: Add fog effects to your costume.
+notes:
+  - Make sure to comply with established particulate standards, if any.
+reference:
+  - thermostat-dry-ice-feeder
+  - thermostat-pwm-fan-controller
+  - cart
+categories:
+  - effects
+  - prop
+  - costume

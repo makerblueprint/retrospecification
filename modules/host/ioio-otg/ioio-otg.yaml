@@ -1,10 +1,10 @@
 ---
 name: IOIO-OTG
 reference:
-  -> https://github.com/ytai/ioio/wiki/Getting-To-Know-The-IOIO-OTG-Board
-  -> https://en.wikipedia.org/wiki/IOIO
+  - https://github.com/ytai/ioio/wiki/Getting-To-Know-The-IOIO-OTG-Board
+  - https://en.wikipedia.org/wiki/IOIO
 todo:
-  -> Make ioio-otg.jar file. It should declare a function named 'getPin'.
+  - Make ioio-otg.jar file. It should declare a function named 'getPin'.
      The 'getPin' function will return (int) pin based on the passed argument.
      This board features multiple SPI & I2C interfaces. There are at least two
      I2C buses on the board. The function should, by default, return the data

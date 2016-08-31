@@ -1,5 +1,8 @@
 ---
 name: XLR6 by Switchcraft
+reference:
+  - intercom
+  - dmx
 contacts:
   1: common
   2: regulated-30-volt-supply

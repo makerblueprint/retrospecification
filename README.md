@@ -5,7 +5,7 @@ Breadboards are meant for the workbench. Bummer.
 ------------------------------------------------
 You should be able to throw your prototypes in a backpack. You should be able to tweak their code while at the coffee shop. You should be able to put your prototypes into production around the house or shop. That's the goal of the Retro Specification. The spec aims to set up a middle-ground between breadboard and production board.
 
-There are many hardware interfaces in the wild. Some deserve reinforcement, while others deserve deprecation. The Retro Specification will document this drive toward convenient interoperability among all the things.
+There are many hardware interfaces in the wild. Some deserve reinforcement, while others deserve deprecation. The Retro Specification will document this drive toward convenient compatibility among all the things.
 
 There is no need to make/buy a 3D printer or CNC machine... unless you want to. No need to do a large circuitboard production run... again, [unless you want to](connectors/module/header-26/header-26.yaml). No need to crowdfund your idea or deal with the challenges of said campaign. There's nothing wrong with making/selling things in small quantities.
 
@@ -30,7 +30,7 @@ One of the worst feelings, when starting to work on an old project, is realizing
 
 Getting Started
 ===============
-Note: power contacts feature DC unless stated otherwise.
+Note: power contacts feature positive [DC](definitions/direct-current.yaml) unless stated otherwise.
 
 Consider [DA-15 connectors](connectors/module/dsub-da-15/dsub-da-15.yaml), which were once called 'Game Ports'. Before USB, joysticks would generally be connected to computers via these connectors. Since they're so rare in modern computing, they are a perfect choice for the Maker Movement. That said, the connectors are still pretty easy to find & work with. Most electronics part stores will have a few DA-15 connectors for sale. A module can be as simple as a resistor & LED connected to two of the pins.
 

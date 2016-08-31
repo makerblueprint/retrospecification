@@ -12,7 +12,7 @@ keywords:
   - weather
   - elements
 buy:
-  -> http://www.marinco.com/en/2018bp-12
+  - http://www.marinco.com/en/2018bp-12
 contacts:
   positive: twelve-volts-nominal 
   negative: common

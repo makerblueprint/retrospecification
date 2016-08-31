@@ -1,0 +1,10 @@
+---
+name: Belt
+summary: Enhance belts by adding input interfaces & luminous effects.
+ideas:
+  - make grommets input interfaces via a capacative touch sensor breakout board
+  - consider integrating wireless capabilities so the belt can sync up with
+    other accessories you may have -- or clothes others near you may be wearing
+devices:
+  - https://www.adafruit.com/products/1982
+  - https://www.adafruit.com/products/2847

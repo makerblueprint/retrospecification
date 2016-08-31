@@ -1,0 +1,7 @@
+---
+name: RC Radio Receiver Module
+summary: A module tuned to receive commands from off-the-shelf RC controllers.
+categories:
+  - input
+  - costume
+  - prop

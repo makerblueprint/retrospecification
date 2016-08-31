@@ -1,8 +1,8 @@
 ---
 name: DIN8
 reference:
-  -> https://en.wikipedia.org/wiki/DIN_connector
-  -> https://en.wikipedia.org/wiki/File:DIN-8_Diagram.svg
+  - https://en.wikipedia.org/wiki/DIN_connector
+  - https://en.wikipedia.org/wiki/File:DIN-8_Diagram.svg
 keywords:
   - din
 aliases:

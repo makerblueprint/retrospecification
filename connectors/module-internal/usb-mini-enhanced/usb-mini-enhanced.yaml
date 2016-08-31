@@ -9,16 +9,16 @@ description: >
 aliases:
   - Mini USB
 buy:
-  -> http://www.chargeconverter.com/store/sandisk?product_id=160
+  - http://www.chargeconverter.com/store/sandisk?product_id=160
 reference:
-  -> http://en.wikipedia.org/wiki/Enhanced_mini-USB
-  -> http://chargeconverter.com/blog/wp-content/uploads/usbpin.jpg
-  -> http://chargeconverter.com/blog/?p=130
+  - http://en.wikipedia.org/wiki/Enhanced_mini-USB
+  - http://chargeconverter.com/blog/wp-content/uploads/usbpin.jpg
+  - http://chargeconverter.com/blog/?p=130
 gopro_notes:
-  -> To enable AV out, connect pin 4 to common via a 100k resistor.
-  -> To enable stereo inputs, connect pin 4 to common via 300k resistor.
-  -> If using mic(s), condenser mic required.
-  -> If connecting a line input source, add DC bypass caps at roughly 4.7uF.
+  - To enable AV out, connect pin 4 to common via a 100k resistor.
+  - To enable stereo inputs, connect pin 4 to common via 300k resistor.
+  - If using mic(s), condenser mic required.
+  - If connecting a line input source, add DC bypass caps at roughly 4.7uF.
 contacts:
   1: regulated-five-volts
   2: usb-data-negative

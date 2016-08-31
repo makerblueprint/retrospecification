@@ -1,0 +1,35 @@
+---
+name: USB Type-C Connector
+summary: Designed to standardize connection of devices.
+note:
+  - Wire colors for differential pairs are not mandated.
+  - Regulated power contacts are digitally configurable.
+reference:
+  - http://www.usb.org
+  - https://en.wikipedia.org/wiki/USB_Type-C
+  - https://en.wikipedia.org/wiki/USB
+contacts:
+  A1: common-drain
+  A2: super-speed-data-transmit-negative-1
+  A3: super-speed-data-transmit-positive-1
+  A4: regulated-power
+  A5: configuration-channel
+  A6: non-super-speed-positive-1
+  A7: non-super-speed-negative-1
+  A8: sideband-use-1
+  A9: regulated-power
+  A10: super-speed-data-receive-negative-4
+  A11: super-speed-data-receive-positive-4
+  A12: common-drain
+  B12: common-drain
+  B11: super-speed-data-receive-positive-2
+  B10: super-speed-data-receive-negative-2
+  B9: regulated-power
+  B8: sideband-use-2
+  B7: non-super-speed-negative-2
+  B6: non-super-speed-positive-2
+  B5: configuration-channel
+  B4: regulated-power
+  B3: super-speed-data-transmit-negative-3
+  B2: super-speed-data-transmit-positive-3
+  B1: common-drain

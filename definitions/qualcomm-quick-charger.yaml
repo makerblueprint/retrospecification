@@ -9,5 +9,5 @@ description: >
   attempt to send the higher specified voltage. The charging circuit in the
   client device can handle this higher voltage and put it to immediate use.
 reference:
-  -> https://www.qualcomm.com/products/snapdragon/quick-charge
-  -> http://www.androidcentral.com/quick-charge-car-chargers
+  - https://www.qualcomm.com/products/snapdragon/quick-charge
+  - http://www.androidcentral.com/quick-charge-car-chargers

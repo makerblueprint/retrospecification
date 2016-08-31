@@ -1,0 +1,14 @@
+---
+name: Facial Feature Tracking Module
+summary: A module able to track facial features.
+notes:
+  - When pointed at audience, module would study only the most prevalent face.
+tips:
+  - Program robot facial features to, by default, mirror facial features of the
+    primary subject.
+reference:
+  - sensor-face-feature-tracker
+categories:
+  - input
+  - costume
+  - prop

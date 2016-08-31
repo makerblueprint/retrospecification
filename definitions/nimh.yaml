@@ -9,4 +9,4 @@ description: >
   three times the capacity of an equivalent size NiCd, and its energy density
   can approach that of a lithium-ion battery.
 reference:
-  -> https://en.wikipedia.org/wiki/Nimh_battery
+  - https://en.wikipedia.org/wiki/Nimh_battery

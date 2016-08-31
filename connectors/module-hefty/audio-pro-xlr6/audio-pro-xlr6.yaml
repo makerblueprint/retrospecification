@@ -5,10 +5,12 @@ keywords:
   - aes
   - aes42
   - chainable
+reference:
+  - aes
 contacts:
   1: digital-audio-aes-host-out-client-in-negative
   2: digital-audio-aes-host-out-client-in-positive
-  2: digital-audio-aes-client-out-host-in-negative
-  3: digital-audio-aes-client-out-host-in-positive
+  3: digital-audio-aes-client-out-host-in-negative
+  4: digital-audio-aes-client-out-host-in-positive
   5: common
   6: fourtyeight-volts-max

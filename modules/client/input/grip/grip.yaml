@@ -1,0 +1,16 @@
+---
+name: Grip
+summary: An input device meant for the palm of your hand.
+notes:
+  - May be part of bicycle or motorized bike
+  - May include rotary throttle control
+categories:
+  - input
+reference:
+  - https://www.google.com/search?tbm=isch&q=oculus+rift+controller
+  - https://www.google.com/search?tbm=isch&q=wii+controller
+  - https://learn.adafruit.com/nunchuket-kung-fu-pc-video-game-fighting-stick
+buy:
+  - https://www.adafruit.com/products/342
+  - https://www.adafruit.com/products/345
+  - https://www.google.com/search?tbm=shop&q=electric+bike+throttle

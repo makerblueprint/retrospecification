@@ -1,0 +1,8 @@
+---
+name: Obstacle Sensor Module
+summary: Detects obstacles directly in front of the sensor.
+notes:
+  - Should also detect voids in the path ahead of the sensor (e.g. a cliff)
+categories:
+  - input
+  - robotics

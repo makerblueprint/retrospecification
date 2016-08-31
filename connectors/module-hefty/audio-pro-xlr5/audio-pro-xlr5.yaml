@@ -1,0 +1,14 @@
+---
+name: 5 Pin XLR
+summary: DMX Connector
+reference:
+  - dmx
+keywords:
+  - dmx
+  - rs-485
+contacts:
+  1: common
+  2: rs-485-negative
+  3: rs-485-positive
+  4: rs-485-1-negative
+  5: rs-485-1-positive

@@ -9,9 +9,9 @@ keywords:
   - battery
   - charging
 reference:
-  -> http://cdn.powerequipment.honda.com/pe/pdf/Accessories/generators.pdf
-  -> https://www.google.com/search?q=32660-894-BCX12H
-  -> https://www.google.com/search?q=32650-892-010AH
+  - http://cdn.powerequipment.honda.com/pe/pdf/Accessories/generators.pdf
+  - https://www.google.com/search?q=32660-894-BCX12H
+  - https://www.google.com/search?q=32650-892-010AH
 contacts:
   1: common
   2: twelve-volts-nominal

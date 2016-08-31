@@ -2,7 +2,7 @@
 name: NEMA TT-30 Twist-Lock
 summary: US 120VAC 30AMP Travel-Trailer power connector
 reference:
-  -> https://en.wikipedia.org/wiki/NEMA_connector
+  - https://en.wikipedia.org/wiki/NEMA_connector
 keywords:
   - shore
   - rv
