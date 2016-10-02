@@ -19,5 +19,5 @@ contacts:
   1: av-bus-audio-left
   2: av-bus-common
   3: av-bus-audio-right
-  4: regulated-five-volt-supply
+  4: regulated-five-volts
   5: common

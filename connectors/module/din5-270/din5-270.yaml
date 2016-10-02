@@ -11,7 +11,7 @@ keywords:
 compatible:
   - din8
 contacts:
-  4: regulated-five-volt-supply
+  4: regulated-five-volts
   5: common
   6: controller-area-network-low
   7: controller-area-network-high
