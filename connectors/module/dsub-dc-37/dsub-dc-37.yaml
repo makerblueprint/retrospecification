@@ -20,4 +20,50 @@ ideas:
   - i2s
   - aes
   - displayport
-contacts: reserved
+notes:
+  - The `fifty-volts-max` contacts help accomodate higher-voltage automotive
+    power systems. Golf carts often run at 24 volts. Newer cars may run at
+    48 volts. If there is power available on the `fifty-volts-max` pins, the
+    module should use that voltage instead voltage which may be available on
+    the `twelve-volts-nominal` contacts.
+  - Each of the activity contacts, at minimum, should be able to tolerate
+    voltages up to around 15VDC. Each should tolerate voltages up to 50VDC for
+    the module to be considered compatible with all automotive power systems.
+contacts:
+  1: spdif
+  2: controller-area-network-high
+  3: controller-area-network-low
+  4: i2c-clock
+  5: i2c-data
+  6: digital-reference
+  7: pixel-data
+  8: fifty-volts-max
+  9: fifty-volts-max
+  10: twelve-volts-nominal
+  11: twelve-volts-nominal
+  12: common
+  13: common
+  14:
+  15:
+  16: av-bus-audio-mic-exterior-left
+  17: av-bus-audio-mic-exterior-right
+  18: av-bus-audio-mic-interior
+  19: av-bus-common
+  20: activity-left-turn
+  21: activity-right-turn
+  22: activity-brake
+  23: activity-reverse
+  24: activity-tail
+  25: activity-horn
+  26: activity-dome
+  27: activity-switched-accessory
+  28: common
+  29: common
+  30:
+  31: av-bus-video-composite-in
+  32: av-bus-video-composite-in-1
+  33: av-bus-video-composite-in-2
+  34: av-bus-video-composite-in-3
+  35: av-bus-video-composite-out
+  36: av-bus-audio-special-effects
+  37: av-bus-audio-special-effects-1

@@ -1,0 +1,14 @@
+name: S.Bus Header
+summary: Uses serial data communication technology to transmit control signals.
+reference:
+  - http://www.futabarc.com/sbus
+  - https://en.wikipedia.org/wiki/SBus
+  - http://www.dronevibes.com/forums/threads/about-dji-d-bus-futaba-s-bus-and-can-bus.10243
+notes:
+  - Pin 1 is generally indicated by a square pad around the pin.
+  - Pin 1 is likely closest to the plastic J/JR connector key.
+  - The contacts listed below are merely the most common configuration.
+contacts:
+  1: s-bus-data
+  2: vcc
+  3: common
