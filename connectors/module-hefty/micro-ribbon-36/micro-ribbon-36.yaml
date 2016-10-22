@@ -8,6 +8,8 @@ description: >
   wall of insulating material.
   Larger versions of these connectors, such as `micro-ribbon-50` are frequently
   used by telephone companies.
+reference:
+  - https://www.lammertbies.nl/comm/cable/parallel.html
 capabilities:
   - DC Power
   - Analog HD Video
@@ -36,26 +38,26 @@ contacts:
   12: spi-master-in-slave-out
   13: spi-clock
   14: host-reset
-  16: common
-  17: common
+  16: - av-bus-audio-special-effects
+      - common
+  17: - common
+      - shield
   18: no-connection
-  19: common
-  20: common
+  19 & 20:
+      - av-bus-video-separate-luminance
+      - av-bus-video-component-pr
+      - common
   21: common
   22: common
-  23: common
-  24: common
+  23 & 24:
+      - av-bus-common
+      - common
   25: common
   26: common
-  27: common
-  28: common
-  29: common
-  30: common
-  31: - av-bus-video-separate-luminance
-      - av-bus-video-component-pr
-  32: regulated-five-volts
-  33: common
-  34: no-connection
-  35: no-connection
-  36: - av-bus-video-separate-chrominance
-      - av-bus-video-component-y
+  27: - av-bus-audio-left
+      - common
+  28 & 29:
+      - av-bus-audio-right
+      - common
+  30: - av-bus-audio-special-effects
+      - common
