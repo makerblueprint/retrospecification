@@ -46,16 +46,23 @@ contacts:
   13: spi-clock
   14: host-reset
   15: regulated-five-volts
-  16: - av-bus-video-separate-luminance
-      - av-bus-video-component-pr
-  17: - av-bus-video-separate-chrominance
-      - av-bus-video-component-y
-  18: - av-bus-video-composite
+  16: av-bus-audio-mic
+  17: - av-bus-video-composite
       - av-bus-video-component-pb
-  19: av-bus-audio-mic
+      - common
+  18: - av-bus-video-separate-luminance
+      - av-bus-video-component-pr
+      - common
+  19: - av-bus-video-separate-chrominance
+      - av-bus-video-component-y
+      - common
   20: common
-  21: av-bus-common
+  21: - av-bus-common
+      - common
   22: common
-  23: av-bus-audio-left
-  24: av-bus-audio-right
-  25: av-bus-audio-special-effects
+  23: - av-bus-audio-left
+      - common
+  24: - av-bus-audio-right
+      - common
+  25: - av-bus-audio-special-effects
+      - common
