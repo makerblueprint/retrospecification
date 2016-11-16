@@ -6,9 +6,10 @@ notes:
 tips:
   - Program robot eyes to look at primary subject
   - Program robot head to shift toward primary subject
+reference:
+  - http://charmedlabs.com/default/pixy-cmucam5
+  - sensor-face-feature-tracker
 categories:
   - input
   - costume
   - prop
-reference:
-  - sensor-face-feature-tracker
