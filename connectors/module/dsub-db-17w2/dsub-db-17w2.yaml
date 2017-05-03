@@ -4,7 +4,7 @@ description: >
   This connector is not common, but has a common form factor.
   It features two pins well suited for high-current applications,
   and fifteen pins for general purpose applications.
-summary: The high-current version of DB-25.
+summary: A high-current version of DB-25.
 requirements: tbd
 limitations: tbd
 aliases:
@@ -14,7 +14,12 @@ ideas:
   - motor control
   - high-current modules
 drawbacks:
-  - Harder to find.
+  - harder to find
+contact_proposals:
+  - CANBUS (2)
+  - pixel-data (1 to 2)
+  - RS-485 (2)
+  - AES (2 to 4)
 contacts:
   1: reserved
   2: reserved
@@ -32,4 +37,4 @@ contacts:
   14: reserved
   15: reserved
   a1: common
-  a2: reserved
+  a2: twenty-volts-max

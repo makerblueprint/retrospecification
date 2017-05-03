@@ -21,3 +21,8 @@ is a [ear-dog-floppy](ear-dog-floppy/ear-dog-floppy.yaml) module. Use it as a
 starting point.
 
 Module details are sparse, right now. More soon...
+
+Software
+--------
+- Robot Operating System
+  http://www.ros.org
