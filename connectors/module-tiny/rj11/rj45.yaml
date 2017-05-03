@@ -1,0 +1,6 @@
+---
+name: RJ45
+summary: Network Cable
+reserved: true
+reference:
+  - https://en.wikipedia.org/wiki/8P8C

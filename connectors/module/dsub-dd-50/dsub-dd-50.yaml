@@ -1,0 +1,104 @@
+name: DD-50 Connector
+summary: Automotive accessory connector.
+description:
+  While slightly harder to find, this connector remains one of the least
+  expensive mass multi-pin connectors around. The spec below is optimized for
+  varying automotive projects -- from tow lighting to ground effects to audio
+  special effects.
+  When working on an effects-related automotive project, much of the time is
+  spent under the hood, in the trunk, or under the car. Building the central
+  microcontroller into a Retro Module allows for much easier upgrades.
+  Program the microcontroller, walk over to the car & plug it in.
+notes:
+  - `twelve-volts-nominal-switched` is intended to be connected to the circuit
+    that remains on when the engine is on or the key is turned to ACC.
+  - `twelve-volts-nominal-accessory` is intended to be connected to the
+    `twelve-volts-nominal-auxiliary` contact on a `trailer-7-north-america`
+    connector instead of the default connection. This allows custom control
+    of the lights or devices on a trailer using that circuit (e.g. trailer
+    lights illuminate when the truck bed light is on).
+  - Other contacts like `twelve-volts-nominal-accessory` are intended for low
+    to medium-current accessories.
+  - Contacts like `twelve-volts-nominal-left-turn` are ideally for sending
+    activity into a microcontroller via a voltage level conversion circuit.
+    With those signals, the microcontroller may determine that a Raspberry Pi
+    powered via `twelve-volts-nominal-accessory-4` should be turned on, or that
+    the ground effects should all turn red & then fade out when a pattern like
+    `engine off -> dome on -> blinkers blink once -> dome off` is encountered.
+    More sophisticated effects are possible via analysis of CANBUS messages.
+  - While LED lights are getting more & more efficient, take care to ensure
+    contact current ratings are not exceeded. Newer premium pins may be capable
+    of safely carrying a significant amount of current. If in doubt, a second
+    DD-50 connector can be installed next to the first.
+  - `av-bus-audio-special-effects` is intended to be the primary low-frequency
+    analog audio signal from the car stereo head unit. This signal is usually
+    routed into an amplifier & to a subwoofer.
+  - `av-bus-audio-special-effects-1` is intended for 'show-off-mode' style
+    analog sound effects. Custom sound effects when unlocking/locking the car
+    come to mind. It may also be used for a secondary low-freqency analog audio
+    signal from the car stereo head unit.
+  - The analog audio signals can be analyzed & used to create sound-responsive
+    visual effects.
+  - The analog audio signals sent through this connector may pick up noise from
+    some of the other contacts. If this proves to be an issue, route the audio
+    signals into the module via another connector. The noise may not be
+    noticable if in a typical outdoor environment.
+  - Contacts like `speaker-x-positive` are for reserved for active signals
+    generated from a small audio amplifier. These signals may be the amplified
+    av-bus-audio-special-effects signals.
+reference:
+  - http://electronics.stackexchange.com/a/85007
+  - https://hackaday.io/project/3668-christmas-truck
+  - https://learn.sparkfun.com/tutorials/spectrum-shield-hookup-guide
+  - http://www.instructables.com/id/Hack-your-vehicle-CAN-BUS-with-Arduino-and-Seeed-C
+contacts:
+  1: common
+  2: common
+  3: controller-area-network-low
+  4: controller-area-network-high
+  5: twelve-volts-nominal-left-turn
+  6: twelve-volts-nominal-right-turn
+  7: twelve-volts-nominal-brake
+  8: speaker-x-positive
+  9: speaker-x-negative
+  10: speaker-y-positive
+  11: speaker-y-negative
+  12: twelve-volts-nominal-accessory-3
+  13: twelve-volts-nominal-accessory
+  14: twelve-volts-nominal-accessory
+  15: twelve-volts-nominal-accessory
+  16: twelve-volts-nominal
+  17: twelve-volts-nominal
+  18: common
+  19: common
+  20: regulated-five-volts
+  21: regulated-five-volts
+  22: twelve-volts-nominal-reverse
+  23: twelve-volts-nominal-tail
+  24: twelve-volts-nominal-horn
+  25: twelve-volts-nominal-switched
+  26:
+  27:
+  28: regulated-five-volts
+  29: twelve-volts-nominal-accessory-1
+  30: twelve-volts-nominal-accessory-1
+  31: twelve-volts-nominal-accessory-1
+  32: twelve-volts-nominal
+  33: twelve-volts-nominal
+  34: common
+  35: common
+  36: pixel-data
+  37: pixel-data-1
+  38: twelve-volts-nominal-dome
+  39: twelve-volts-nominal-bed
+  40: twelve-volts-nominal-switched-1
+  41: twelve-volts-nominal-switched-2
+  42: av-bus-common
+  43: av-bus-audio-special-effects
+  44: av-bus-audio-special-effects-1
+  45: twelve-volts-nominal-accessory-4
+  46: twelve-volts-nominal-accessory-2
+  47: twelve-volts-nominal-accessory-2
+  48: twelve-volts-nominal-accessory-2
+  49: twelve-volts-nominal
+  50: twelve-volts-nominal

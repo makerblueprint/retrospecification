@@ -5,6 +5,7 @@ buy:
 reference:
   - http://docs.getchip.com/chip.html#introduction
   - http://docs.getchip.com/chip.html#physical-connectors
+  - https://hackaday.io/project/12915-chip-component-video-adapter
 ideas:
   - i2c-controlled sound effects module
   - CAN-controlled sound effects module
