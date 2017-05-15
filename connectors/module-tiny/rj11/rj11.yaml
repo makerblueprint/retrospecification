@@ -44,9 +44,9 @@ legacy_colors:
   5: yellow
   6: blue
 contacts:
-  1: i2c-clock
+  1: controller-area-network-low
   2: pixel-data
   3: twenty-volts-max
   4: common
   5: 1-wire
-  6: i2c-data
+  6: controller-area-network-high

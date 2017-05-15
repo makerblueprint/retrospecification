@@ -17,7 +17,7 @@ their character.
 
 Modules listed here are meant to be generic in nature. You may be making
 Falkor the luck dragon. You won't find a `falcor` module listed here, but there
-is a [ear-dog-floppy](ear-dog-floppy/ear-dog-floppy.yaml) module. Use it as a
+is a [ear-dog-floppy](../../../projects/robots/dog/ear-dog-floppy/ear-dog-floppy.yaml) module. Use it as a
 starting point.
 
 Module details are sparse, right now. More soon...

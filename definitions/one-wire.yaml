@@ -1,0 +1,11 @@
+name: 1-wire
+summary:
+  1-Wire is a device communications bus system that provides low-speed
+  data, signaling, and power over a single conductor.
+aliases:
+  - one wire
+  - micro-lan
+reference:
+  - https://en.wikipedia.org/wiki/1-Wire
+related:
+  - inter-integrated-circuit

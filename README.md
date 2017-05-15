@@ -13,7 +13,15 @@ Think the spec needs some revision? Please submit a pull request. Your feedback 
 
 Upcycling
 ---------
+> "Upcycling is the process of converting old or discarded materials into
+  something useful and often beautiful."
+  -hipcycle.com
 
+The Retro Modules framework provides many great opportunities to transform
+junk-bin hardware (and/or their housings) into new inventions or variations
+on the original product. Re-use these objects. Save them from the garbage
+heap if possible. If the internals are no longer useful, send them to e-waste
+facilities & re-use the enclosure.
 
 Minimum Viable Products
 -----------------------

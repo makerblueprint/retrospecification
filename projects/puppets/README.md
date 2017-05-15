@@ -1,7 +1,6 @@
-Puppets
-=======
-
-@todo write what distinguishes (at least here) robo-puppets from regular robots
+Puppet Projects
+===============
+A type of robot typically under direct control of one or more puppeteers.
 
 Key Qualities
 -------------
