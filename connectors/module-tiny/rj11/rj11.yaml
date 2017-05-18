@@ -10,7 +10,7 @@ description: >
   to connect one set of modules to another over longer distances.
   Many hardware stores carry four-wire thin telephone cables. These
   four-wire cables can drive a small set of NeoPixels without issue.
-  Six-wire cables add I2C.
+  Six-wire cables add CANBUS.
 keywords:
   - 6P2C
   - 6P4C
