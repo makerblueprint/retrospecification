@@ -1,0 +1,11 @@
+name: Backplane
+summary: A client module for your workbench.
+description: >
+  As a project grows, more & more modules may be required. Power distribution
+  via a backplane is preferable to passing power through a long chain of
+  modules.
+  In this system, backplanes are simply an alternate means of connecting host
+  modules to client modules. The backplane itself is a client module. This
+  allows you to build your project around whatever host module seems best for
+  that project (e.g. Arduino, BeagleBone, Pi, PIC, etc). Backplanes can feature
+  far more, depending on the needs of your project.

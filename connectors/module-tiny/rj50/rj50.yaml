@@ -1,0 +1,7 @@
+---
+name: RJ50
+summary: NI 9237 Bridge Analog Input Connector
+reserved: true
+reference:
+  - http://www.ni.com/datasheet/pdf/en/ds-58
+  - https://en.wikipedia.org/wiki/National_Instruments

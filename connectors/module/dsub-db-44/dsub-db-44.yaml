@@ -25,6 +25,7 @@ ideas:
   - i2s
   - aes
   - displayport
+  - fpga development
 drawbacks:
   - Smaller pins are more difficult to solder.
   - Greater risk of bent pins.

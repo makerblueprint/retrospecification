@@ -1,0 +1,13 @@
+name: PPM Header
+summary: The standardized header found on main-stream hobby flight controllers.
+reference:
+  - http://www.gsal.org/articles/pinout.htm
+  - http://drone.farm/connectors-and-plugs-for-quadcopter-newbies
+notes:
+  - Pin 1 is generally indicated by a square pad around the pin.
+  - Pin 1 is likely closest to the plastic J/JR connector key.
+  - The contacts listed below are merely the most common configuration.
+contacts:
+  1: ppm-data
+  2: vcc
+  3: common

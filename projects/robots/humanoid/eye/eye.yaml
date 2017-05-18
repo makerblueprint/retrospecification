@@ -1,0 +1,8 @@
+name: Animatronic Eye Module
+description: >
+  Robots need eyes. The further away from the uncanny valley, the better.
+  Either go for super-realistic... or super abstract.
+  Abstract is the safer route.
+connectors:
+  - dsub-de-9
+  - card-edge-10
