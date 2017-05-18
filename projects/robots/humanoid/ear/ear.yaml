@@ -1,0 +1,6 @@
+name: Animatronic Ear Module
+description: >
+  Robots don't need ears, but ears may convey emotion via subtle movements.
+connectors:
+  - dsub-de-9
+  - card-edge-10

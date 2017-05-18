@@ -20,12 +20,6 @@ re-program your car). Picturing microcontrollers as host devices is a matter
 of convenience for those who write software for them.
 For a microcontroller, all the world is an interface.
 
-What is a Module?
------------------
-A module is a device featuring connector(s) conforming to a certain spec.
-By extension, a Retro Module is the same, featuring connector(s) conforming
-to this spec.
-
 Resources
 ---------
 Each include file contains a `getPin` function which returns an (integer)

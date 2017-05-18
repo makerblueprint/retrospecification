@@ -13,6 +13,12 @@ description: >
   Newer headsets, such as Oculus or Vive, connect to the video source via HDMI
   and USB. Audio and control signals may flow through HDMI and/or USB. Future
   iterations will probably use a single `usb-c` connector.
+ideas:
+  - A module fully compatible with a standardized Apple/Android headset. Audio
+    from the av-bus is routed to the headphones. The electret microphone is
+    powered & signal is routed to the `av-bus-mic` contacts. Control signals
+    from the on-headset remote are interpreted by the module and sent to a
+    host module via I2C/SPI/CAN.
 reference:
   - https://en.wikipedia.org/wiki/Headset_(audio)
 connectors:

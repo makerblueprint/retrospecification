@@ -7,9 +7,21 @@ You should be able to throw your prototypes in a backpack. You should be able to
 
 There are many hardware interfaces in the wild. Some deserve reinforcement, while others deserve deprecation. The Retro Specification will document this drive toward convenient compatibility among all the things.
 
-There is no need to make/buy a 3D printer or CNC machine... unless you want to. No need to do a large circuitboard production run... again, [unless you want to](connectors/module/header-26/header-26.yaml). No need to crowdfund your idea or deal with the challenges of said campaign. There's nothing wrong with making/selling things in small quantities.
+There is no need to make/buy a 3D printer or CNC machine... unless you want to. No need to do a large circuitboard production run... again, [unless you want to](connectors/module-internal/header-26/header-26.yaml). No need to crowdfund your idea or deal with the challenges of said campaign. There's nothing wrong with making/selling things in small quantities.
 
 Think the spec needs some revision? Please submit a pull request. Your feedback is truly appreciated.
+
+Upcycling
+---------
+> "Upcycling is the process of converting old or discarded materials into
+  something useful and often beautiful."
+  -hipcycle.com
+
+The Retro Modules framework provides many great opportunities to transform
+junk-bin hardware (and/or their housings) into new inventions or variations
+on the original product. Re-use these objects. Save them from the garbage
+heap if possible. If the internals are no longer useful, send them to e-waste
+facilities & re-use the enclosure.
 
 Minimum Viable Products
 -----------------------
@@ -21,8 +33,8 @@ A stable spec amongst a group of people is a very valuable thing. It becomes eas
 
 Replication
 -----------
-When dealing with somewhat bigger projects, such as a life-size wearable animatronic puppet for Comic-Con, you may desire backup modules should one of your primary modules fail at the Con. If you're comfortable designing & printing circuit boards, consider using a [header](connectors/module/header-26/header-26.yaml) or [card edge connector](connectors/module/card-edge-26/card-edge-26.yaml) in your design.
-If you're not yet comfortable printing circuit boards, you can still easily solder a [header](connectors/module/header-26.yaml) to a protoboard. When you've identified parts of your system that can be replicated easily, you may save time by making pairs of identical modules at the same time.
+When dealing with somewhat bigger projects, such as a life-size wearable animatronic puppet for Comic-Con, you may desire backup modules should one of your primary modules fail at the Con. If you're comfortable designing & printing circuit boards, consider using a [header](connectors/module-internal/header-26/header-26.yaml) or [card edge connector](connectors/module/card-edge-26/card-edge-26.yaml) in your design.
+If you're not yet comfortable printing circuit boards, you can still easily solder a [header](connectors/module-internal/header-26.yaml) to a protoboard. When you've identified parts of your system that can be replicated easily, you may save time by making pairs of identical modules at the same time.
 
 Maintenance & Upgrades
 ----------------------

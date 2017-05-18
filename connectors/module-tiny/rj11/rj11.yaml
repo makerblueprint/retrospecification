@@ -4,18 +4,19 @@ description: >
   These connectors are being used less and less frequently by consumers.
   It may be a bit too soon to respecify these connectors, but their
   inexpensive and generally hardy characteristics make them ideal
-  candidates for respecification. They are commonly used for telephone
+  candidates for re-specification. They are commonly used for telephone
   land-lines and DSL modems.
   Ideally, these will be the primarily used in wearable devices and
   to connect one set of modules to another over longer distances.
   Many hardware stores carry four-wire thin telephone cables. These
   four-wire cables can drive a small set of NeoPixels without issue.
-  Six-wire cables add a ADC and PWM lines. Either of these can utilize
-  the 1-wire protocol if basic IO is needed.
+  Six-wire cables add CANBUS.
 keywords:
+  - 6P2C
+  - 6P4C
+  - 6P6C
   - pixel
   - led
-  - servo
   - 1-wire
   - wearable
   - clothes
@@ -24,12 +25,28 @@ keywords:
 requirements:
   - Telephone cables must be adapted to be 1:1 cables.
      Contact 1 should always be contact 1, etc.
+reference:
+  - https://en.wikipedia.org/wiki/8P8C#4P4C
 notes:
   - Make sure to use proper gauge wire for your use case.
+colors:
+  1: white+green
+  2: white+orange
+  3: blue+white
+  4: white+blue
+  5: orange+white
+  6: green+white
+legacy_colors:
+  1: white
+  2: black
+  3: red
+  4: green
+  5: yellow
+  6: blue
 contacts:
   1: controller-area-network-low
   2: pixel-data
   3: twenty-volts-max
   4: common
-  5: pixel-data-return
+  5: 1-wire
   6: controller-area-network-high

@@ -1,0 +1,12 @@
+name: Fiber Optic Pony Tail
+summary: Got a neopixel & some scrap fiber?
+description: >
+  Bind the fibers together at one end with a narrow strip of packing tape.
+  Run thin flexible wire to a neopixel & affix it to the bound end of fiber.
+  For additional effect, gently score the outer coating of the fiber strands
+  with sand paper.
+connectors:
+  - jst-sm-4
+  - jst-sm-6
+  - card-edge-10
+  - rj11

@@ -7,17 +7,18 @@ description: >
   This connector is a variant of a once-popular video connector with
   the same layout. Instead of three high-current pins, three
   coaxial connectors were present.
-summary: The high-current version of DB-25.
-requirements: tbd
-limitations: tbd
-aliases:
-  - mixed d-sub
+summary: A high-current version of DB-25.
 ideas:
   - drone misc
   - motor control
   - high-current modules
 drawbacks:
-  - Harder to find.
+  - harder to find
+contact_proposals:
+  - CANBUS (2)
+  - pixel-data (1 to 2)
+  - RS-485 (2)
+  - AES (2 to 4)
 contacts:
   1: reserved
   2: reserved
@@ -30,5 +31,5 @@ contacts:
   9: reserved
   10: reserved
   a1: common
-  a2: reserved
-  a3: reserved
+  a2: regulated-five-volts
+  a3: twenty-volts-max
