@@ -1,0 +1,11 @@
+name: Visor
+summary: A surface that protects the eyes.
+description: >
+  A surface that protects the eyes, such as shading them from the sun or other
+  bright light or protecting them from objects. Visors may take many forms, but
+  the important characteristic shared by all: they are for the eyes. As such,
+  visors are prime candidates for a `head-up-display`. There are limitations,
+  of course, as referenced below. Consider a minimal approach, at first.
+reference:
+  - https://en.wikipedia.org/wiki/Visor
+  - http://arduino.stackexchange.com/questions/14007/heads-up-display-helmet-with-arduino

@@ -1,0 +1,5 @@
+name: Animatronic Eye Module - Cat
+summary: Building on the `eye` module, this module mimics a cat eye.
+connectors:
+  - dsub-de-9
+  - card-edge-10

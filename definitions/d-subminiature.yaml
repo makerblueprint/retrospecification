@@ -1,6 +1,5 @@
----
 name: D-Subminiature Connector Type
-description:>
+description:
   These connectors were named for their characteristic D-shaped metal shield.
   When they were introduced, D-subs were among the smallest connectors used on
   computer systems.
@@ -19,3 +18,4 @@ description:>
   cable and connector system.
 reference:
   - https://en.wikipedia.org/wiki/D-subminiature
+  - http://electronics.stackexchange.com/a/85007

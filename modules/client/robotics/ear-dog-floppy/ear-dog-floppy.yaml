@@ -1,7 +1,0 @@
----
-name: Animatronic Floppy Dog Ear Module
-description: >
-  Building on the ear module, this module mimics dog floppy ear movements.
-connectors:
-  - dsub-de-9
-  - card-edge-10

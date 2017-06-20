@@ -21,12 +21,6 @@ triggering the brakes on hundreds of railroad cars), while others do not.
 Classifying them all as client devices is a matter of convenience for those who
 adopt this spec.
 
-What is a Module?
------------------
-A module is a device featuring connector(s) conforming to a certain spec.
-By extension, a Retro Module is the same, featuring connector(s) conforming
-to this spec.
-
 Maker Blueprint
 ===============
 A set of helpful tools to speed along learning & development processes.

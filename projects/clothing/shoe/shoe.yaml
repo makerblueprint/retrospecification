@@ -1,0 +1,14 @@
+name: Shoe
+summary: Add popular luminous effects to shoes.
+reference:
+  - https://learn.adafruit.com/firewalker-led-sneakers/overview
+  - https://learn.adafruit.com/glowing-star-chucks/overview
+connectors:
+  - jst-sm-4
+  - jst-sm-6
+  - card-edge-10
+  - rj11
+host_modules:
+  - flora
+  - trinket
+  - pro-trinket
