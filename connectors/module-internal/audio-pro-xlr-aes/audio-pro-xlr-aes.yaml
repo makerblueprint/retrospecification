@@ -1,4 +1,3 @@
----
 name: Pro Audio - AES - XLR
 summary: Common connector for balanced audio signals.
 notes:
@@ -14,5 +13,5 @@ reference:
   - audio-pro-xlr6
 contacts:
   1: common
-  2: digital-audio-aes-positive
-  3: digital-audio-aes-negative
+  2: digital-audio-aes-negative
+  3: digital-audio-aes-positive

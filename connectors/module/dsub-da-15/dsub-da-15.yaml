@@ -1,10 +1,9 @@
----
 name: DA-15 Connector
 description: >
   DA-15 connectors were commonly used by consumers to connect
   joysticks and other peripherals to traditional computers.
   Since these are rarely found in modern computing, the connectors
-  are prime candidates for respecification.
+  are prime candidates for re-specification.
 aliases:
   - DB-15
   - D-sub 15
@@ -21,8 +20,8 @@ contacts:
   8: i2c-data
   9: digital-reference
   10: common
-  11: twenty-volts-max
+  11: thirty-volts-max
   12: common
-  13: spdif
+  13: digital-audio-spdif
   14: controller-area-network-low
   15: controller-area-network-high

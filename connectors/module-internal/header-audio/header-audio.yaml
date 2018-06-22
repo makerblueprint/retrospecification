@@ -1,4 +1,3 @@
----
 name: Audio Header
 summary: A header compatible with front-panel desktop audio connectors.
 description: >
@@ -44,7 +43,7 @@ contacts:
   10: av-bus-audio-left-return
   11: key
   12: five-volts-regulated
-  13: spdif
-  14: spdif-input
+  13: digital-audio-spdif
+  14: digital-audio-spdif-input
   15: common
   16: common

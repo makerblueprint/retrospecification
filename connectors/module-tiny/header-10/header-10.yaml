@@ -1,4 +1,3 @@
----
 name: Header 10 Pin
 description: >
   The companion header for the Retro Specification DE-9 connector.
@@ -15,7 +14,7 @@ keywords:
   - d-sub 9
   - de-9
 contacts:
-  1: twenty-volts-max
+  1: thirty-volts-max
   2: controller-area-network-low
   3: controller-area-network-high
   4: common

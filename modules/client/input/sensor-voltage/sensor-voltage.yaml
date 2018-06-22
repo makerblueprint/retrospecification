@@ -1,4 +1,3 @@
----
 name: Voltage Sensor Module
 summary: Detects voltage within a range & provides analysis.
 notes:

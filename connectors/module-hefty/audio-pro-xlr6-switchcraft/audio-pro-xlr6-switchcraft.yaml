@@ -1,11 +1,10 @@
----
 name: XLR6 by Switchcraft
 reference:
   - intercom
   - dmx
 contacts:
   1: common
-  2: regulated-30-volt-supply
+  2: regulated-thirty-volts
   3: clearcom-audio-b
   4: clearcom-audio-a
   5: rs485-data-negative

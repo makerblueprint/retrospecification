@@ -1,4 +1,3 @@
----
 name: Voice Command Module
 summary: Fire events when voice commands are detected.
 notes:

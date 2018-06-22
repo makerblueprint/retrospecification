@@ -1,4 +1,3 @@
----
 name: Bluetooth HID Receiver Module
 summary: A module capable of pairing with a HID bluetooth input device.
 categories:

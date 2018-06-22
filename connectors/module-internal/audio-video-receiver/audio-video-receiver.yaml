@@ -1,4 +1,3 @@
----
 name: AV Receiver
 description: Some of the common colors found on AV connectors.
 reference:
@@ -18,7 +17,7 @@ colors:
                - av-bus-video-component-pr
   pink:          av-bus-audio-right-height
   orange:      - av-bus-audio-right-side
-               - spdif
+               - digital-audio-spdif
   grey:        - av-bus-audio-right-surround
   tan:           av-bus-audio-right-back
   purple:        av-bus-audio-special-effects

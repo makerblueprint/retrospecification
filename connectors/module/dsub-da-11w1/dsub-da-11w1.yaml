@@ -1,0 +1,14 @@
+name: DA-11W1 Connector
+summary: Regulated Computer Power Supply Connector
+contacts:
+  1: common-power-request
+  2: three-point-three-volts-regulated
+  3: three-point-three-volts-regulated
+  4: five-volts-regulated
+  5: five-volts-regulated
+  6: five-volts-regulated
+  7: negative-twelve-volts-regulated
+  8: negative-twelve-volts-regulated
+  9: twelve-volts-regulated
+  10: twelve-volts-regulated
+  a1: common

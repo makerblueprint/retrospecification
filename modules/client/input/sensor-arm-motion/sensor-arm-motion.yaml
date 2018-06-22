@@ -1,4 +1,3 @@
----
 name: Arm Motion Sensor
 summary: Detect rough abduction, adduction & extension of the arm.
 description: >

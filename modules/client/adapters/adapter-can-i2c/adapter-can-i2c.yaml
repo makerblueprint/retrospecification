@@ -1,4 +1,3 @@
----
 name: CAN to I2C Adapter
 summary: Communicate with I2C devices via CAN-BUS
 description: >

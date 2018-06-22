@@ -1,0 +1,29 @@
+name: DA-21W1 Connector
+summary: 20-Channel Switched-Common Connector
+notes:
+  input:
+    - analyze whether one or more Arduino digital pins are LOW
+  output:
+    - controlling various relays which may require different voltages
+contacts:
+  1: common-switched-1
+  2: common-switched-2
+  3: common-switched-3
+  4: common-switched-4
+  5: common-switched-5
+  6: common-switched-6
+  7: common-switched-7
+  8: common-switched-8
+  9: common-switched-9
+  10: common-switched-10
+  11: common-switched-11
+  12: common-switched-12
+  13: common-switched-13
+  14: common-switched-14
+  15: common-switched-15
+  16: common-switched-16
+  17: common-switched-17
+  18: common-switched-18
+  19: common-switched-19
+  20: common-switched-20
+  a1: common

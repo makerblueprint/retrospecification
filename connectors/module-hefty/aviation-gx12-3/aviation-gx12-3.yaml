@@ -1,4 +1,3 @@
----
 name: 12mm 3 Pin Aviation Connector
 description: >
   Often called an Aviation Plug, these connectors are well-known for their
@@ -14,5 +13,5 @@ keywords:
   - robot
 contacts:
   1: common
-  2: fortyeight-volts-max
+  2: sixty-volts-max
   3: reserved

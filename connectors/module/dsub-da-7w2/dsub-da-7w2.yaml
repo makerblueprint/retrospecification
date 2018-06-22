@@ -1,25 +1,19 @@
----
 name: DA-7W2 Connector
-description: >
-  This connector is not common. It has a fairly common form factor.
-  It features two pins well suited for high-current applications,
-  and five pins for general purpose applications.
-summary: A high-current version of DA-15.
-requirements: tbd
-limitations: tbd
+summary: Multi-Cell 30V Max 40A Max Rechargeable Battery Pack Connector
 aliases:
   - mixed d-sub
-ideas:
-  - drone misc
-  - motor control
-  - high-current modules
-drawbacks:
-  - Harder to find.
+notes:
+  - Connector may accomodate either 20A or 40A on `a1` & `a2`.
+  - Consider used `20700` batteries for your battery pack.
+  - Consider used `18650` batteries for your battery pack.
+  - Consider the 25R series of `18650` batteries for better performance.
+  - 1S to 8S 3.7V battery configurations supported.
+  - Internal Battery Management System supported.
 contacts:
-  1: reserved
-  2: reserved
-  3: reserved
+  1: 1-wire
+  2: controller-area-network-low
+  3: controller-area-network-high
   4: reserved
   5: reserved
   a1: common
-  a2: twenty-volts-max
+  a2: thirty-volts-max

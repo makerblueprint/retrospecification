@@ -1,0 +1,52 @@
+name: Smart Battery Module
+summary: A digitally controllable self-contained rechargeable battery module.
+description:
+  For simple projects, consider building a basic `battery` module.
+  The contacts dedicated to power distribution are a tricky subject. Suppose
+  your project has a host module with its own internal battery & a client
+  module as well. Which module should supply power? It should be one or the
+  other -- not both.
+  The smart battery module concept is a work in progress. Feedback on how to
+  best address power management automatically would be greatly appreciated.
+proposals:
+  power_pre_check:
+      The best & simplest solution seems to be battery modules which check the
+      power rails for voltage before introducing any new power. There is a risk
+      that two battery modules on the same system could complete their system
+      check at the same time. This risk is minimal, though.
+  battery_present_plus_delay:
+      Batteries do not provide power on any bus by default. Each battery checks
+      the power rails to see if power is needed. One of them decides to make a
+      move. It connects a resistor from `thirty-volts-max` to `common`.
+  host_as_arbiter:
+      Have the host module in the project be the arbiter.
+      Allow all modules in the project initially power up in a low power mode.
+      The main host module could query for any battery modules.
+      If one is found, the host module could tell the `battery` module to send
+      power via the `thirty-volts-max` contact(s). By default, all modules should
+      prefer power from the `thirty-volts-max` contact(s). Once the `battery`
+      module heeds instructions to send power to` thirty-volts-max` contact(s),
+      all the other modules in the project could begin using power on that rail
+      instead. After this transition, the main host module can power down its
+      internal 5VDC regulator and send instructions to the `battery` module to
+      provide power on that rail instead. Each module would need appropriate
+      circuitry to remain powered while these transitions occur.
+      The `thirty-volts-max` bus should have no voltage on it, by default.
+    scenarios:
+      Given the host module requires an external battery
+        And power is available on the `thirty-volts-max` contact(s)
+        And power is available on `regulated-five-volts` contact(s)
+          Then the host module should utilize power from the `thirty-volts-max` contact(s)
+          And client module(s) should utilize power from the `thirty-volts-max` contact(s)
+      Given the host module requires an external battery
+        And power is not available on the `thirty-volts-max` contact(s)
+        And power is available on the `regulated-five-volts` contact(s)
+          Then the host module should utilize power from the `regulated-five-volts` contact(s)
+          And client module(s) should utilize power from the `regulated-five-volts` contact(s)
+          And client module(s) should conserve power wherever possible
+      Given the host module does not require an external battery
+        And power is not available on the `thirty-volts-max` contact(s)
+        And power is not available on the `regulated-five-volts` contact(s)
+        And the host module is turned on
+          Then the host module should send 5VDC to the `regulated-five-volts` pin
+          And the host module should search for a `battery-smart` module

@@ -1,20 +1,12 @@
----
 name: DA-3W3 Connector
-description: >
-  This connector is not common. It has a fairly common form factor.
-  It features three pins well suited for high-current applications.
 summary: A high-current version of DA-15.
 requirements: tbd
 limitations: tbd
 aliases:
   - mixed d-sub
-ideas:
-  - drone misc
-  - motor control
-  - high-current modules
 drawbacks:
   - Harder to find.
 contacts:
   a1: common
   a2: regulated-five-volts
-  a3: twenty-volts-max
+  a3: thirty-volts-max

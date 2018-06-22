@@ -1,9 +1,8 @@
----
 name: Pro Audio - XLR
 summary: Common connector for balanced audio signals.
 reference:
   - https://en.wikipedia.org/wiki/XLR_connector
 contacts:
-  1: common
-  2: audio-balanced-1-positive
-  3: audio-balanced-1-negative
+  1: av-bus-common
+  2: av-bus-audio-channel-1-balanced-positive
+  3: av-bus-audio-channel-1-balanced-negative

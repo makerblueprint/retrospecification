@@ -1,4 +1,3 @@
----
 name: Elbow Bend Sensor
 summary: Detect rough flexion & extension of the arm below the elbow.
 description: >

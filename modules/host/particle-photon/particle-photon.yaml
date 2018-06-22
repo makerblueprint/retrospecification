@@ -1,6 +1,5 @@
----
 name: Particle Photon
 reference:
   - https://docs.particle.io/datasheets/photon-datasheet
-voltage:
-  - 3.3
+voltage: 3.3
+voltage-max-input: 5

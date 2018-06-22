@@ -33,48 +33,49 @@ contacts:
   6: mode-reverse-lights
   7: mode-left-turn-lights
   8: mode-right-turn-lights
-  9: mode-reference
+  9: mode-stereo
   10: mode-ignition-key
   11: mode-ignition-accessory
   12: mode-ignition-engine
   13: mode-dash-backlight
-  14: mode-stereo
-  15: mode-dome-light
-  16: mode-accessory-light
-  17: mode-tow-haul
+  14: mode-dome-light
+  15: - mode-trunk-light
+      - mode-truck-bed-light
+  16: - mode-flood-lights
+  17: - mode-accent-lights
 
-  18: common
-  19: common
-  20: pixel-data
-  21: pixel-data-1
-  22: regulated-five-volts
-  23: regulated-five-volts
-  24: common
-  25: controller-area-network-low
-  26: controller-area-network-high
-  27: common
-  28: twelve-volts-nominal
-  29: twelve-volts-nominal
-  30: fifty-volts-max
-  31: fifty-volts-max
-  32: common
-  33: common
+  18: mode-reserved
+  19: mode-reserved
+  20: mode-reserved
+  21: mode-reserved
+  22: mode-reserved
+  23: mode-reserved
+  24: mode-reserved
+  25: mode-reference
+  26: reserved
+  27: reserved
+  28: common
+  29: common
+  30: common-switched
+  31: common-switched-1
+  32: common-switched-2
+  33: common-switched-3
 
-  34: reserved
-  35: reserved
-  36: reserved
-  37: reserved
-  38: reserved
-  39: analog-reference
-  40: analog-light-sensor
-  41: reserved
-  42: reserved
-  43: reserved
-  44: reserved
-  45: reserved
-  46: reserved
-  47: reserved
-  48: reserved
-  49: reserved
-  50: reserved
-
+  34: controller-area-network-low
+  35: controller-area-network-high
+  36: common
+  37: common
+  38: regulated-five-volts
+  39: regulated-five-volts
+  40: pixel-data
+  41: pixel-data-1
+  42: regulated-five-volts
+  43: regulated-five-volts
+  44: common
+  45: av-bus-audio-mic
+  46: av-bus-audio-mic-balanced-positive
+  47: av-bus-audio-mic-balanced-negative
+  48: - av-bus-audio-special-effects
+      - av-bus-audio-special-effects-balanced-positive
+  49: av-bus-audio-special-effects-balanced-negative
+  50: av-bus-common

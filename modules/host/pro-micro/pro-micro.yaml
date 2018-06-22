@@ -1,10 +1,10 @@
----
 name: Pro Micro
 reference:
   - https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide
 voltage:
   - 3.3
   - 5
+voltage-max-input: 12
 contacts:
   0: uart-receive
   1: uart-transmit

@@ -1,4 +1,3 @@
----
 name: Neutrik MC-8 90 Degree Coding
 summary: Field audio recording connector.
 keywords:
@@ -20,7 +19,7 @@ tips:
      Use the balanced contacts for a high-quality mic, or the
      av-bus-audio-mic contact pin for an inexpensive one.
      Cheap electret mics (like those found in wired cell phone headsets)
-     can be powered via a voltage regulator connected to pins 7 & 8.
+     may be powered via a voltage regulator connected to pins 7 & 8.
   - Headphone amplifier(s) may be powered via 48VDC Phantom
      power on the balanced audio line, or 48VDC power on pins
      7 & 8.
@@ -40,11 +39,11 @@ tips:
      a setting which chirps whenever recording begins. If
      reference audio is routed from the recorder into the
      camera, this beep can be used to sync the sources in post.
-     Use the av-bus-audio-camera-mix contact for monaural
+     Use the `av-bus-audio-camera-mix` contact for monaural
      line-level reference audio.
 contacts:
-  1: audio-balanced-1-positive
-  2: audio-balanced-1-negative
+  1: av-bus-audio-mic-balanced-negative
+  2: av-bus-audio-mic-balanced-positive
   3: - av-bus-audio-boom-mix
      - av-bus-audio-left
   4: - av-bus-audio-camera-mix

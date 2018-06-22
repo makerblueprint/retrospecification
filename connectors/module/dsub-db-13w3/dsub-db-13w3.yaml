@@ -1,35 +1,59 @@
----
 name: DB-13W3 Connector
-description: >
-  This connector is not common, but has a common form factor.
-  It features three pins well suited for high-current applications,
-  and ten pins for general purpose applications.
-  This connector is a variant of a once-popular video connector with
-  the same layout. Instead of three high-current pins, three
-  coaxial connectors were present.
-summary: A high-current version of DB-25.
-ideas:
-  - drone misc
-  - motor control
-  - high-current modules
-drawbacks:
-  - harder to find
-contact_proposals:
-  - CANBUS (2)
-  - pixel-data (1 to 2)
-  - RS-485 (2)
-  - AES (2 to 4)
+summary: Multi-Cell 30VDC Max 40A Max Battery Connector
+aliases:
+  - mixed d-sub
+notes:
+  - Connector may accomodate either 20A or 40A on A1, A2 & A3.
+  - A2 & A3 share `common` via A1. Calculate max `current` accordingly.
+  power_requests:
+    simple:
+      - There is a SPST relay controlling the connection between the battery series
+        and the `thirty-volts-max` contact.
+          - The `thirty-volts-max` contact is connected to the SPST reference
+            contact.
+          - The battery series positive is connected to the SPST 'Normally-Open'
+            contact.
+          - The SPST relay is energized if `common-power-request` is connected to
+            `common`. This connects the battery series positive to the
+            `thirty-volts-max` contact.
+    complex:
+      - There is a microcontroller controlling the connection between the battery
+        series and the `thirty-volts-max` contact.
+        - Microcontrollers within different batteries may coordinate.
+          If `common-power-request` is connected to `common`, the battery
+          microcontrollers can automatically nominate one battery as the official
+          power source, while all others go into standby mode.
+  - Battery packs may include an internal 5V regulator.
+      - If Included:
+        - Would be off & disconnected from the `regulated-five-volts`
+          contact, by default.
+        - When `regulated-five-volts-request` is connected to `common`,
+          the 5V regulator would be configured to turn on & the connection to
+          the `regulated-five-volts` contact would be made.
+        - The 5V regulator could also be controlled via CAN.
+  - Battery packs may include an internal Battery Management System (BMS).
+      - If Included:
+        - The BMS board can be powered from the `thirty-volts-max` contact
+          when `battery-request` is not connected to `common`.
+        - Most BMS boards will require a voltage regulator to refine the
+          varying voltages that may be found on the `thirty-volts-max` contact.
+        - Certain BMS boards have SMBus (an I2C variant) contacts. Information
+          available on these contacts could be transmitted over CAN via a
+          microcontroller.
+  - Consider used `20700` batteries for your battery pack.
+  - Consider used `18650` batteries for your battery pack.
+  - Consider the `25R` series of `18650` batteries for better performance.
 contacts:
-  1: reserved
-  2: reserved
-  3: reserved
-  4: reserved
-  5: reserved
-  6: reserved
-  7: reserved
-  8: reserved
-  9: reserved
-  10: reserved
+  1: digital-audio-spdif
+  2: controller-area-network-high
+  3: controller-area-network-low
+  4: i2c-clock
+  5: i2c-data
+  6: digital-reference
+  7: pixel-data
+  8: common-regulated-five-volts-request
+  9: common-power-request
+  10: common
   a1: common
   a2: regulated-five-volts
-  a3: twenty-volts-max
+  a3: thirty-volts-max
