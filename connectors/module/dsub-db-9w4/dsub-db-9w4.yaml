@@ -1,10 +1,13 @@
 name: DB-9W4 Connector
 summary: Automotive Subwoofer amplifier connector
-description: Monaural 12V 80A Max Audio Amplifier Connector
+description: 1-2 Channel 12V 80A Max Audio Amplifier Connector
 aliases:
   - mixed d-sub
 notes:
   - Connector may accomodate either 20A or 40A on `a1`, `a2`, `a3` & `a4`.
+  - 8 Channels S/PDIF Digital Audio Support
+  - 1 Channel Balanced Analog Audio Support
+  - 1 Channel Unbalanced Analog Audio Support
 contacts:
   1: - av-bus-audio-special-effects
      - av-bus-audio-special-effects-1

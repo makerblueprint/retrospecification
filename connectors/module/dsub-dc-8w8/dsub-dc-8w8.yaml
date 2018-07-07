@@ -1,0 +1,14 @@
+name: DC-8W8 Connector
+summary: 30V Max 160A Max High-Current Power Connector
+notes:
+  - Connector may accomodate either 20A or 40A on all contacts.
+  - Can be used as a distribution block connector.
+contacts:
+  a1: common
+  a2: common
+  a3: common
+  a4: common
+  a5: thirty-volts-max
+  a6: thirty-volts-max
+  a7: thirty-volts-max
+  a8: thirty-volts-max

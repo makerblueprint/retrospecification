@@ -2,7 +2,7 @@ name: 6-pin JST SM Connector
 reference:
   - http://www.adafruit.com/datasheets/JSTSM.pdf
 contacts:
-  1: 1-wire
+  1: one-wire-data
   2: pixel-data
   3: common
   4: thirty-volts-max

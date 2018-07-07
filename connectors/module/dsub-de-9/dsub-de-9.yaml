@@ -14,7 +14,7 @@ contacts:
   2: controller-area-network-low
   3: controller-area-network-high
   4: common
-  5: pixel-data
+  5: one-wire-data
   6: digital-reference
   7: i2c-clock
   8: i2c-data

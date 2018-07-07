@@ -1,5 +1,5 @@
 name: DB-13W3 Connector
-summary: Multi-Cell 30VDC Max 40A Max Battery Connector
+summary: Multi-Cell 30V Max 40A Max Rechargeable Battery Pack Connector
 aliases:
   - mixed d-sub
 notes:
@@ -40,20 +40,28 @@ notes:
         - Certain BMS boards have SMBus (an I2C variant) contacts. Information
           available on these contacts could be transmitted over CAN via a
           microcontroller.
+  - While primarily intended to be used with multi-cell battery packs, this
+      connector can also merely be used as a 5V regulated and/or 30V max 40A
+      max power connector.
   - Consider used `20700` batteries for your battery pack.
   - Consider used `18650` batteries for your battery pack.
   - Consider the `25R` series of `18650` batteries for better performance.
+  - External Battery Management System supported.
+    - 1S to 6S 3.7V battery configurations supported.
+  - Internal Battery Management System supported.
+    - 1S to 8S configurations supported
+    - Communication with BMS possible via CAN and/or 1-wire interface
 contacts:
-  1: digital-audio-spdif
-  2: controller-area-network-high
-  3: controller-area-network-low
-  4: i2c-clock
-  5: i2c-data
-  6: digital-reference
-  7: pixel-data
-  8: common-regulated-five-volts-request
-  9: common-power-request
-  10: common
+  1: balance-cell-1
+  2: balance-cell-2
+  3: balance-cell-3
+  4: balance-cell-4
+  5: balance-cell-5
+  6: common-power-request
+  7: common-regulated-five-volts-request
+  8: controller-area-network-low
+  9: controller-area-network-high
+  10: one-wire-data
   a1: common
   a2: regulated-five-volts
   a3: thirty-volts-max

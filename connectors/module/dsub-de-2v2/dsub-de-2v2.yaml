@@ -1,0 +1,7 @@
+name: DE-2W2 Connector
+summary: 12V 40A Max Connector
+notes:
+  - Connector may accomodate either 20A or 40A on A1 & A2.
+contacts:
+  a1: common
+  a2: twelve-volts-nominal

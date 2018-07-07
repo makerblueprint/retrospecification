@@ -16,7 +16,7 @@ keywords:
   - 6P6C
   - pixel
   - led
-  - 1-wire
+  - one-wire-data
   - wearable
   - clothes
   - clothing
@@ -47,5 +47,5 @@ contacts:
   2: pixel-data
   3: thirty-volts-max
   4: common
-  5: 1-wire
+  5: one-wire-data
   6: controller-area-network-high

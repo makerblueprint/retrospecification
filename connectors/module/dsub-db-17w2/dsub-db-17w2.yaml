@@ -4,6 +4,10 @@ aliases:
   - mixed d-sub
 notes:
   - Connector may accomodate either 20A or 40A on A1, A2.
+  - 8 Channels S/PDIF Digital Audio Support
+  - 8 Channels AES Digital Audio Support
+  - 4 Channels Balanced Analog Audio Support
+  - 4 Channels Unbalanced Analog Audio Support
 contacts:
   1: - av-bus-audio-left
      - av-bus-audio-channel-1
@@ -23,7 +27,7 @@ contacts:
   8: - av-bus-audio-channel-4-balanced-negative
   9: av-bus-common
   10: common
-  11: 1-wire
+  11: one-wire-data
   12: spdif
   13: digital-audio-aes-negative
   14: digital-audio-aes-positive

@@ -16,5 +16,5 @@ contacts:
   1: common
   2: twelve-volts-nominal-switched
   3: pixel-data
-  4: 1-wire
+  4: one-wire-data
   5: twelve-volts-nominal
