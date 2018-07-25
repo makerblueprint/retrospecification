@@ -1,0 +1,37 @@
+name: DC-21W4 Connector
+summary: 30V Max High-Current Power Connector
+aliases:
+  - mixed d-sub
+notes:
+  - Connector may accomodate either 20A or 40A on A1, A2, A3 & A4.
+  - Consider used `20700` batteries for your battery pack.
+  - Consider used `18650` batteries for your battery pack.
+  - Consider the `25R` series of `18650` batteries for better performance.
+  - Battery packs may include temperature sensor(s) & that data could be
+    requested via `one-wire-data` or CAN.
+  - Battery packs may include a voltage monitoring chip & data could be
+    requested via `one-wire-data` or CAN.
+  - Information about the battery pack could be requested via `one-wire-data`
+    for automatic charge controller configuration.
+contacts:
+  1: reserved
+  2: reserved
+  3: reserved
+  4: reserved
+  5: reserved
+  6: reserved
+  7: reserved
+  8: reserved
+  9: reserved
+  10: reserved
+  11: reserved
+  12: reserved
+  13: reserved
+  14: reserved
+  15: reserved
+  16: reserved
+  17: reserved
+  a1: common
+  a2: common
+  a3: thirty-volts-max
+  a4: thirty-volts-max

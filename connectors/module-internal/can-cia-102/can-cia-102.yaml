@@ -1,4 +1,3 @@
----
 name: CAN in Automation Connector
 summary: Control your Retro Modules via an OTS automotive USB CAN module.
 description: >

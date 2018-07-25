@@ -1,4 +1,3 @@
----
 name: XLR6 IEC
 summary: AES Audio Send-Return Connector.
 keywords:
@@ -13,4 +12,4 @@ contacts:
   3: digital-audio-aes-client-out-host-in-negative
   4: digital-audio-aes-client-out-host-in-positive
   5: common
-  6: fourtyeight-volts-max
+  6: regulated-fourtyeight-volts

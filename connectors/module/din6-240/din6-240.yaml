@@ -1,5 +1,8 @@
----
 name: DIN6 240
+summary: Switched common connector with power.
+description: Allows up to four rails to be connected or disconnected from common.
+  Useful for rudimentary relay control. Use this connector instead of DIN5 240
+  when your use case requires power.
 reference:
   - https://en.wikipedia.org/wiki/DIN_connector
   - https://en.wikipedia.org/wiki/File:DIN-6_Diagram.svg
@@ -19,4 +22,4 @@ contacts:
   3: controller-area-network-high
   4: av-bus-audio-mic
   5: av-bus-common
-  6: 20-volts-max
+  6: thirty-volts-max

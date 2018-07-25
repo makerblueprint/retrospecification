@@ -5,7 +5,6 @@ description: >
 aliases:
   - D-sub 37
 ideas:
-  - exclude the entire connector from this spec (for odd use cases)
   - gpio
   - tally
   - uart
@@ -19,4 +18,7 @@ ideas:
   - i2s
   - aes
   - displayport
+  - 1x 10/100/1000 & 3x HDbaseT (32 contacts)
+  - 4x HDbaseT (32 contacts)
+  - 4 channel amplifier
 contacts: reserved

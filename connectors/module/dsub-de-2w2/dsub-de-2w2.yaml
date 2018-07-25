@@ -1,19 +1,7 @@
----
 name: DE-2W2 Connector
-description: >
-  This connector is not common. It has a fairly common form factor.
-  It features two pins well suited for high-current applications.
-summary: The high-current version of DE-9.
-requirements: tbd
-limitations: tbd
-aliases:
-  - mixed d-sub
-ideas:
-  - drone misc
-  - motor control
-  - high-current modules
-drawbacks:
-  - Harder to find.
+summary: 30V 40A Max Connector
+notes:
+  - Connector may accomodate either 20A or 40A on A1 & A2.
 contacts:
   a1: common
-  a2: twenty-volts-max
+  a2: thirty-volts-max

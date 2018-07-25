@@ -1,4 +1,3 @@
----
 name: RJ11
 description: >
   These connectors are being used less and less frequently by consumers.
@@ -10,14 +9,14 @@ description: >
   to connect one set of modules to another over longer distances.
   Many hardware stores carry four-wire thin telephone cables. These
   four-wire cables can drive a small set of NeoPixels without issue.
-  Six-wire cables add CANBUS.
+  Six-wire cables add `canbus`.
 keywords:
   - 6P2C
   - 6P4C
   - 6P6C
   - pixel
   - led
-  - 1-wire
+  - one-wire-data
   - wearable
   - clothes
   - clothing
@@ -46,7 +45,7 @@ legacy_colors:
 contacts:
   1: controller-area-network-low
   2: pixel-data
-  3: twenty-volts-max
+  3: thirty-volts-max
   4: common
-  5: 1-wire
+  5: one-wire-data
   6: controller-area-network-high

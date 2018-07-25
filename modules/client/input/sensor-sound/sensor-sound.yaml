@@ -1,4 +1,3 @@
----
 name: Sound Level Sensor Module
 summary: Fire events when sound levels exceed background levels.
 notes:

@@ -1,11 +1,10 @@
----
 name: DB-25 Connector
 description: >
   DB25 connectors were commonly used by consumers to connect
   printers, modems and other larger peripherals to traditional
   computers. They are often used by legacy point-of-sale systems.
   Since these are rarely found in modern computing, the connectors
-  are prime candidates for respecification.
+  are prime candidates for re-specification.
 requirements:
   - Must be pin-compatible with off-the-shelf DE9 to DB25 adapters.
   - Pins 18 through 25 must be dead-short tolerant.
@@ -27,24 +26,43 @@ aliases:
   - D-sub 25
   - Parallel Port
   - Printer Port
+notes:
+  power_requests:
+    simple:
+      - There is a SPST relay controlling the connection between the power supplies
+        and the `thirty-volts-max` contact.
+          - The `thirty-volts-max` contact is connected to the SPST reference
+            contact.
+          - The power supply positive is connected to the SPST 'Normally-Open'
+            contact.
+          - The SPST relay is energized if `common-power-request` is connected to
+            `common`. This connects the power supply positive to the
+            `thirty-volts-max` contact.
+    complex:
+      - There is a microcontroller controlling the connection between the power
+        supply and the `thirty-volts-max` contact.
+        - Microcontrollers within different power supplies may coordinate.
+          If `common-power-request` is connected to `common`, the power supply
+          microcontrollers can automatically nominate one supply as the official
+          power source, while all others go into standby mode.
 reference:
   - video-composite
   - video-component
 contacts:
-  1: spdif
+  1: digital-audio-spdif
   2: controller-area-network-high
   3: controller-area-network-low
   4: i2c-clock
   5: i2c-data
   6: digital-reference
-  7: pixel-data
-  8: twenty-volts-max
-  9: twenty-volts-max
+  7: one-wire-data
+  8: thirty-volts-max
+  9: thirty-volts-max
   10: spi-slave-select
   11: spi-master-out-slave-in
   12: spi-master-in-slave-out
   13: spi-clock
-  14: host-reset
+  14: common-power-request
   15: regulated-five-volts
   16: av-bus-audio-mic
   17: - av-bus-video-composite
@@ -61,8 +79,13 @@ contacts:
       - common
   22: common
   23: - av-bus-audio-left
+      - av-bus-audio-channel-1
       - common
   24: - av-bus-audio-right
+      - av-bus-audio-channel-2
       - common
   25: - av-bus-audio-special-effects
+      - av-bus-audio-channel-3
+      - av-bus-audio-channel-4
+      - av-bus-audio-channel-3-4-mono-mix
       - common

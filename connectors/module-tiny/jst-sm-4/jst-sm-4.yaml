@@ -1,11 +1,10 @@
----
 name: 4-pin JST SM Connector
 buy:
   - https://www.adafruit.com/product/578
 reference:
   - http://www.adafruit.com/datasheets/JSTSM.pdf
 contacts:
-  1: common
-  2: twenty-volts-max
-  3: pixel-data
-  4: pixel-data-return
+  1: one-wire-data
+  2: pixel-data
+  3: common
+  4: thirty-volts-max

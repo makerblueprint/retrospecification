@@ -1,4 +1,3 @@
----
 name: 16mm 6 Pin Aviation Connector
 description: >
   Often called an Aviation Plug, these connectors are well-known for their
@@ -19,6 +18,6 @@ contacts:
   1: common
   2: twelve-volts-nominal-switched
   3: pixel-data
-  4: pixel-data-return
+  4: one-wire-data
   5: twelve-volts-nominal
   6: common

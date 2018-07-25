@@ -1,9 +1,9 @@
----
 name: Raspberry Pi
 reference:
   - https://www.raspberrypi.org
   - https://en.wikipedia.org/wiki/Raspberry_Pi
 voltage: 3.3
+voltage-max-input: 5
 pi3_contacts:
   1: three-point-three-volts-regulated
   2: five-volts-regulated

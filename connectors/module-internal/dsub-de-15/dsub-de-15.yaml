@@ -1,11 +1,10 @@
----
 name: DE-15 Connector
 description: >
   Commonly referred to as DB-15, DE-15 connectors were once frequently used
   by consumers to connect monitors to to traditional computers. These have
   largely been replaced by connectors which route video digitally (e.g. HDMI).
   Since DE-15 connectors are still frequently found in modern computing, they
-  are not well suited for respecification.
+  are not well suited for re-specification.
 notes:
   - The official spec includes I2C support. See reference for more.
 aliases:

@@ -1,4 +1,3 @@
----
 name: Teensy 3
 notes:
   - Teensy v3 supports CAN bus, but requires a CAN transceiver.
@@ -8,8 +7,8 @@ reference:
   - https://www.pjrc.com/teensy/teensy31.html
   - https://oshpark.com/shared_projects/VeJFD9qA
   - https://forum.pjrc.com/threads/25101-CAN-Bus-Library-for-Teensy-3-1?p=44223&viewfull=1#post44223
-voltage:
-  - 3.3
+voltage: 3.3
+max-voltage-input: 6
 contacts:
   0: - uart-receive
      - touch-sense
