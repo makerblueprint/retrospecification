@@ -14,7 +14,7 @@ keywords:
   - d-sub 9
   - de-9
 contacts:
-  1: thirty-volts-max
+  1: forty-volts-max
   2: controller-area-network-low
   3: controller-area-network-high
   4: common
@@ -23,4 +23,3 @@ contacts:
   7: i2c-clock
   8: i2c-data
   9: common
-  10: reserved

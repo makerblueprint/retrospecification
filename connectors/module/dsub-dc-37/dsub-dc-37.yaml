@@ -1,24 +1,59 @@
 name: DC-37 Connector
-summary: A wider version of DB-25.
+summary: The High-Def D-Sub
 description: >
-  This connector is not common but has a familiar form factor.
+  The spec for this connector differs from other Retro Modules connectors, in
+  that it is primarily intended to be used for connections between a host
+  computer & peripheral(s).
+  The most familiar proposed use case is a connection between an average laptop
+  & a laptop dock.
+  This connector may be more frequently used to connect one or more
+  microcomputers to a backplane. The microcomputers might be configured as a
+  cluster of web servers, data miners, or similar. This backplane might have
+  an integrated TCP/IP router & KVM functionality.
+  Finally, it could be used to standardize personal computer peripheral
+  devices, such as a disc drive, printer, 3D printer or CNC machine.
+  The spec includes support for 4K digital HD Video, gigabit networking & USB3.
+  Power-hungry devices will have no trouble. The spec allows for power supplies
+  of up to 40VDC. Each device can draw up to 20A.
 aliases:
   - D-sub 37
-ideas:
-  - gpio
-  - tally
-  - uart
-  - i2c
-  - spi
-  - usb
-  - can
-  - rs-232
-  - rs-485
-  - gigabit
-  - i2s
-  - aes
-  - displayport
-  - 1x 10/100/1000 & 3x HDbaseT (32 contacts)
-  - 4x HDbaseT (32 contacts)
-  - 4 channel amplifier
-contacts: reserved
+references:
+  - http://www.pidramble.com
+contacts:
+  1: one-wire-data
+  2: controller-area-network-low
+  3: usb-data-low
+  4: usb-data-ss-rx-low
+  5: usb-data-ss-tx-low
+  6: common-data
+  7: common
+  8: forty-volts-max
+  9: forty-volts-max
+  10: common
+  11: common
+  12: hd-base-t-data-c-high
+  13: hd-base-t-data-b-low
+  14: hd-base-t-data-a-low
+  15: hd-base-t-data-d-low
+  16: base-t-data-c-high
+  17: base-t-data-b-low
+  18: base-t-data-a-low
+  19: base-t-data-d-low
+  20: controller-area-network-high
+  21: usb-data-high
+  22: usb-data-ss-rx-high
+  23: usb-data-ss-tx-high
+  24: common-power-request
+  25: common
+  26: forty-volts-max
+  27: forty-volts-max
+  28: common
+  29: common
+  30: hd-base-t-data-c-low
+  31: hd-base-t-data-b-high
+  32: hd-base-t-data-a-high
+  33: hd-base-t-data-d-high
+  34: base-t-data-c-low
+  35: base-t-data-b-high
+  36: base-t-data-a-high
+  37: base-t-data-d-high

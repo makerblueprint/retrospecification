@@ -1,10 +1,10 @@
 name: Battery Module
 summary: A self-contained rechargeable battery module.
 description: >
-  Most connectors in the Retro Specification feature a `thirty-volts-max` pin.
-  Many also feature a `regulated-five-volts` pin. Ideally, the `battery`
+  Most connectors in the Retro Specification feature a `forty-volts-max` pin.
+  Many also feature a `fifteen-volts-max` pin. Ideally, the `battery`
   module's internal charging circuitry would properly charge its battery from
-  the `thirty-volts-max` pin.
+  the `forty-volts-max` pin.
   The contacts dedicated to power distribution are a tricky subject. Suppose
   your project has a host module with its own internal battery & a client
   module as well. Which module should supply power? It should be one or the

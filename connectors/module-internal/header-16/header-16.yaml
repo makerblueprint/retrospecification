@@ -1,0 +1,23 @@
+name: Header 16 Pin
+summary: Enhanced Battery Connector
+references:
+  - https://electronics.stackexchange.com/a/352440
+buy:
+  - http://www.networkcables.com/proddetail.php?prod=CO19MS
+contacts:
+  1: one-wire-data
+  2: id
+  3: balance-ref-0
+  4: balance-ref-2
+  5: balance-ref-4
+  6: balance-ref-6
+  7: balance-ref-8
+  8: balance-ref-10
+  9: regulated-five-volts
+  10: common
+  11: balance-ref-1
+  12: balance-ref-3
+  13: balance-ref-5
+  14: balance-ref-7
+  15: balance-ref-9
+  16: key

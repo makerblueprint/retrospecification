@@ -1,9 +1,21 @@
 name: DIN6 240
-summary: Switched common connector with power.
-description: Allows up to four rails to be connected or disconnected from common.
-  Useful for rudimentary relay control. Use this connector instead of DIN5 240
-  when your use case requires power.
+summary: Variable voltage module connector
+description:
+  This connector sports about 12 volts by default. This voltage
+  may dip as low as 10 volts or as high as 15. This is to help support
+  the vast array of 12VDC vehicle & RC accessories without introducing
+  any extra complexity.
+  If a device requires more than 12 volts, it can request it via the
+  `one-wire-data` contact. It is merely a request, though. If there is a
+  module regulating power on pins 4 & 5, it may adjust its output voltage
+  if equipped to do so.
+  To remain safe, modules should not provide more than 50VDC.
+  Any voltages higher than 50VDC should be treated just like mains voltage.
+  See some of the references below for more details.
 reference:
+  - USA NFPA 70 National electrical code
+  - E.U. IEC 60038 Standard voltages
+  - Australia / NZ 3000 Wiring rules
   - https://en.wikipedia.org/wiki/DIN_connector
   - https://en.wikipedia.org/wiki/File:DIN-6_Diagram.svg
   - http://connector.pinouts.ru/6_pin_DIN_female
@@ -17,9 +29,15 @@ keywords:
 aliases:
   - din-45522
 contacts:
-  1: common
-  2: controller-area-network-low
-  3: controller-area-network-high
-  4: av-bus-audio-mic
-  5: av-bus-common
-  6: thirty-volts-max
+  1: one-wire-data
+  2: common
+  3: common
+  4:
+    - twelve-volts-nominal
+    - negotiated-voltage
+  5:
+    - twelve-volts-nominal
+    - negotiated-voltage
+  6:
+    - pixel-data
+    - pulse-width-modulation

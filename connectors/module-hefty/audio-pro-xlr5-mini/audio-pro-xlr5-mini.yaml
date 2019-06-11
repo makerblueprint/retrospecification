@@ -10,7 +10,7 @@ description: >
   signals isolated from S/PDIF signals. S/PDIF is best transmitted via coaxial
   cable & is not the most resilient of signals.
   Modern smartphones do not feature CAN, S/PDIF, nor can they tolerate 30VDC.
-  With a relatively small enclosure, though, the power on the thirty-volts-max
+  With a relatively small enclosure, though, the power on the `forty-volts-max`
   contact can be regulated to five volts (or be piped into a
   `qualcomm-quick-charge-adapter`). The analog audio can be converted to S/PDIF
   with a audio ADC chip. What about CAN? Well most smart devices can have basic
@@ -35,4 +35,4 @@ contacts:
   2: controller-area-network-low
   3: controller-area-network-high
   4: common
-  5: thirty-volts-max
+  5: forty-volts-max

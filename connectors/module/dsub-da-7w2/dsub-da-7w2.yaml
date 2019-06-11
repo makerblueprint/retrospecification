@@ -2,23 +2,11 @@ name: DA-7W2 Connector
 summary: Multi-Cell 30V Max 40A Max Rechargeable Battery Pack Connector
 aliases:
   - mixed d-sub
-notes:
-  - While primarily intended to be used with multi-cell battery packs, this
-    connector can also merely be used as a 30V max 40A max power connector.
-  - Connector may accomodate either 20A or 40A on `a1` & `a2`.
-  - Consider used `20700` batteries for your battery pack.
-  - Consider used `18650` batteries for your battery pack.
-  - Consider the 25R series of `18650` batteries for better performance.
-  - External Battery Management System supported.
-    - 1S to 5S 3.7V battery configurations supported.
-  - Internal Battery Management System supported.
-    - 1S to 8S configurations supported
-    - Communication with BMS possible via 1-wire interface
 contacts:
-  1: balance-cell-1
-  2: balance-cell-2
-  3: balance-cell-3
-  4: balance-cell-4
-  5: one-wire-data
+  1: reserved
+  2: reserved
+  3: reserved
+  4: reserved
+  5: reserved
   a1: common
-  a2: thirty-volts-max
+  a2: forty-volts-max

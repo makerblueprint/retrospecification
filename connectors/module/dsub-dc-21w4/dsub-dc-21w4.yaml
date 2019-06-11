@@ -1,5 +1,5 @@
 name: DC-21W4 Connector
-summary: 30V Max High-Current Power Connector
+summary: 40V Max High-Current Power Connector
 aliases:
   - mixed d-sub
 notes:
@@ -33,5 +33,5 @@ contacts:
   17: reserved
   a1: common
   a2: common
-  a3: thirty-volts-max
-  a4: thirty-volts-max
+  a3: forty-volts-max
+  a4: forty-volts-max

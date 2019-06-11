@@ -17,35 +17,35 @@ proposals:
   battery_present_plus_delay:
       Batteries do not provide power on any bus by default. Each battery checks
       the power rails to see if power is needed. One of them decides to make a
-      move. It connects a resistor from `thirty-volts-max` to `common`.
+      move. It connects a resistor from `forty-volts-max` to `common`.
   host_as_arbiter:
       Have the host module in the project be the arbiter.
       Allow all modules in the project initially power up in a low power mode.
       The main host module could query for any battery modules.
       If one is found, the host module could tell the `battery` module to send
-      power via the `thirty-volts-max` contact(s). By default, all modules should
-      prefer power from the `thirty-volts-max` contact(s). Once the `battery`
-      module heeds instructions to send power to` thirty-volts-max` contact(s),
+      power via the `forty-volts-max` contact(s). By default, all modules should
+      prefer power from the `forty-volts-max` contact(s). Once the `battery`
+      module heeds instructions to send power to` forty-volts-max` contact(s),
       all the other modules in the project could begin using power on that rail
       instead. After this transition, the main host module can power down its
       internal 5VDC regulator and send instructions to the `battery` module to
       provide power on that rail instead. Each module would need appropriate
       circuitry to remain powered while these transitions occur.
-      The `thirty-volts-max` bus should have no voltage on it, by default.
+      The `forty-volts-max` bus should have no voltage on it, by default.
     scenarios:
       Given the host module requires an external battery
-        And power is available on the `thirty-volts-max` contact(s)
+        And power is available on the `forty-volts-max` contact(s)
         And power is available on `regulated-five-volts` contact(s)
-          Then the host module should utilize power from the `thirty-volts-max` contact(s)
-          And client module(s) should utilize power from the `thirty-volts-max` contact(s)
+          Then the host module should utilize power from the `forty-volts-max` contact(s)
+          And client module(s) should utilize power from the `forty-volts-max` contact(s)
       Given the host module requires an external battery
-        And power is not available on the `thirty-volts-max` contact(s)
+        And power is not available on the `forty-volts-max` contact(s)
         And power is available on the `regulated-five-volts` contact(s)
           Then the host module should utilize power from the `regulated-five-volts` contact(s)
           And client module(s) should utilize power from the `regulated-five-volts` contact(s)
           And client module(s) should conserve power wherever possible
       Given the host module does not require an external battery
-        And power is not available on the `thirty-volts-max` contact(s)
+        And power is not available on the `forty-volts-max` contact(s)
         And power is not available on the `regulated-five-volts` contact(s)
         And the host module is turned on
           Then the host module should send 5VDC to the `regulated-five-volts` pin

@@ -19,7 +19,7 @@ int getPin(char* purpose) {
     case "adc-0":
       return 0;
 
-    case "1-wire":
+    case "one-wire-data":
     case "adc1":
     case "adc-1":
       return 1;

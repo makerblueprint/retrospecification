@@ -11,7 +11,7 @@ aliases:
 contacts:
   tip:
     - av-bus-mono
-    - speaker-x-positive
+    - speaker-channel-1-positive
   sleeve:
     - av-bus-common
-    - speaker-x-negative
+    - speaker-channel-1-negative

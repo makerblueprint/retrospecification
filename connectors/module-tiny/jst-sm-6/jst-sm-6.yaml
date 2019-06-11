@@ -5,6 +5,6 @@ contacts:
   1: one-wire-data
   2: pixel-data
   3: common
-  4: thirty-volts-max
+  4: forty-volts-max
   5: controller-area-network-low
   6: controller-area-network-high

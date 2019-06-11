@@ -5,13 +5,8 @@ description: >
   packs usually feature a LiPo battery, a 5V voltage regulator & charge
   controller. They typically are charged via a micro-USB port.
   Most of the connectors in The Retro Specification include a
-  `regulated-five-volts` contact. Since Retro Modules are daisy-chainable,
-  that regulated power is passed from one module to another. If a particular
-  module requires power, it can tap into that 5V bus.
-  Most connectors also include one or more `thirty-volts-max` contacts. These
-  contacts could easily be connected to a 6V, 9V, 12V or 19V power source. With
-  a 20V-tolerant 5V voltage regulator, the USB battery pack could be charged
-  from a variety of sources.
+  `fifteen-volts-max` contact. Since Retro Modules are daisy-chainable,
+  that regulated power is passed from one module to another.
 connectors:
   - dsub-db-25
   - usb-a
