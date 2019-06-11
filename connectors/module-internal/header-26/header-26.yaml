@@ -30,7 +30,7 @@ contacts:
   7: fifteen-volts-max
   8:
     - pixel-data
-    - pulse-width-modulation
+    - pwm
   9: forty-volts-max
   10: forty-volts-max
   11: av-bus-common

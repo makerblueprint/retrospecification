@@ -11,7 +11,7 @@ aliases:
 contacts:
   1:
     - pixel-data
-    - pulse-width-modulation
+    - pwm
   2: controller-area-network-low
   3: controller-area-network-high
   4: common-host-reset

@@ -40,4 +40,4 @@ contacts:
     - negotiated-voltage
   6:
     - pixel-data
-    - pulse-width-modulation
+    - pwm

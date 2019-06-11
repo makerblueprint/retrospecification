@@ -44,44 +44,75 @@ Getting Started
 ===============
 Note: power contacts feature positive [DC](definitions/direct-current.yaml) unless stated otherwise.
 
-Consider [DA-15 connectors](connectors/module/dsub-da-15/dsub-da-15.yaml), which were once called 'Game Ports'. Before USB, joysticks would generally be connected to computers via these connectors. Since they're so rare in modern computing, they are a perfect choice for the Maker Movement. That said, the connectors are still pretty easy to find & work with. Most electronics part stores will have a few DA-15 connectors for sale. A module can be as simple as a resistor & LED connected to two of the pins.
+Many electronics part stores will have a few DE-9 connectors for sale. A
+module can be as simple as a resistor & LED connected to two of the pins.
 
 Adapt Your Microcontroller
 --------------------------
-The first step is to adapt your microcontroller board. Thankfully, you don't need to adapt the entire thing at once. Lets start with support for `pwm` modules by following the directives below. Start with a 5V Arduino & a female [DA-15 Connector](connectors/module/dsub-da-15/dsub-da-15.yaml).
+The first step is to adapt your microcontroller board. Thankfully, you don't
+need to adapt the entire thing all at once. Lets start with support for a
+module requiring `pwm` functionality by following the directives below. Start
+with a 5V Arduino & a `socket-style` [DE-9 Connector](connectors/module/dsub-de-9/dsub-de-9.yaml).
 
-##### Arduino => PWM-Capable [DA-15 Connector](connectors/module/dsub-da-15/dsub-da-15.yaml)
-* `D5`     => [DA-15](connectors/module/dsub-da-15/dsub-da-15.yaml) pin 5
-* `5V`     => [DA-15](connectors/module/dsub-da-15/dsub-da-15.yaml) pin 9
-* `common` => [DA-15](connectors/module/dsub-da-15/dsub-da-15.yaml) pin 10
-* `common` => [DA-15](connectors/module/dsub-da-15/dsub-da-15.yaml) pin 12
+##### Arduino => PWM-Capable [DE-9 Connector](connectors/module/dsub-de-9/dsub-de-9.yaml)
+* `D5`     => [DE-9](connectors/module/dsub-de-9/dsub-de-9.yaml) `pwm` contact
+* `5V`     => [DE-9](connectors/module/dsub-de-9/dsub-de-9.yaml) `digital-reference` contact
+* `common` => [DE-9](connectors/module/dsub-de-9/dsub-de-9.yaml) `common` contact
 
 Your First Retro Module
 -----------------------
-To make a module with a fading LED, follow the wiring directives below. Use a male [DA-15 Connector](connectors/module/dsub-da-15/dsub-da-15.yaml). Connect your module to the connector you made, above. Load the Arduino 'Fade' example sketch. Set the led variable to 5 & upload.
+To make a module with a fading `led`, follow the wiring directives below. Use a
+`pin-style` [DE-9 Connector](connectors/module/dsub-de-9/dsub-de-9.yaml).
+Connect your module to the connector you made, above. Load the Arduino 'Fade'
+example sketch. Set the `led` variable to `5` & upload.
 
-##### [DA-15](connectors/module/dsub-da-15/dsub-da-15.yaml) <= LED
-* `pwm`    <= 330 ohm resistor <= LED anode
-* `common` <= LED cathode
+##### [DE-9](connectors/module/dsub-de-9/dsub-de-9.yaml) <= LED
+* `pwm`     <= 330 ohm resistor <= LED anode
+* `common`  <= LED cathode
 
 Your Second
 -----------
-Now consider making a separate servo module. You will need a 5 volt 180 degree servo & another male [DA-15 Connector](connectors/module/dsub-da-15/dsub-da-15.yaml). Follow the wiring directives below. Load the Arduino 'Sweep' example sketch. Replace 9 with 5 in the sketch (e.g. `myservo.attach(5);`) & upload.
+Now consider making a separate servo module. You will need a 5 volt 180 degree
+servo & another `pin-style` [DE-9](connectors/module/dsub-de-9/dsub-de-9.yaml).
+Follow the wiring directives below.
+Load the Arduino 'Sweep' example sketch & upload.
 
-##### [DA-15](connectors/module/dsub-da-15/dsub-da-15.yaml) <= Servo
-* `pwm`               <= Servo yellow/orange/white 'signal' wire
+##### [DE-9](connectors/module/dsub-de-9/dsub-de-9.yaml) <= Servo
 * `common`            <= Servo brown/black 'common' wire
 * `digital-reference` <= Servo red 'power' wire
+* `pwm`               <= Servo yellow/orange/white 'signal' wire
 
-Note that we're connecting the power wire to the `digital-reference` pin. Since we're using a 5V microcontroller board, the `digital-reference` is roughly 5V. The board voltage regulator isn't designed to handle much, but it can probably drive a single small servo. If your microcontroller board were 3.3V, `digital-reference` would be roughly 3.3V. This pin, in more advanced modules, allows boards with differing logic levels to adapt.
+Note that we're connecting the power wire to the `digital-reference` pin. The
+board voltage regulator isn't designed to handle much, but it can probably
+drive a single small servo.
 
 Next steps
 ----------
-Ponder adding potentiometers to each of the above modules, via the `adc-2` pin (A2 in Arduino parlance). These are basic, but fully usable interactive modules.
+Ponder adding potentiometers to each of the above modules, via the `adc-*` pins
+(A2 in Arduino parlance).
+These are basic, but fully usable interactive modules.
 
-Consider chainability as well. 'Host' modules (which generally house an Arduino), should have one or more female connectors. 'Client' modules should have both a male & female connector. If a client module uses `adc-2` or `pwm` on the male connector, that pin should be absent from its female connector. The serial connections, as summarized below, should pass through each module no matter what. If you're putting your client modules in an enclosure, put a sticker on the module describing which (if any) non-serial pins are in use.
+Consider "chainability" as well. 'Host' modules (which generally house an
+Arduino), should have one or more `socket-style` connectors. 'Client' modules
+should have both a `socket-style` & `pin-style` connector. If a client module
+uses a non-serial contact (e.g. `pwm`) on the `pin-style` connector, that pin
+should be absent from its `socket-style` connector. The serial connections, as
+summarized below, should pass through each module no matter what. If you're
+putting your client modules in an enclosure, put a sticker on the module
+describing which (if any) non-serial pins are in use.
 
-Take a look at I2C, SPI and CAN bus. There are many cheap I2C devices out there (accelerometers, LED displays, etc). Consider I2C & SPI for short to medium-range digital communication. CAN bus is better for longer distances & reliability. 1-Wire is also interesting & may prove most useful in the wearable realm.
-If you have more time & resources, consider having 'proxy' microcontrollers in certain modules. Say you have a SPI-based MP3 player board, but you want to avoid using SPI pins. Build your module with a proxy microcontroller connected to the Retro Spec I2C bus, and only connect your MP3 player SPI wires to that internal microcontroller. You can then craft simple programs to serve as interfaces on the I2C bus. If you're comfortable with CAN bus... choose that instead of I2C.
+Take a look at I2C, SPI and CAN bus. There are many cheap I2C devices out there
+(accelerometers, LED displays, etc). Consider I2C & SPI for short to
+medium-range digital communication. CAN bus is better for longer distances &
+reliability. The `one-wire-data` communication protocol is unique & may prove
+useful in wearable modules and/or modules that need to send basic messages.
 
-Finally, take a look at [some host module ideas](modules/host) and [popular interfaces](connectors/module-internal).
+Consider having 'proxy' microcontrollers in certain modules. Say you have a
+SPI-based MP3 player board, but you want to avoid using SPI pins among your set
+of modules. Build your module with a proxy microcontroller connected to the I2C
+contacts, and only connect your MP3 player SPI wires to that internal proxy
+microcontroller. You can then craft simple programs to serve as interfaces on
+the I2C bus. If you're comfortable with CAN bus... choose that instead of I2C.
+
+If you have a few minutes to spare, take a look at [some 3D models](models),
+[host module ideas](modules/host) and [popular interfaces](connectors/module-internal).
