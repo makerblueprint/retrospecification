@@ -7,7 +7,7 @@ keywords:
   - din
   - 72 degree
 contacts:
-  1: speaker-x-positive
-  2: speaker-y-positive
-  3: speaker-y-negative
-  4: speaker-x-negative
+  1: speaker-channel-1-positive
+  2: speaker-channel-2-positive
+  3: speaker-channel-2-negative
+  4: speaker-channel-1-negative

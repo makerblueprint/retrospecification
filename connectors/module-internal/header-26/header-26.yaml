@@ -21,39 +21,50 @@ keywords:
   - d-sub 25
   - db-25
 contacts:
-  1: digital-audio-spdif
+  1: spi-clock
   2: controller-area-network-high
   3: controller-area-network-low
   4: i2c-clock
   5: i2c-data
   6: digital-reference
-  7: pixel-data
-  8: thirty-volts-max
-  9: thirty-volts-max
-  10: spi-slave-select
-  11: spi-master-out-slave-in
-  12: spi-master-in-slave-out
-  13: spi-clock
-  14: common-power-request
-  15: regulated-five-volts
-  16: av-bus-audio-mic
-  17: - av-bus-video-composite
-      - av-bus-video-component-pb
-      - common
-  18: - av-bus-video-separate-luminance
-      - av-bus-video-component-pr
-      - common
-  19: - av-bus-video-separate-chrominance
-      - av-bus-video-component-y
-      - common
-  20: common
-  21: - av-bus-common
-      - common
+  7: fifteen-volts-max
+  8:
+    - pixel-data
+    - pwm
+  9: forty-volts-max
+  10: forty-volts-max
+  11: av-bus-common
+  12:
+    - av-bus-audio-mic-left
+    - av-bus-audio-mic-1
+  13:
+    - av-bus-audio-mic-right
+    - av-bus-audio-mic-2
+  14: spi-master-out-slave-in
+  15: spi-master-in-slave-out
+  16: spi-slave-select
+  17:
+    - av-bus-video-composite
+    - av-bus-video-component-pb
+    - common
+  18:
+    - av-bus-video-separate-luminance
+    - av-bus-video-component-pr
+    - common
+  19:
+    - av-bus-video-separate-chrominance
+    - av-bus-video-component-y
+    - common
+  20: common-host-reset
+  21: common
   22: common
-  23: - av-bus-audio-left
-      - common
-  24: - av-bus-audio-right
-      - common
-  25: - av-bus-audio-special-effects
-      - common
-  26: reserved
+  23: common-power-request
+  24:
+    - av-bus-audio-left
+    - av-bus-audio-channel-1
+    - common
+  25:
+    - av-bus-audio-right
+    - av-bus-audio-channel-2
+    - common
+  26: key

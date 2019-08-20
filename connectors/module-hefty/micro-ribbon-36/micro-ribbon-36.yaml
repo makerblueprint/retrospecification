@@ -30,8 +30,8 @@ contacts:
   5: i2c-data
   6: digital-reference
   7: pixel-data
-  8: thirty-volts-max
-  9: thirty-volts-max
+  8: forty-volts-max
+  9: forty-volts-max
   10: spi-slave-select
   11: spi-master-out-slave-in
   12: spi-master-in-slave-out

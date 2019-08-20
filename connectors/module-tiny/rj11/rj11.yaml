@@ -45,7 +45,7 @@ legacy_colors:
 contacts:
   1: controller-area-network-low
   2: pixel-data
-  3: thirty-volts-max
+  3: forty-volts-max
   4: common
   5: one-wire-data
   6: controller-area-network-high

@@ -1,5 +1,5 @@
 name: DB-13W3 Connector
-summary: Multi-Cell 30V Max 40A Max Rechargeable Battery Pack Connector
+summary: Multi-Cell 40V Max 40A Max Rechargeable Battery Pack Connector
 aliases:
   - mixed d-sub
 notes:
@@ -7,18 +7,18 @@ notes:
   - A2 & A3 share `common` via A1. Calculate max `current` accordingly.
   power_requests:
     simple:
-      - There is a SPST relay controlling the connection between the battery series
-        and the `thirty-volts-max` contact.
-          - The `thirty-volts-max` contact is connected to the SPST reference
+      - There could be a SPST relay controlling the connection between the battery
+        series and the `forty-volts-max` contact.
+          - The `forty-volts-max` contact is connected to the SPST reference
             contact.
           - The battery series positive is connected to the SPST 'Normally-Open'
             contact.
           - The SPST relay is energized if `common-power-request` is connected to
             `common`. This connects the battery series positive to the
-            `thirty-volts-max` contact.
+            `forty-volts-max` contact.
     complex:
       - There is a microcontroller controlling the connection between the battery
-        series and the `thirty-volts-max` contact.
+        series and the `forty-volts-max` contact.
         - Microcontrollers within different batteries may coordinate.
           If `common-power-request` is connected to `common`, the battery
           microcontrollers can automatically nominate one battery as the official
@@ -33,10 +33,10 @@ notes:
         - The 5V regulator could also be controlled via CAN.
   - Battery packs may include an internal Battery Management System (BMS).
       - If Included:
-        - The BMS board can be powered from the `thirty-volts-max` contact
+        - The BMS board can be powered from the `forty-volts-max` contact
           when `battery-request` is not connected to `common`.
         - Most BMS boards will require a voltage regulator to refine the
-          varying voltages that may be found on the `thirty-volts-max` contact.
+          varying voltages that may be found on the `forty-volts-max` contact.
         - Certain BMS boards have SMBus (an I2C variant) contacts. Information
           available on these contacts could be transmitted over CAN via a
           microcontroller.
@@ -52,16 +52,16 @@ notes:
     - 1S to 8S configurations supported
     - Communication with BMS possible via CAN and/or 1-wire interface
 contacts:
-  1: balance-cell-1
-  2: balance-cell-2
-  3: balance-cell-3
-  4: balance-cell-4
-  5: balance-cell-5
-  6: common-power-request
-  7: common-regulated-five-volts-request
-  8: controller-area-network-low
-  9: controller-area-network-high
-  10: one-wire-data
+  1: reserved
+  2: reserved
+  3: reserved
+  4: reserved
+  5: reserved
+  6: reserved
+  7: reserved
+  8: reserved
+  9: reserved
+  10: reserved
   a1: common
   a2: regulated-five-volts
-  a3: thirty-volts-max
+  a3: forty-volts-max

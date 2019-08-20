@@ -1,5 +1,5 @@
 name: DC-27W2 Connector
-summary: 30V Max High-Current Power Connector
+summary: 40V Max High-Current Power Connector
 aliases:
   - mixed d-sub
 notes:
@@ -40,4 +40,4 @@ contacts:
   23: reserved
   25: reserved
   a1: common
-  a2: thirty-volts-max
+  a2: forty-volts-max

@@ -15,7 +15,7 @@ def getPin(purpose):
     "adc0": 39
     "adc-0": 39
     
-    "1-wire": 40
+    "one-wire-data": 40
     "adc1": 40
     "adc-1": 40
     

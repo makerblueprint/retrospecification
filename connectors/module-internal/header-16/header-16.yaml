@@ -1,10 +1,9 @@
-name: DA-15 Connector
+name: Header 16 Pin
 summary: Enhanced Battery Connector
-aliases:
-  - DB-15
-  - D-sub 15
-reference:
-  - http://pinouts.ru/Inputs/GameportPCMidi_pinout.shtml
+references:
+  - https://electronics.stackexchange.com/a/352440
+buy:
+  - http://www.networkcables.com/proddetail.php?prod=CO19MS
 contacts:
   1: one-wire-data
   2: id
