@@ -12,11 +12,9 @@ description:
 notes:
   - The `v-reference` contact should be connected to the vehicle battery.
     Internally, this reference voltage would be used to perform logic level
-    conversion on any of the `v-*` contacts. This allows for compatibility with
-    variations in vehicles not using a `twelve-volts-nominal` operating voltage,
-    and provides accomodation for fluctuations in general operating voltages.
-  - Contacts like `v-left-turn-lights` are ideal for sending activity into
-    a microcontroller via a voltage level conversion circuit.
+    conversion on any of the `v-*` contacts. This allows flexibility given
+    vehicle voltage variation. A module merely needs to compare a logic voltage
+    to the reference voltage to determine whether a 1 or 0 is being received.
   - If the capabilities of this connector are insufficient, consider pairing
     it with a `dsub-db-25` connector.
   - The `common-switched*` contacts can be used with microcontrollers, relay

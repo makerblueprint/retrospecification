@@ -15,5 +15,5 @@ contacts:
   6: controller-area-network-low
   7: controller-area-network-high
   8:
-    - twelve-volts-nominal
+    - fifteen-volts-max
     - negotiated-voltage

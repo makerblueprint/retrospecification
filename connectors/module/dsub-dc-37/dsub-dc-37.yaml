@@ -4,17 +4,16 @@ description: >
   The spec for this connector differs from other Retro Modules connectors, in
   that it is primarily intended to be used for connections between a host
   computer & peripheral(s).
-  The most familiar proposed use case is a connection between an average laptop
-  & a laptop dock.
+  A common use case is a connection between an average laptop & a laptop dock.
   This connector may be more frequently used to connect one or more
   microcomputers to a backplane. The microcomputers might be configured as a
   cluster of web servers, data miners, or similar. This backplane might have
-  an integrated TCP/IP router & KVM functionality.
-  Finally, it could be used to standardize personal computer peripheral
-  devices, such as a disc drive, printer, 3D printer or CNC machine.
+  an integrated network router & KVM functionality.
+  Finally, it could be used to standardize legacy personal computer peripheral
+  devices, such as a floppy disc drive, printer, 3D printer or CNC machine.
   The spec includes support for 4K digital HD Video, gigabit networking & USB3.
-  Power-hungry devices will have no trouble. The spec allows for power supplies
-  of up to 40VDC. Each device can draw up to 20A.
+  Power-hungry devices will have no trouble running. With high-quality contacts
+  & appropriate wiring, each connector can safely support an 800W device.
 aliases:
   - D-sub 37
 references:

@@ -6,7 +6,7 @@ chemistry & quantity of batteries in a _series_ battery package.
 For instance, if you have a 3S LiPo battery, it would be electrically
 identified by a 1.2K Ohm resistor. If you have a 12V Lead Acid (Pb) battery,
 it would be electrically identified by a 1.6 Ohm resistor (since a 12V Pb
-battery is effectively 6x 6V Pb batteries wired in series). 
+battery is effectively 6x 2V Pb batteries wired in series). 
 
 For added safety, 1% tolerance resistors or better are recommended.
 The E24 series of resistors is used in this matrix.
