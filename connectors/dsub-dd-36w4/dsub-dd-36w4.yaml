@@ -1,0 +1,55 @@
+name: DD-36W4 Connector
+summary: 30S 80A Max Battery Connector
+aliases:
+  - mixed d-sub
+warnings:
+  - This connector may feature dangerous voltages.
+  - High-voltage contacts should be disconnected until power is
+    explicitly requested via the `common-power-request` contact.
+notes:
+  - Connector may accomodate either 20A or 40A on A1, A2, A3 & A4.
+  - Consider used 18650 batteries for your battery pack.
+  - Consider the 25R series of 18650 batteries for better performance.
+  - Battery packs may include temperature sensor(s) & that data could be
+    requested via `one-wire-data` or CAN.
+  - Battery packs may include a voltage monitoring chip & data could be
+    requested via `one-wire-data` or CAN.
+  - Information about the battery pack could be requested via `one-wire-data`
+    for automatic charge controller configuration.
+contacts:
+  1: balance-cell-1
+  2: balance-cell-2
+  3: balance-cell-3
+  4: balance-cell-4
+  5: balance-cell-5
+  6: balance-cell-6
+  7: balance-cell-7
+  8: balance-cell-8
+  9: balance-cell-9
+  10: balance-cell-10
+  11: balance-cell-11
+  12: balance-cell-12
+  13: balance-cell-13
+  14: balance-cell-14
+  15: balance-cell-15
+  16: balance-cell-16
+  17: balance-cell-17
+  18: balance-cell-18
+  19: balance-cell-19
+  20: balance-cell-20
+  21: balance-cell-21
+  22: balance-cell-22
+  23: balance-cell-23
+  24: balance-cell-24
+  25: balance-cell-25
+  26: balance-cell-26
+  27: balance-cell-27
+  28: balance-cell-28
+  29: balance-cell-29
+  30: controller-area-network-low
+  31: controller-area-network-high
+  32: common-power-request
+  a1: common
+  a2: series-sum
+  a3: series-sum
+  a4: common

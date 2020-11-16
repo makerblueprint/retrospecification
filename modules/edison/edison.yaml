@@ -1,0 +1,4 @@
+name: Intel Edison
+voltage-max-input: 4.5
+notes:
+  - consider AP2112 for 3.3VDC regulation (6VDC max input)

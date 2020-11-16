@@ -1,0 +1,5 @@
+name: Fader
+categories:
+  - input
+aliases:
+  - potentiometer

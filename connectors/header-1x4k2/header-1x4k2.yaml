@@ -1,0 +1,9 @@
+name: Header 1x4k2
+summary: Simple Power Connector
+description: Four contact header with a polarizing key in position 2.
+contacts:
+  1: one-wire-data
+  3: common
+  4: twelve-volts-max
+keys:
+  - 2

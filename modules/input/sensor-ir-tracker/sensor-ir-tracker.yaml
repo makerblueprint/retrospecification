@@ -1,0 +1,8 @@
+name: IR Tracking Module
+summary: Track one or more points of infra-red light.
+notes:
+  - Many modern headset virtual reality displays leverage IR tracking. It is
+    possible, however, to use legacy video game hardware (and similar) to
+    track IR.
+reference:
+  - https://www.youtube.com/watch?v=Jd3-eiid-Uw

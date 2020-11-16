@@ -1,0 +1,11 @@
+name: Header 2x3
+summary: SAO 1.69bis Connector
+reference:
+  - https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard
+contacts:
+  1: three-point-three-volts-regulated
+  2: i2c-data
+  3: gpio-1
+  4: common
+  5: i2c-clock
+  6: gpio-2

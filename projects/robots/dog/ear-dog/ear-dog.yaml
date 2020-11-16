@@ -3,7 +3,7 @@ description: >
   Building on the ear module, this module mimics typical dog ear movements.
 connectors:
   - dsub-de-9
-  - card-edge-10
+  - card-edge-2x5
 related:
   - ear-cat
   - ear

@@ -1,0 +1,6 @@
+name: DMX Radio Receiver Module
+summary: A module capable of receiving wireless DMX signal.
+categories:
+  - input
+  - costume
+  - prop

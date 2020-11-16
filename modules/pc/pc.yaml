@@ -1,0 +1,11 @@
+name: Personal Computer
+summary: Make a desktop or laptop into a Retro Module
+description: >
+  Some things are best left to beefy machines (e.g. graphics). Graphics can be
+  queued, however, with basic low-bandwidth directives. Consider a venue with
+  one or more performers. The performers may queue animations on the backdrop
+  behind them via arm or mouth movements. The heavy computation is performed by
+  the computer behind the screen -- not the microcontroller on the performer.
+  These animations may also include sound, which may best be heard through a
+  large sound system behind the performer. The classic computer is the best
+  option for sound effects processing.
