@@ -1,0 +1,21 @@
+name: Adapter - Power Brick
+summary: Use the power from an old laptop or printer brick.
+description: >
+  Most laptop power supplies output right around 19VDC. If you have a power
+  brick stating it supplies forty volts or less, it can be easily integrated
+  into your collection of modules. Most connectors in The Retro Specification
+  have one or more `forty-volts-max` contacts. Power can be passed through
+  one module to another with ease. If a module requires power, it can use
+  either power from the `twelve-volts-max` bus or power from the
+  `forty-volts-max` bus. If a particular module is power-hungry, it should
+  prefer power from the `forty-volts-max` bus... and could fall back to the
+  `twelve-volts-max` bus if necessary (e.g. low-power mode).
+  Many inexpensive voltage regulators can tolerate up to about forty volts.
+  The power needs of one module may differ from that of another. A five volt
+  regulator may be your regulator of choice, but certain modules may need
+  twelve volts or more. The `forty-volts-max` bus provides some flexibility.
+connectors:
+  - dsub-db-25
+  - dsub-da-15
+  - dsub-de-9
+  - din8

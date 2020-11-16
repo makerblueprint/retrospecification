@@ -1,0 +1,119 @@
+name: 80 contact Single Connector Attachment
+summary: Recently deprecated SCSI backplane connector.
+description: >
+  A type of connection used for the internal cabling of SCSI systems.
+  SCA is no longer in widespread use, having been superseded by
+  Serial attached SCSI.
+  This connector was specifically designed for hot-pluggable hard drives.
+  The contacts below remain optimized for hot-plugging... of Retro Modules.
+  If you're looking to build a flush-mount hot-pluggable RasPi module, for
+  instance, consider hacking up an old SCA SCSI hard drive, tray & bay. When
+  you need to service the module, simply eject it from its housing.
+  Since the 80 contact connector is a `micro-ribbon` connector, the risk of
+  damaged contacts is greatly reduced.
+aliases:
+  - sca-1
+  - sca-2
+reference:
+  - https://en.wikipedia.org/wiki/Single_Connector_Attachment
+  - http://www.pcguide.com/ref/hdd/if/scsi/cablesSCA-c.html
+  - http://pinouts.ru/HD/scsiexternalsca80_pinout.shtml
+  - AMP Champ 557613-1
+  - AMP Champ 557114-5
+  - AMP Champ 2-557103-1
+  - AMP Champ 2-557101-1
+  - flush-mount-hot-pluggable-raspi
+  - flush-mount-hot-pluggable-beaglebone
+ideas:
+  - HDBaseT
+  - Ethernet
+  - Analog HD Video
+  - Analog SD Video
+  - Analog Line Level Audio
+  - Analog Unbalanced Mic Level Audio
+  - Basic Digital Audio
+  - Pro Digital Audio Send
+  - Pro Digital Audio Return
+  - NeoPixel support (WS2812, etc)
+  - CAN bus
+contacts:
+  1: twelve-volts-regulated
+  2: twelve-volts-regulated
+  3: twelve-volts-regulated
+  4: twelve-volts-regulated
+  5: three-point-three-volts-regulated
+  6: three-point-three-volts-regulated
+  7: reserved
+  8: reserved
+  9: reserved
+  10: reserved
+  11: reserved
+  12: reserved
+  13: reserved
+  14: reserved
+  15: reserved
+  16: reserved
+  17: reserved
+  18: reserved
+  19: reserved
+  20: reserved
+  21: reserved
+  22: reserved
+  23: reserved
+  24: reserved
+  25: reserved
+  26: reserved
+  27: reserved
+  28: reserved
+  29: reserved
+  30: reserved
+  31: reserved
+  32: reserved
+  33: reserved
+  34: five-volts-regulated
+  35: five-volts-regulated
+  36: five-volts-regulated
+  37: reserved
+  38: reserved
+  39: reserved
+  40: reserved
+  41: twelve-volts-regulated-common
+  42: twelve-volts-regulated-common
+  43: twelve-volts-regulated-common
+  44: reserved
+  45: three-point-three-volts-regulated
+  46: common
+  47: reserved
+  48: reserved
+  49: reserved
+  50: reserved
+  51: reserved
+  52: reserved
+  53: reserved
+  54: reserved
+  55: reserved
+  56: reserved
+  57: reserved
+  58: reserved
+  59: reserved
+  60: reserved
+  61: reserved
+  62: reserved
+  63: reserved
+  64: reserved
+  65: reserved
+  66: reserved
+  67: reserved
+  68: reserved
+  69: reserved
+  70: reserved
+  71: reserved
+  72: reserved
+  73: reserved
+  74: reserved
+  75: five-volts-regulated-common
+  76: five-volts-regulated-common
+  77: reserved
+  78: reserved
+  79: reserved
+  80: reserved

@@ -11,7 +11,7 @@ ideas:
 connectors:
   - jst-sm-4
   - jst-sm-6
-  - card-edge-10
+  - card-edge-2x5
   - rj11
 host_modules:
   - flora

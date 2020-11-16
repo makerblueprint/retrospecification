@@ -1,0 +1,65 @@
+name: Card Edge 26 Contact
+description: >
+  The companion edge connector for the Retro Specification DB-25 connector.
+capabilities:
+  - DC Power
+  - Analog HD Video
+  - Analog SD Video
+  - 4x Analog Line Level Audio Channels
+  - One-Wire Data
+  - CAN bus
+  - SPI bus
+  - I2C bus
+  - ICSP
+keywords:
+  - d-sub 25
+  - db-25
+contacts:
+  1: spi-clock
+  2: controller-area-network-high
+  3: controller-area-network-low
+  4: i2c-clock
+  5: i2c-data
+  6: common-power-request
+  7: twelve-volts-max
+  8: one-wire-data
+  9: forty-volts-max
+  10: forty-volts-max
+  11: av-bus-common
+  12:
+    - av-bus-audio-line-level-left
+    - av-bus-audio-line-level-aux-send-1
+    - av-bus-audio-line-level-channel-1
+  13:
+    - av-bus-audio-line-level-right
+    - av-bus-audio-line-level-aux-send-2
+    - av-bus-audio-line-level-channel-2
+  14: spi-controller-out-peripheral-in
+  15: spi-controller-in-peripheral-out
+  16: spi-chip-select
+  17:
+    - av-bus-video-composite
+    - av-bus-video-component-pb
+    - common
+  18:
+    - av-bus-video-separate-luminance
+    - av-bus-video-component-pr
+    - common
+  19:
+    - av-bus-video-separate-chrominance
+    - av-bus-video-component-y
+    - common
+  20: common-reset
+  21: common
+  22: common
+  23: common
+  24:
+    - av-bus-audio-line-level-aux-left
+    - av-bus-audio-line-level-aux-return-1
+    - av-bus-audio-line-level-channel-3
+    - common
+  25:
+    - av-bus-audio-line-level-aux-right
+    - av-bus-audio-line-level-aux-return-2
+    - av-bus-audio-line-level-channel-4
+    - common

@@ -3,4 +3,4 @@ description: >
   Building on the ear module, this module mimics popular rabbit ear movements.
 connectors:
   - dsub-de-9
-  - card-edge-10
+  - card-edge-2x5

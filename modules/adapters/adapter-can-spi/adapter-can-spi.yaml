@@ -1,0 +1,17 @@
+name: CAN to SPI Adapter
+summary: Communicate with SPI devices via CAN-BUS
+description: >
+  In most cases, a proxy microcontroller would be necessary in this
+  adapter. Some, like `teensy3` feature CAN-BUS capabilities but may still
+  require a CAN-BUS transceiver.
+see:
+  - controller-area-network
+  - inter-integrated-circuit
+reference:
+  - http://www.barrgroup.com/Embedded-Systems/How-To/CAN-vs-SPI
+buy:
+  - https://www.sparkfun.com/products/13262
+  - http://www.seeedstudio.com/wiki/CAN-BUS_Shield
+connectors:
+  - dsub-de-9
+  - dsub-db-25

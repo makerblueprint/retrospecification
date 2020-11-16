@@ -1,0 +1,26 @@
+name: ATX Power Supply Adapter
+summary: Safely adapts a PC power supply to provide power to other modules.
+notes:
+  - Make sure to include some form of basic load whenever your power supply is
+     on. These devices are expecting a computer motherboard attached to them
+     whenever powered up. Maintaining a load at all times (e.g. an 8 Ohm
+     resistor rated at > 3 watts) reduces stress on the internal components.
+  - Make sure proper fuses are in place for conversion to smaller connectors.
+    Many power supplies can provide a significant amount of current. Some
+    Retro Module connectors are not rated for vast amounts current. Fuses help
+    reduce risk.
+ideas:
+  -> host modules may use `regulated-five-volts-standby` on
+     `molex-mixed-voltage-24-r2` connectors
+  - full power supply can be turned on via request over CAN/SPI/I2C
+reference:
+  - https://en.wikipedia.org/wiki/ATX
+  - https://en.wikipedia.org/wiki/Molex_connector
+  - http://www.instructables.com/answers/what-can-be-used-as-the-dummy-load-on-a-converted-/#CSEDB28H994TJ6L
+connectors:
+  - molex-mixed-voltage-24-r2
+  - molex-mixed-voltage
+  - module
+  - module-hefty
+  - module-internal
+  - power-dc

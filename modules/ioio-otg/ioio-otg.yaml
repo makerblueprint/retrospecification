@@ -1,0 +1,22 @@
+name: IOIO-OTG
+reference:
+  - https://github.com/ytai/ioio/wiki/Getting-To-Know-The-IOIO-OTG-Board
+  - https://en.wikipedia.org/wiki/IOIO
+todo:
+  - Make ioio-otg.jar file. It should declare a function named 'getPin'.
+     The 'getPin' function will return (int) pin based on the passed argument.
+     This board features multiple SPI & I2C interfaces. There are at least two
+     I2C buses on the board. The function should, by default, return the data
+     & clock pins for the bus with the lowest numeric value
+     (DA0/CL0 instead of DA1/CL1).
+contacts:
+  'i2c-data':
+    - 4
+    - 1
+  'i2c-clock':
+    - 5
+    - 2
+  'spi-chip-select': 'tbd'
+  'spi-controller-out-peripheral-in': 'tbd'
+  'spi-controller-in-peripheral-out': 'tbd'
+  'spi-clock': 'tbd'

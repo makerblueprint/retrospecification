@@ -1,0 +1,7 @@
+name: USB A Adapter
+summary: Connect your Retro Modules to a classic computer.
+connectors:
+  - usb-a
+  - dsub-de-9
+  - dsub-db-25
+  - din-8

@@ -8,6 +8,6 @@ description: >
   larger whistles, full-spectrum reproduction of the sound effect is very
   important. Consider hiding a sub-woofer & mid-range speaker in your build.
 connectors:
-  - card-edge-26
+  - card-edge-2x13
   - dsub-db25
   - din8
