@@ -14,7 +14,7 @@ contacts:
   2: controller-area-network-low
   3: controller-area-network-high
   4: common-reset
-  5: twelve-volts-max
+  5: fifteen-volts-max
   6: common-power-request
   7: i2c-clock
   8: i2c-data

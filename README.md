@@ -70,6 +70,7 @@ begin!
 * Refer to the [style guide](style-guide.yaml) for overall style recommendations.
 * "Ground" is referred to as "common" in this specification. 
 * Power contacts feature positive [DC](definitions/direct-current.yaml) unless stated otherwise.
+* Use a DC-DC Regulator for devices requiring specific voltages (e.g. "AMS1117", "MP1584EN", or "LM2596")
 * I2C & SPI logic level is 3.3V.
 * Unbalanced analog audio sources should provide [line level](https://en.wikipedia.org/wiki/Line_level) signal
 * Analog signals near digital signals will be subject to some interference.
@@ -107,10 +108,11 @@ Please refer to [this](connectors/dsub-de-9/dsub-de-9.yaml) document for the DE-
 
 * Connect the `SCL` contact on the microcontroller to the `i2c-clock` contact on the "Socket-Style" DE-9 Connector.
 * Connect the `SDA` contact on the microcontroller to the `i2c-data` contact on the "Socket-Style" DE-9 Connector.
-* Connect the `VIN` contact on the microcontroller to the `twelve-volts-max` contact on the "Pin-Style" DE-9 Connector.
+* Connect the `VIN` contact on the microcontroller to the `fifteen-volts-max` contact on the "Pin-Style" DE-9 Connector.
+  * Use a DC-DC converter if the microcontroller requires a supply voltage lower than 15V.
 * Connect the `common` contact on the "Socket-Style" DE-9 Connector to the `common` contact on the "Pin-Style" DE-9 Connector.
 * Connect the `common` contact on the microcontroller to the `common` contact on the "Socket-Style" DE-9 Connector.
-* Connect the `twelve-volts-max` contact on the "Socket-Style" DE-9 Connector to the `twelve-volts-max` contact on the "Pin-Style" DE-9 Connector.
+* Connect the `fifteen-volts-max` contact on the "Socket-Style" DE-9 Connector to the `fifteen-volts-max` contact on the "Pin-Style" DE-9 Connector.
 
 Congratulations! You've created your first Retro Module! Let's power it up!
 
@@ -121,7 +123,7 @@ which will be soldered to a "Socket-Style" DE-9 Connector.
 #### Wiring Guide
 Please refer to [this](connectors/dsub-de-9/dsub-de-9.yaml) document for the DE-9 Connector spec.
 
-* Connect the red wire of the 9V Battery Clip Connector to the `twelve-volts-max` contact on the "Socket-Style" DE-9 Connector.
+* Connect the red wire of the 9V Battery Clip Connector to the `fifteen-volts-max` contact on the "Socket-Style" DE-9 Connector.
 * Connect the black wire of the 9V Battery Clip Connector to the `common` contact on the "Socket-Style" DE-9 Connector.
 
 That's it! You now have a 9V Battery Module! Feel free to power up your microcontroller module. 
@@ -130,7 +132,7 @@ That's it! You now have a 9V Battery Module! Feel free to power up your microcon
 A good example I2C device is a MPU-6050 board, which creates & sends its
 accelerometer data to other device(s). Since the Retro Modules specification
 requires 3.3V logic levels, your MPU-6050 Retro Module will require a 3.3V
-voltage regulator.
+voltage regulator (such as "AMS1117-3.3").
 
 #### MPU-6050 Wiring
 Please refer to [this](connectors/dsub-de-9/dsub-de-9.yaml) document for the DE-9 Connector spec.
@@ -140,7 +142,7 @@ Please refer to [this](connectors/dsub-de-9/dsub-de-9.yaml) document for the DE-
 * Connect the `GND` contact on the MPU-6050 board to the `common` contact on the DE-9 "Pin-Style" Connector.
 * Connect the `VCC` contact on the MPU-6050 board to the output of the 3.3V Voltage Regulator.
 * Connect the common contact of the 3.3V Voltage regulator to the `common` contact on the DE-9 "Pin-Style" Connector.
-* Connect the input contact of the 3.3V Voltage regulator to the `twelve-volts-max` contact on the DE-9 "Pin-Style" Connector.
+* Connect the input contact of the 3.3V Voltage regulator to the `fifteen-volts-max` contact on the DE-9 "Pin-Style" Connector.
 
 You now have your third Retro Module ready to go! Power down your
 Microcontroller Retro Module, connect your Accelerometer Retro Module, power

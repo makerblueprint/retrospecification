@@ -14,18 +14,22 @@ reference:
   - https://en.wikipedia.org/wiki/CAN_in_Automation
 type: dsub-de-9
 contacts:
-  1: - regulated-twelve-volts
-     - regulated-five-volts
-     - no-connection
+  1:
+    - regulated-twelve-volts
+    - regulated-five-volts
+    - no-connection
   2: controller-area-network-low
-  3: - common
-     - no-connection
+  3:
+    - common
+    - no-connection
   4: no-connection
   5: no-connection
-  6: - common
-     - no-connection
+  6:
+    - common
+    - no-connection
   7: controller-area-network-high
   8: no-connection
-  9: - regulated-twelve-volts
-     - regulated-five-volts
-     - no-connection
+  9:
+    - regulated-twelve-volts
+    - regulated-five-volts
+    - no-connection

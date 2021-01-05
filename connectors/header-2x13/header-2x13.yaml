@@ -24,7 +24,7 @@ contacts:
   4: i2c-clock
   5: i2c-data
   6: common-power-request
-  7: twelve-volts-max
+  7: fifteen-volts-max
   8: one-wire-data
   9: forty-volts-max
   10: forty-volts-max

@@ -1,9 +1,6 @@
 # Change Log
 
 ## V1.1
-* The `fifteen-volts-max` contacts on many connectors are now
-    `twelve-volts-max`. This was done to maximize compatibility with numerous
-    microcontrollers which are only able to tolerate up to 12VDC.
 * Each module connector must only have digital signals with 3.3V logic level.
     If the components within the module has a differing logic level, it must be
     converted to 3.3V to be compatible with all other modules. By eliminating

@@ -35,12 +35,12 @@ proposals:
     scenarios:
       Given the host module requires an external battery
         And power is available on the `forty-volts-max` contact(s)
-        And power is available on `twelve-volts-max` contact(s)
+        And power is available on `fifteen-volts-max` contact(s)
           Then the host module should utilize power from the `forty-volts-max` contact(s)
           And client module(s) should utilize power from the `forty-volts-max` contact(s)
       Given the host module requires an external battery
         And power is not available on the `forty-volts-max` contact(s)
-        And power is available on the `twelve-volts-max` contact(s)
-          Then the host module should utilize power from the `twelve-volts-max` contact(s)
-          And client module(s) should utilize power from the `twelve-volts-max` contact(s)
+        And power is available on the `fifteen-volts-max` contact(s)
+          Then the host module should utilize power from the `fifteen-volts-max` contact(s)
+          And client module(s) should utilize power from the `fifteen-volts-max` contact(s)
           And client module(s) should conserve power wherever possible

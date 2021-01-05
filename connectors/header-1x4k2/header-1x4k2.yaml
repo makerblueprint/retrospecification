@@ -4,6 +4,6 @@ description: Four contact header with a polarizing key in position 2.
 contacts:
   1: one-wire-data
   3: common
-  4: twelve-volts-max
+  4: fifteen-volts-max
 keys:
   - 2
