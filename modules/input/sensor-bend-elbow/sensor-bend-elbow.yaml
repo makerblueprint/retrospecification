@@ -1,0 +1,15 @@
+name: Elbow Bend Sensor
+summary: Detect rough flexion & extension of the arm below the elbow.
+description: >
+  Mounted on the elbow, rough position lower arm -- in relation to the upper arm
+  -- may be determined via a simple variable resistors. More sophisticated,
+  accurate, and expensive options are available. Low-cost off-the-shelf sensors
+  will be noted here. Custom modules should remain as simple as possible.
+  More soon...
+reference:
+  - sensor-armband
+  - https://en.wikipedia.org/wiki/Anatomical_terms_of_motion#Flexion_and_extension
+categories:
+  - input
+  - costume
+  - prop

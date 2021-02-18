@@ -1,0 +1,34 @@
+name: 4x4 Header
+summary: Header with 4 Rows of 4 Contacts Arranged in a Palindromic Fashion
+description: >
+  The SAO Header is awesome. It just works. Great for low-power add-ons!
+  The 4x4  header is inspired by the SOA header, but adds structural support,
+  better power capabilities & the ability to connect client boards in any
+  orientation.
+  Four holes for 6-32 or 3mm screws may be added 1" from the center of the
+  header. Each corner of the header points toward one of these holes.
+features:
+  - Supports up to 800 Watts
+  - 4x I2C Busses
+notes:
+  - Pins are arranged in columns of four.
+  - From left to right, the top row features pins 1, 5, 9 & 13.
+reference:
+  - https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard
+contacts:
+  1: forty-volts-max
+  2: i2c-clock
+  3: i2c-data
+  4: forty-volts-max
+  5: i2c-data
+  6: common
+  7: common
+  8: i2c-clock
+  9: i2c-clock
+  10: common
+  11: common
+  12: i2c-data
+  13: forty-volts-max
+  14: i2c-data
+  15: i2c-clock
+  16: forty-volts-max

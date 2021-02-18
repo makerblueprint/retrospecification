@@ -1,0 +1,12 @@
+name: Adapter - USB Battery Pack
+summary: Use any off-the-shelf battery USB device charger.
+description: >
+  Traditional USB ports provide five volts regulated power. Pocket USB battery
+  packs usually feature a LiPo battery, a 5V voltage regulator & charge
+  controller. They typically are charged via a micro-USB port.
+  Most of the connectors in The Retro Specification include both a
+  `forty-volts-max` and a `fifteen-volts-max` contact. Since Retro Modules are
+  frequently daisy-chainable, power can be passed from one module to another.
+  To use a USB Battery Pack as a power source, wire it up to the
+  `forty-volts-max` and/or the `fifteen-volts-max` contact(s). Just make sure
+  it is the _only_ power source when you connect modules together.

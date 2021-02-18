@@ -1,0 +1,28 @@
+name: 50 Contact Micro-Ribbon Connector
+summary: 
+description: 
+ideas:
+  - automotive:
+    - twelve-volts-nominal-car
+    - twelve-volts-nominal-car-switched
+    - twelve-volts-nominal-car-left-blinker
+    - twelve-volts-nominal-car-right-blinker
+    - twelve-volts-nominal-car-running-stop
+    - twelve-volts-nominal-car-brakes
+    - twelve-volts-nominal-car-reverse
+    - twelve-volts-nominal-trailer
+    - trailer-detect
+  - HDBaseT
+  - Ethernet
+  - Analog HD Video
+  - Analog SD Video
+  - Analog Line Level Audio
+  - Analog Unbalanced Mic Level Audio
+  - Basic Digital Audio
+  - Pro Digital Audio Send
+  - Pro Digital Audio Return
+  - NeoPixel support (WS2812, etc)
+  - CAN bus
+aliases:
+  - Telco
+contacts: reserved

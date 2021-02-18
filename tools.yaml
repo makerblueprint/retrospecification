@@ -1,0 +1,22 @@
+name: Tools
+description: >
+  If you are constructing Retro Modules by hand, consider using these tools.
+required:
+  - wire cutter
+  - wire stripper
+recommended:
+  soldering:
+    - soldering iron with temperature control
+    - part holder
+  crimping:
+    - red permanent marker for identifying contact 1 on ribbon cables
+    - D-Sub IDC crimp tool
+    - D-Sub pin crimp tool
+  fixing_mistakes:
+    - D-Sub pin extraction tool
+    - solder sucker
+    - solder wick
+  pcb_machining:
+    - band saw
+    - drill press
+    - tin snips

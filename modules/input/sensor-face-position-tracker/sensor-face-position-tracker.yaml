@@ -1,0 +1,14 @@
+name: Face Position Tracking Sensor Module
+summary: A module capable of tracking faces within view.
+notes:
+  - When pointed at audience, module would only focus on the most prevalent face.
+tips:
+  - Program robot eyes to look at primary subject
+  - Program robot head to shift toward primary subject
+reference:
+  - http://charmedlabs.com/default/pixy-cmucam5
+  - sensor-face-feature-tracker
+categories:
+  - input
+  - costume
+  - prop

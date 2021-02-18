@@ -1,0 +1,13 @@
+name: Torso Rotation Sensor Module
+summary: Detect rough rotation of the torso.
+description: >
+  Mounted on the waist & hips, rough rotation of the upper body -- in
+  relation to the lower body -- may be determined via variable resistors. More
+  sophisticated, accurate, and expensive options are available. Low-cost
+  off-the-shelf sensors will be noted here. Custom modules should remain as
+  simple as possible. More soon...
+reference:
+  - https://en.wikipedia.org/wiki/Anatomical_terms_of_motion
+categories:
+  - input
+  - costume

@@ -1,0 +1,21 @@
+name: Black & Decker 20V Battery
+foundation:
+  length:
+    average: 76
+    max: 80
+  width: 60
+track:
+  width: 48.25
+  length:
+    min: 61
+    max: 68.5
+  inner:
+    width: 38.75
+    length:
+      max: 72.5
+  thickness: 14
+latch:
+  width: 31
+  length: 11
+  thickness: 8.5
+  tallest_distance_from_track_min: 69

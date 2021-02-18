@@ -1,0 +1,4 @@
+name: Flame Sensor Module
+summary: Detect presence of a flame.
+reference:
+  - https://en.wikipedia.org/wiki/Thermocouple

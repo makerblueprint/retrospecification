@@ -3,4 +3,4 @@ summary: This is a module for the fishes.
 description: Flipper? Jaws? Musical bass? Biomimicry drone?
 connectors:
   - dsub-de-9
-  - card-edge-10
+  - card-edge-2x5

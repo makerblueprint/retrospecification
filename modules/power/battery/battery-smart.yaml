@@ -1,0 +1,10 @@
+name: Smart Battery Module
+summary: A digitally controllable self-contained rechargeable battery module.
+description:
+  For simple projects, consider building a basic `battery` module.
+  The contacts dedicated to power distribution are a tricky subject. Suppose
+  your project has a host module with its own internal battery & a client
+  module as well. Which module should supply power? It should be one or the
+  other -- not both.
+  The smart battery module concept is a work in progress. Feedback on how to
+  best address power management automatically would be greatly appreciated.

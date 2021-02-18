@@ -1,0 +1,12 @@
+name: Thermostat PWM Fan Controller
+description: >
+  While readily available online, fan controllers need not stop at
+  thermostat-based control. When part of a network of fan controllers, some
+  fan speeds may need to be overridden by a central control system. A costume
+  full of automatic fans need not run when the performer is absent.
+buy:
+  - https://www.google.com/search?tbm=shop&q=thermostat+pwm+four+wire+fan+control
+reference:
+  - http://www.pcbheaven.com/blogpages/PC_Fan_Controlling_Methods
+see:
+  - thermostat-dry-ice-feeder

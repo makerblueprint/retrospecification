@@ -9,8 +9,8 @@ notes:
      could be the red terminal on a battery/amplifier, or the 'hot' in an
      AC power circuit.
   - Motherboard power cable colors should be reinforced where possible:
-    - red:    five-volts-regulated
-    - purple: unswitched-five-volts-regulated
+    - red:    regulated-five-volts
+    - purple: unswitched-regulated-five-volts
     - yellow: twelve-volts-regulated
     - black:  common
     - blue:   negative-twelve-volts-regulated

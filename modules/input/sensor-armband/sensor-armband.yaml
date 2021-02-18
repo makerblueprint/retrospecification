@@ -1,0 +1,8 @@
+name: Armband Sensor Receiver Module
+summary: A module capable of receiving data from off-the-shelf armband sensors.
+categories:
+  - input
+  - costume
+  - prop
+buy:
+  - https://www.myo.com

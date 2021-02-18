@@ -1,0 +1,11 @@
+name: Bluetooth HID Receiver Module
+summary: A module capable of pairing with a HID bluetooth input device.
+categories:
+  - input
+  - costume
+  - performance
+  - prop
+reference:
+  - https://www.google.com/search?tbm=isch&q=bluetooth+keyboard
+buy:
+  - https://www.adafruit.com/products/1535

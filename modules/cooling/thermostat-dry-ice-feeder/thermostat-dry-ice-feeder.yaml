@@ -1,0 +1,23 @@
+name: Thermostat-Controlled Dry Ice Feeder
+summary: Automatically feed dry ice into water for cooling and/or effects.
+description: >
+  By default, when powered up the device would feed bits of dry ice into
+  water automatically -- based on temperature readings near the vent. A control
+  surface could be added to manually adjust how cold air near the exhaust
+  should be. This value (and others) could be adjusted via another CAN-BUS node
+  if connected.
+  For greater reaction, a heating element may be added to the water &
+  automatically switched on if necessary.
+see:
+  - controller-area-network
+connectors:
+  - dsub-de9
+  - dsub-db25
+  - din8
+  - aviation-gx-12-4
+  - aviation-gx-16-7
+host_modules:
+  - flora
+  - trinket
+  - pro-trinket
+  - edison
