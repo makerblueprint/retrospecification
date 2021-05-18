@@ -1,5 +1,14 @@
 # Change Log
 
+## V1.2
+This version optimizes the most commonly used connectors in the specification
+to reduce the need for numerous voltage regulators & further refines clean
+signal support.
+
+* Adds dedicated common bus for digital signals on many connectors.
+* Revises main connectors to support 6 & 40 volts max contacts.
+* Adds support for balanced audio on main 25 contact connectors.
+
 ## V1.1
 * Each module connector must only have digital signals with 3.3V logic level.
     If the components within the module has a differing logic level, it must be
