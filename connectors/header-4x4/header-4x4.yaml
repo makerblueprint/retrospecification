@@ -17,18 +17,18 @@ reference:
   - https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard
 contacts:
   1: forty-volts-max
-  2: i2c-clock
-  3: i2c-data
+  2: io-i2c-clock
+  3: io-i2c-data
   4: forty-volts-max
-  5: i2c-data
+  5: io-i2c-data
   6: common
   7: common
-  8: i2c-clock
-  9: i2c-clock
+  8: io-i2c-clock
+  9: io-i2c-clock
   10: common
   11: common
-  12: i2c-data
+  12: io-i2c-data
   13: forty-volts-max
-  14: i2c-data
-  15: i2c-clock
+  14: io-i2c-data
+  15: io-i2c-clock
   16: forty-volts-max

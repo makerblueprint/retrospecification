@@ -21,14 +21,14 @@ capabilities:
   - ICSP
 see: micro-ribbon
 contacts:
-  1: spi-clock
-  2: controller-area-network-high
-  3: controller-area-network-low
-  4: i2c-clock
-  5: i2c-data
-  6: common-power-request
-  7: fifteen-volts-max
-  8: one-wire-data
+  1: io-spi-clock
+  2: io-controller-area-network-high
+  3: io-controller-area-network-low
+  4: io-i2c-clock
+  5: io-i2c-data
+  6: six-volts-max
+  7: forty-volts-max
+  8: io-one-wire-data
   9: forty-volts-max
   10: forty-volts-max
   11: av-bus-common
@@ -40,7 +40,7 @@ contacts:
     - av-bus-audio-line-level-right
     - av-bus-audio-line-level-aux-send-2
     - av-bus-audio-line-level-channel-2
-  14: spi-controller-out-peripheral-in
+  14: io-spi-controller-out-peripheral-in
   15: reserved
   16:
     - av-bus-audio-line-level-aux-right
@@ -59,8 +59,8 @@ contacts:
     - av-bus-video-separate-chrominance
     - av-bus-video-component-y
     - common
-  21: common-reset
-  22: common-reset
+  21: io-common
+  22: io-common
   23: common
   24: common
   25: common
@@ -75,14 +75,16 @@ contacts:
     - av-bus-audio-line-level-aux-left
     - av-bus-audio-line-level-aux-return-1
     - av-bus-audio-line-level-channel-3
+    - av-bus-audio-line-level-channel-1-phase-inverted
     - common
   30:
     - av-bus-audio-line-level-aux-right
     - av-bus-audio-line-level-aux-return-2
     - av-bus-audio-line-level-channel-4
+    - av-bus-audio-line-level-channel-2-phase-inverted
     - common
-  31: spi-chip-select
-  32: spi-controller-in-peripheral-out
+  31: io-spi-chip-select
+  32: io-spi-controller-in-peripheral-out
   33:
     - av-bus-video-separate-luminance
     - av-bus-video-component-pr

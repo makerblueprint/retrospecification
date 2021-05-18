@@ -1,0 +1,12 @@
+name: Header 1x5
+summary: Type A Generic Power Connector
+description: Palindromic five contact header featuring power & 1-Wire data.
+aliases:
+  - gpa
+  - Type A Generic Power Connector
+contacts:
+  1: forty-volts-max
+  2: common
+  3: io-one-wire-data
+  4: common
+  5: forty-volts-max

@@ -5,11 +5,13 @@ voltage:
   - 3.3
   - 5
 contacts:
-  0: - spi-controller-in-peripheral-out
-     - i2c-data
-  1: spi-controller-out-peripheral-in
-  2: - spi-clock
-     - i2c-clock
-     - adc-1
+  0:
+    - io-spi-controller-in-peripheral-out
+    - io-i2c-data
+  1: io-spi-controller-out-peripheral-in
+  2:
+    - io-spi-clock
+    - io-i2c-clock
+    - adc-1
   3: adc-3
   4: adc-2

@@ -4,8 +4,8 @@ aliases:
   - DB-15
   - D-sub 15
 contacts:
-  1: one-wire-data
-  2: id
+  1: io-one-wire-data
+  2: io-id
   3: series-sum
   4: common
   5: series-balance-ref-0

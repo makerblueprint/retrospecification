@@ -1,9 +1,12 @@
 name: Header 1x4k2
-summary: Simple Power Connector
-description: Four contact header with a polarizing key in position 2.
+summary: Type B Generic Power Connector
+description: Four contact header featuring power & 1-Wire data.
+aliases:
+  - gpb
+  - Type B Generic Power Connector
 contacts:
-  1: one-wire-data
+  1: io-one-wire-data
   3: common
-  4: fifteen-volts-max
+  4: six-volts-max
 keys:
   - 2

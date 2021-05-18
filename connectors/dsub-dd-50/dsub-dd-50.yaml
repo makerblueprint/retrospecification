@@ -39,10 +39,12 @@ contacts:
   12: v-ignition-engine
   13: v-dash-backlight
   14: v-dome-light
-  15: - v-trunk-light
-      - v-truck-bed-light
-  16: - v-flood-lights
-  17: - v-accent-lights
+  15:
+    - v-trunk-light
+    - v-truck-bed-light
+  16:
+    - v-flood-lights
+  17: v-accent-lights
 
   18: reserved
   19: reserved
@@ -75,6 +77,6 @@ contacts:
   45: common-switched-5
   46: common-switched-6
   47: common-switched-7
-  48: one-wire-data
-  49: controller-area-network-low
-  50: controller-area-network-high
+  48: io-one-wire-data
+  49: io-controller-area-network-low
+  50: io-controller-area-network-high

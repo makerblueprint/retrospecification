@@ -17,7 +17,7 @@ buy:
 contacts:
   1: common
   2: twelve-volts-nominal-switched
-  3: pixel-data
-  4: one-wire-data
+  3: io-pixel-data
+  4: io-one-wire-data
   5: twelve-volts-nominal
   6: common

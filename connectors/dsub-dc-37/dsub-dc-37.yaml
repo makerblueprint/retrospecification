@@ -19,8 +19,8 @@ aliases:
 references:
   - http://www.pidramble.com
 contacts:
-  1: one-wire-data
-  2: controller-area-network-low
+  1: io-one-wire-data
+  2: io-controller-area-network-low
   3: usb-data-low
   4: usb-data-ss-rx-low
   5: usb-data-ss-tx-low
@@ -38,7 +38,7 @@ contacts:
   17: base-t-data-b-low
   18: base-t-data-a-low
   19: base-t-data-d-low
-  20: controller-area-network-high
+  20: io-controller-area-network-high
   21: usb-data-high
   22: usb-data-ss-rx-high
   23: usb-data-ss-tx-high

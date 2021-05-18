@@ -3,13 +3,13 @@ summary: 70V Max 120A Max High-Current Connector
 notes:
   - Connector may accomodate either 20A or 40A on all `a` contacts.
 contacts:
-  1: one-wire-data
+  1: io-one-wire-data
   2: reserved
   3: reserved
   4: reserved
   5: common-power-request
-  6: controller-area-network-low
-  7: controller-area-network-high
+  6: io-controller-area-network-low
+  7: io-controller-area-network-high
   a1: seventy-volts-max
   a2: seventy-volts-max
   a3: seventy-volts-max

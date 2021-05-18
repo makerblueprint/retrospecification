@@ -32,7 +32,7 @@ reference:
   - http://www.androidcentral.com/quick-charge
 contacts:
   1: digital-audio-spdif
-  2: controller-area-network-low
-  3: controller-area-network-high
+  2: io-controller-area-network-low
+  3: io-controller-area-network-high
   4: common
   5: forty-volts-max

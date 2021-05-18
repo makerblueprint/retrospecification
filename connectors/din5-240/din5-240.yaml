@@ -6,7 +6,7 @@ description:
   the vast array of 12VDC vehicle & RC accessories without introducing
   any extra complexity.
   If a device requires more than 12 volts, it can request it via the
-  `one-wire-data` contact. It is merely a request, though. If there is a
+  `io-one-wire-data` contact. It is merely a request, though. If there is a
   module regulating power on pins 4 & 5, it may adjust its output voltage
   if equipped to do so.
   To remain safe, modules should not provide more than 50VDC.
@@ -27,7 +27,7 @@ aliases:
 compatible:
   - din6-240
 contacts:
-  1: one-wire-data
+  1: io-one-wire-data
   2: common
   3: common
   4:

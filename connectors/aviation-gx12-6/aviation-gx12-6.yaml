@@ -15,7 +15,7 @@ keywords:
 contacts:
   1: common
   2: sixty-volts-max
-  3: controller-area-network-low
-  4: controller-area-network-high
+  3: io-controller-area-network-low
+  4: io-controller-area-network-high
   5: digital-audio-aes-host-out-client-in-negative
   6: digital-audio-aes-host-out-client-in-positive

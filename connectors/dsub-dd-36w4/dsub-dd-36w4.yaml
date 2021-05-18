@@ -5,16 +5,16 @@ aliases:
 warnings:
   - This connector may feature dangerous voltages.
   - High-voltage contacts should be disconnected until power is
-    explicitly requested via the `common-power-request` contact.
+    explicitly requested via the `io-common-power-request` contact.
 notes:
   - Connector may accomodate either 20A or 40A on A1, A2, A3 & A4.
   - Consider used 18650 batteries for your battery pack.
   - Consider the 25R series of 18650 batteries for better performance.
   - Battery packs may include temperature sensor(s) & that data could be
-    requested via `one-wire-data` or CAN.
+    requested via `io-one-wire-data` or CAN.
   - Battery packs may include a voltage monitoring chip & data could be
-    requested via `one-wire-data` or CAN.
-  - Information about the battery pack could be requested via `one-wire-data`
+    requested via `io-one-wire-data` or CAN.
+  - Information about the battery pack could be requested via `io-one-wire-data`
     for automatic charge controller configuration.
 contacts:
   1: balance-cell-1
@@ -46,9 +46,9 @@ contacts:
   27: balance-cell-27
   28: balance-cell-28
   29: balance-cell-29
-  30: controller-area-network-low
-  31: controller-area-network-high
-  32: common-power-request
+  30: io-controller-area-network-low
+  31: io-controller-area-network-high
+  32: io-common-power-request
   a1: common
   a2: series-sum
   a3: series-sum
