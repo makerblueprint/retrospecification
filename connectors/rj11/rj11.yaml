@@ -9,7 +9,9 @@ description: >
   to connect one set of modules to another over longer distances.
   Many hardware stores carry four-wire thin telephone cables. These
   four-wire cables can drive a small set of NeoPixels without issue.
-  Six-wire cables add `canbus`.
+  Current should probably not exceed 1A. Since the connector specifies
+  a 40V maximum, up to 40W is supported.
+  Six-wire RJ11 Retro Modules cables support `canbus`.
 keywords:
   - 6P2C
   - 6P4C
@@ -43,9 +45,9 @@ legacy_colors:
   5: yellow
   6: blue
 contacts:
-  1: controller-area-network-low
-  2: pixel-data
+  1: io-controller-area-network-low
+  2: io-pixel-data
   3: forty-volts-max
   4: common
-  5: one-wire-data
-  6: controller-area-network-high
+  5: io-common
+  6: io-controller-area-network-high

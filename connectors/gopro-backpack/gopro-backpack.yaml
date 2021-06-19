@@ -15,12 +15,14 @@ notes:
   - component video out activate by connecting ID2 to common
 contacts:
   1: common
-  2: - av-bus-composite
-     - av-bus-video-component-pb
-     - av-bus-video-component-cb
+  2:
+    - av-bus-composite
+    - av-bus-video-component-pb
+    - av-bus-video-component-cb
   3: av-bus-video-component-y
-  4: - av-bus-video-component-pr
-     - av-bus-video-component-cr
+  4:
+    - av-bus-video-component-pr
+    - av-bus-video-component-cr
   5: regulated-five-volts
   6: regulated-five-volts
   7: usb-data-positive
@@ -44,6 +46,6 @@ contacts:
   25: gopro-~ VBat+ external power input ?
   26: gopro-~ VBat+ external power input ?
   27: common
-  28: i2c-data
-  29: i2c-clock
+  28: io-i2c-data
+  29: io-i2c-clock
   30: common

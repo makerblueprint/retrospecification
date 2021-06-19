@@ -18,7 +18,7 @@ contacts:
     - regulated-twelve-volts
     - regulated-five-volts
     - no-connection
-  2: controller-area-network-low
+  2: io-controller-area-network-low
   3:
     - common
     - no-connection
@@ -27,7 +27,7 @@ contacts:
   6:
     - common
     - no-connection
-  7: controller-area-network-high
+  7: io-controller-area-network-high
   8: no-connection
   9:
     - regulated-twelve-volts

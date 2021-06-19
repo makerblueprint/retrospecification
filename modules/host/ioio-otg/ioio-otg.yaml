@@ -10,13 +10,13 @@ todo:
      & clock pins for the bus with the lowest numeric value
      (DA0/CL0 instead of DA1/CL1).
 contacts:
-  'i2c-data':
+  io-i2c-data:
     - 4
     - 1
-  'i2c-clock':
+  io-i2c-clock:
     - 5
     - 2
-  'spi-slave-select': 'tbd'
-  'spi-master-out-slave-in': 'tbd'
-  'spi-master-in-slave-out': 'tbd'
-  'spi-clock': 'tbd'
+  io-spi-chip-select: tbd
+  io-spi-controller-out-peripheral-in: tbd
+  io-spi-controller-in-peripheral-out: tbd
+  io-spi-clock: tbd

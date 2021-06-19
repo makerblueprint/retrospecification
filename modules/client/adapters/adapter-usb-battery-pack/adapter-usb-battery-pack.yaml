@@ -4,10 +4,6 @@ description: >
   Traditional USB ports provide five volts regulated power. Pocket USB battery
   packs usually feature a LiPo battery, a 5V voltage regulator & charge
   controller. They typically are charged via a micro-USB port.
-  Most of the connectors in The Retro Specification include a
-  `fifteen-volts-max` contact. Since Retro Modules are daisy-chainable,
-  that power is passed from one module to another. If a particular
-  module requires power, it can tap into the `fifteen-volts-max` bus.
 connectors:
   - dsub-db-25
   - usb-a

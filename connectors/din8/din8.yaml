@@ -12,8 +12,8 @@ contacts:
   3: av-bus-audio-right
   4: regulated-five-volts
   5: common
-  6: controller-area-network-low
-  7: controller-area-network-high
+  6: io-controller-area-network-low
+  7: io-controller-area-network-high
   8:
-    - fifteen-volts-max
+    - forty-volts-max
     - negotiated-voltage

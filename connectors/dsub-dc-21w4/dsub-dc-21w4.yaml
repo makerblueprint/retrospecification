@@ -8,10 +8,10 @@ notes:
   - Consider used `18650` batteries for your battery pack.
   - Consider the `25R` series of `18650` batteries for better performance.
   - Battery packs may include temperature sensor(s) & that data could be
-    requested via `one-wire-data` or CAN.
+    requested via `io-one-wire-data` or CAN.
   - Battery packs may include a voltage monitoring chip & data could be
-    requested via `one-wire-data` or CAN.
-  - Information about the battery pack could be requested via `one-wire-data`
+    requested via `io-one-wire-data` or CAN.
+  - Information about the battery pack could be requested via `io-one-wire-data`
     for automatic charge controller configuration.
 contacts:
   1: reserved

@@ -10,12 +10,12 @@ aliases:
   - D-sub 9
   - DB-9
 contacts:
-  1: one-wire-data
-  2: controller-area-network-low
-  3: controller-area-network-high
-  4: common-reset
-  5: fifteen-volts-max
-  6: common-power-request
-  7: i2c-clock
-  8: i2c-data
+  1: io-one-wire-data
+  2: io-controller-area-network-low
+  3: io-controller-area-network-high
+  4: io-common
+  5: forty-volts-max
+  6: six-volts-max
+  7: io-i2c-clock
+  8: io-i2c-data
   9: common

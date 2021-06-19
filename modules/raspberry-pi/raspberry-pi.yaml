@@ -7,9 +7,9 @@ voltage-max-input: 5
 pi3_contacts:
   1: three-point-three-volts-regulated
   2: regulated-five-volts
-  3: i2c-data
+  3: io-i2c-data
   4: regulated-five-volts
-  5: i2c-clock
+  5: io-i2c-clock
   6:
   7:
   8: uart-transmit
@@ -23,12 +23,12 @@ pi3_contacts:
   16:
   17:
   18:
-  19: spi-controller-out-peripheral-in
+  19: io-spi-controller-out-peripheral-in
   20:
-  21: spi-controller-in-peripheral-out
+  21: io-spi-controller-in-peripheral-out
   22:
-  23: spi-clock
-  24: spi-chip-select
+  23: io-spi-clock
+  24: io-spi-chip-select
   25:
   26:
   27:
