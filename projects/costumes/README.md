@@ -1,10 +1,10 @@
-Costume Projects
-================
+# Costume Projects
 A costume may require many modules. While costumes differ greatly from
 one to another, they share common issues: cooling, heating, lighting & sound.
 
-General Cooling Tips
---------------------
+Please click on one of the sections above to learn more about a specific project.
+
+## General Cooling Tips
 There are a few tricks you may consider to help keep you or your other
 cool & their helmet from fogging up.
 Always make sure to stay hydrated. Anti-moisture hacks are useful to keep
@@ -29,8 +29,7 @@ Finally, hydration. One of the best solutions is the good-old camel-back
 water bladder with tube. The tube can stay tucked away under a collar or be
 routed inside a helmet.
 
-Reference
----------
+## Reference
 * https://en.wikipedia.org/wiki/Cosplay
 * https://en.wikipedia.org/wiki/E-textiles
 * https://learn.sparkfun.com/tutorials/tags/e-textiles

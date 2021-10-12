@@ -1,0 +1,15 @@
+name: IOIO-OTG
+reference:
+  - https://github.com/ytai/ioio/wiki/Getting-To-Know-The-IOIO-OTG-Board
+  - https://en.wikipedia.org/wiki/IOIO
+contacts:
+  io-i2c-data':
+    - 4
+    - 1
+  io-i2c-clock':
+    - 5
+    - 2
+  io-spi-chip-select: tbd
+  io-spi-controller-out-peripheral-in: tbd
+  io-spi-controller-in-peripheral-out: tbd
+  io-spi-clock': tbd

@@ -1,9 +1,9 @@
-Puppet Projects
-===============
+# Puppet Projects
 A type of robot typically under direct control of one or more puppeteers.
 
-Key Qualities
--------------
+Please click on one of the sections above to learn more about a specific project.
+
+## Key Qualities
 - often controlled by many puppeteers, each assigned to specific puppet features
 - emphasis on reliable, repeatable performances
 - film

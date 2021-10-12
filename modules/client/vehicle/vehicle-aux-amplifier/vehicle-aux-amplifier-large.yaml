@@ -1,8 +1,0 @@
-name: Vehicle - Large Auxiliary Amplifier
-notes:
-  - Consider using just one of the connectors below. Which one depends on
-    the capabilities of the amplifer & head unit.
-connectors:
-  - aviation-gx16-8
-  - aviation-gx16-9
-  - dsub-db-9w4

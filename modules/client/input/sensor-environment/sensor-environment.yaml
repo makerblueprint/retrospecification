@@ -1,4 +1,0 @@
-name: Environment Sensor Module
-summary: Light, Movement, Temperature, Humidity, Compass & Accelerometer module
-note:
-  - Most of these data points may be gathered by a modern cell phone.

@@ -1,16 +1,13 @@
-Robot Projects
-==============
+# Robot Projects
+Please click on one of the sections above to learn more about a specific project.
 
-Research
---------
+## Research
 * Robot Operating System
 
-Reference
----------
+## Reference
 * smashingrobotics.com
 
-Software
---------
+## Software
 * https://www.smashingrobotics.com/most-advanced-and-used-robotics-simulation-software
 * V-Rep
   * http://www.coppeliarobotics.com

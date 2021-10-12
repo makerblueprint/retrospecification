@@ -1,9 +1,0 @@
-name: Composite Video
-summary: An analog video signal that carries standard definition video.
-notes:
-  - The video signal does not include audio.
-reference:
-  - https://en.wikipedia.org/wiki/Composite_video
-keywords:
-  - rca
-  - coax

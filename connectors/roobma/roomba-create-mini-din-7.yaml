@@ -1,9 +1,0 @@
-name: Roomba Create 7 pin Mini-DIN Connector
-contacts:
-  1: battery
-  2: battery
-  3: five-volts-serial-input
-  4: five-volts-serial-output
-  5: five-volts-device-detect-baud-rate-change
-  6: common
-  7: common

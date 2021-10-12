@@ -1,0 +1,12 @@
+name: Potentiometer Module
+reference:
+  - https://en.wikipedia.org/wiki/Potentiometer
+  - https://en.wikipedia.org/wiki/Rotary_encoder
+categories:
+  - input
+  - costume
+  - prop
+buy:
+  - https://www.adafruit.com/products/377
+  - https://www.adafruit.com/products/1069
+  - https://www.adafruit.com/products/562

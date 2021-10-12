@@ -4,3 +4,5 @@ competing contact specifications. We've documented the most popular
 specifications here. Keep in mind how frequently these connectors are used.
 If you would like to use a random device sporting a DB-25 connector, make
 sure to check the manual for that device & make an adapter. 
+
+Please click on one of the sections above for more information.

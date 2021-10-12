@@ -1,0 +1,20 @@
+name: "'4 Way Round' Connector"
+notes:
+  - Since this connector has largely been abandoned by the automotive
+    community, it has been repurposed here as a 12/24V power connector.
+  - This connector does not typically have the contacts numbered. Given this
+    issue, contacts are referred to by their position relative to the other
+    pins & the main key. The main "key" on this connector is on the underside.
+references:
+  - https://hackaday.io/project/181650-dc-power-cables
+contacts:
+  from_plug_back:
+    top_left: 24-volts-nominal
+    top_right: common
+    bottom_left: 12-volts-nominal
+    bottom_right: common
+  from_socket_back:
+    top_left: common
+    top_right: 24-volts-nominal
+    bottom_left: common
+    bottom_right: 12-volts-nominal

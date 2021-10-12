@@ -1,5 +1,4 @@
-Furniture Projects
-==================
+# Furniture Projects
 Make a piece of furniture into a _large_ Retro Module.
 
 Adding a smartphone dock in the arm rest? Installing subs? A Kirk-friendly

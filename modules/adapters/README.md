@@ -1,5 +1,4 @@
-Adapter Modules
-===============
+# Adapter Modules
 Frequently, we want to adapt one thing... to work with that other thing. That's
 what these modules are for.
 
@@ -9,3 +8,5 @@ out there (you may be one of them) who want to bring fifty-year-old computers
 onto the web. That computer probably had a standard interface, in it's day.
 Adapters have traditionally been just pair of connectors & wires. Throw a
 RESTful microcontroller in there, if you'd like.
+
+Please click on one of the sections above to learn more about a specific module.

@@ -1,0 +1,9 @@
+name: Vernier Interface Client Module
+description:
+  Vernier sensors are rugged, proven technology that are easy to use. Their
+  sensors provide consistent, high-quality results for the demands of student
+  instruction.
+reference:
+  - http://www.vernier.com/engineering/arduino
+buy:
+  - https://www.sparkfun.com/products/12858
