@@ -1,4 +1,7 @@
-# Production-Ready Modular Prototypes
+# Retro Modules
+A free & open framework to help speed along the discovery, design, implementation & testing processes for Makers of all skill levels.
+
+Follow the project at [retromodules.com](http://retromodules.com)!
 
 ## Breadboards are meant for the workbench. Bummer.
 You should be able to throw your prototypes in a backpack. You should be able
@@ -9,6 +12,9 @@ This community-maintained specification is (and will always be) free!
 
 Think the spec needs some revision? Please submit a pull request.
 Your feedback is truly appreciated.
+
+Take a look at some sample [projects](projects), [module ideas](modules) and
+[popular interfaces](connectors) if you want to dive in now.
 
 ## The Benefits of Retro Modules
 ### Upcycling
@@ -66,10 +72,10 @@ begin!
     * at discount electronics stores
     * at nearly any online electronics vendor
     * at E-Waste processing facilities
-* Refer to the [tool list](tools.yaml) for tool recommendations.
-* Refer to the [style guide](style-guide.yaml) for overall style recommendations.
+* Refer to the [tool list](recommendations/tools/specs.yaml) for tool recommendations.
+* Refer to the [style guide](recommendations/style-guide/specs.yaml) for overall style recommendations.
 * "Ground" is referred to as "common" in this specification. 
-* Power contacts feature positive [DC](definitions/direct-current.yaml) unless stated otherwise.
+* Power contacts feature positive [DC](terms/power/direct-current/README.md) unless stated otherwise.
 * Use a DC-DC Regulator for devices requiring specific voltages (e.g. "AMS1117", "MP1584EN", or "LM2596")
 * I2C & SPI logic level is 3.3V.
 * Unbalanced analog audio sources should provide [line level](https://en.wikipedia.org/wiki/Line_level) signal
@@ -89,7 +95,7 @@ begin!
 * A typical `d-sub` contact can only support up to 3A. Premium `d-sub` contacts
   typically support up to 5A.
 * Add fuses to help protect power sources & small wires.
-* Use polarizing keys in headers to help prevent incompatible connections.
+* Use [polarizing keys](../../terms/connectors/socket/polarizing-key) in headers to help prevent incompatible connections.
 * Unless explicitly recommended, do not connect connectors of one type directly
   to connectors of another type -- even if their pins line up.
 
@@ -104,7 +110,7 @@ using devices & connectors that are easy to hand-solder. If you wish to design
 printed circuit board Retro Modules, no problem! There are headers for that.
 
 #### Wiring Guide
-Please refer to [this](connectors/dsub-de-9/dsub-de-9.yaml) document for the DE-9 Connector spec.
+Please refer to [this](connectors/dsub-de-9) section for the DE-9 Connector spec.
 
 * Connect the `SCL` contact on the microcontroller to the `i2c-clock` contact on the "Socket-Style" DE-9 Connector.
 * Connect the `SDA` contact on the microcontroller to the `i2c-data` contact on the "Socket-Style" DE-9 Connector.
@@ -121,7 +127,7 @@ You'll need a power source, of course! You will need a 9V Battery Clip Connector
 which will be soldered to a "Socket-Style" DE-9 Connector.
 
 #### Wiring Guide
-Please refer to [this](connectors/dsub-de-9/dsub-de-9.yaml) document for the DE-9 Connector spec.
+Please refer to [this](connectors/dsub-de-9) section for the DE-9 Connector spec.
 
 * Connect the red wire of the 9V Battery Clip Connector to the `fifteen-volts-max` contact on the "Socket-Style" DE-9 Connector.
 * Connect the black wire of the 9V Battery Clip Connector to the `common` contact on the "Socket-Style" DE-9 Connector.
@@ -135,7 +141,7 @@ requires 3.3V logic levels, your MPU-6050 Retro Module will require a 3.3V
 voltage regulator (such as "AMS1117-3.3").
 
 #### MPU-6050 Wiring
-Please refer to [this](connectors/dsub-de-9/dsub-de-9.yaml) document for the DE-9 Connector spec.
+Please refer to [this](connectors/dsub-de-9) section for the DE-9 Connector spec.
 
 * Connect the `SCL` contact on the MPU-6050 board to the `i2c-clock` contact on the DE-9 "Pin-Style" Connector.
 * Connect the `SDA` contact on the MPU-6050 board to the `i2c-data` contact on the DE-9 "Pin-Style" Connector.
@@ -167,5 +173,5 @@ contacts, and only connect your MP3 player SPI wires to that internal proxy
 microcontroller. You can then craft simple programs to serve as interfaces on
 the I2C bus. If you're comfortable with CAN bus... choose that instead of I2C.
 
-If you have a few minutes to spare, take a look at [some 3D models](models),
-[host module ideas](modules/host) and [popular interfaces](connectors).
+If you have a few minutes to spare, take a look at [projects](projects),
+[module ideas](modules) and [popular interfaces](connectors).

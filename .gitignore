@@ -1,3 +1,5 @@
 .idea/*
 *.env.dev.*
 *.local.*
+*.scad
+*.ai

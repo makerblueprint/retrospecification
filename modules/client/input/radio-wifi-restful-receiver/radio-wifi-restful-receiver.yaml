@@ -1,8 +1,0 @@
-name: RESTful WiFi Radio Receiver Module
-summary: A module capable of receiving directives from the internet, etc.
-categories:
-  - input
-  - costume
-  - prop
-  - internet
-  - iot

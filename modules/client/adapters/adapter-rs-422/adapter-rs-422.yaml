@@ -1,8 +1,0 @@
-name: RS-422 Adapter
-summary: Pro video deck control adapter
-reference:
-  - https://en.wikipedia.org/wiki/RS-422
-  - https://www.tindie.com/products/Conceptinetics/rs485-rs422-shield-for-arduino
-connectors:
-  - dsub-de-9
-  - dsub-db-25

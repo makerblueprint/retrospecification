@@ -1,0 +1,5 @@
+name: Sliding Potentiometer Module
+categories:
+  - input
+aliases:
+  - potentiometer

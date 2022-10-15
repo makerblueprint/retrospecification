@@ -1,0 +1,13 @@
+name: "'4 Way' Connector"
+reference:
+  - https://en.wikipedia.org/wiki/Trailer_connectors_in_North_America
+  - http://www.etrailer.com/faq-wiring.aspx
+colors:
+  green:
+    - twelve-volts-nominal-right-turn
+    - twelve-volts-nominal-brake
+  yellow:
+    - twelve-volts-nominal-left-turn
+    - twelve-volts-nominal-brake
+  brown: twelve-volts-nominal-tail
+  white: common

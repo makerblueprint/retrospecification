@@ -1,8 +1,0 @@
-name: RS-232 Adapter
-summary: Legacy data terminal adapter
-reference:
-  - https://en.wikipedia.org/wiki/RS-232
-  - https://www.sparkfun.com/products/13029
-connectors:
-  - dsub-de-9
-  - dsub-db-25

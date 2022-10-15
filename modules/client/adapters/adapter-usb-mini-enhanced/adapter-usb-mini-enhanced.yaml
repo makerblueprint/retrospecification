@@ -1,8 +1,0 @@
-name: USB Mini-enhanced Adapter
-summary: Turn a GoPro into a Retro Module.
-see: usb-mini-enhanced
-connectors:
-  - usb-mini-enhanced
-  - dsub-de-9
-  - dsub-db-25
-  - din-8
