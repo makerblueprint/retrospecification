@@ -15,5 +15,5 @@ contacts:
   6: io-controller-area-network-low
   7: io-controller-area-network-high
   8:
-    - forty-volts-max
+    - twelve-volts-nominal
     - negotiated-voltage
